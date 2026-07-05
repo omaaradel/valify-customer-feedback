@@ -1,0 +1,10 @@
+google-play-scraper==1.2.7
+gspread==6.1.4
+google-auth==2.36.0
+python-dotenv==1.0.1
+# Phase 7: App Store, Web, and dependencies
+app-store-scraper==0.3.5
+requests==2.32.3
+duckduckgo-search==8.1.1
+beautifulsoup4==4.13.4
+lxml-html-clean==0.4.5

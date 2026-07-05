@@ -1,0 +1,4259 @@
+[
+  {
+    "row_number": 2789,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2790,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2791,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2792,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2793,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2794,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2795,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2796,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2797,
+    "sentiment": "neutral",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2798,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2799,
+    "sentiment": "neutral",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2800,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2801,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2802,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2803,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2804,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2805,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2806,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2807,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2808,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2809,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2810,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2811,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2812,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2813,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2814,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2815,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2816,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2817,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2818,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2819,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2820,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2821,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2822,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2823,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2824,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2825,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2826,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2827,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2828,
+    "sentiment": "neutral",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2829,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2830,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2831,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2832,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2833,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2834,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2835,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2836,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2837,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2838,
+    "sentiment": "neutral",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2839,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2840,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2841,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2842,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2843,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2844,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2845,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2846,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2847,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2848,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2849,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2850,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2851,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2852,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2853,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2854,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about app crash or device incompatibility, unrelated to account opening."
+  },
+  {
+    "row_number": 2855,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2856,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2857,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2858,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2859,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2860,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2861,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2862,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2863,
+    "sentiment": "neutral",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2864,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2865,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2866,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2867,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2868,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2869,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2870,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2871,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2872,
+    "sentiment": "neutral",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2873,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2874,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2875,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2876,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2877,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2878,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2879,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2880,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2881,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2882,
+    "sentiment": "mixed",
+    "feedback_type": "compliment",
+    "product_area": "onboarding_general",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "User praises easy account opening at Thndr but complains about price sync delays in trading."
+  },
+  {
+    "row_number": 2883,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2884,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2885,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2886,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2887,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2888,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2889,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2890,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2891,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2892,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2893,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2894,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2895,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2896,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2897,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2898,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2899,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2900,
+    "sentiment": "neutral",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2901,
+    "sentiment": "negative",
+    "feedback_type": "ux_friction",
+    "product_area": "onboarding_general",
+    "severity": "medium",
+    "agreement_signal": false,
+    "claude_summary": "User waiting to send signed account-opening contract but no WhatsApp number provided; threatens to cancel."
+  },
+  {
+    "row_number": 2902,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2903,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2904,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2905,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2906,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2907,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2908,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2909,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2910,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2911,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2912,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2913,
+    "sentiment": "neutral",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2914,
+    "sentiment": "negative",
+    "feedback_type": "bug",
+    "product_area": "onboarding_general",
+    "severity": "critical",
+    "agreement_signal": false,
+    "claude_summary": "User deposited funds but account was then rejected; money is stuck with no support response."
+  },
+  {
+    "row_number": 2915,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2916,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2917,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2918,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2919,
+    "sentiment": "neutral",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2920,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2921,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2922,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2923,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2924,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2925,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2926,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2927,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2928,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2929,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2930,
+    "sentiment": "negative",
+    "feedback_type": "ux_friction",
+    "product_area": "onboarding_general",
+    "severity": "critical",
+    "agreement_signal": false,
+    "claude_summary": "Account contract review stuck for 2+ weeks; user unable to deposit or withdraw; support unresponsive."
+  },
+  {
+    "row_number": 2931,
+    "sentiment": "neutral",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2932,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2933,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2934,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2935,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2936,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2937,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2938,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2939,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2940,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2941,
+    "sentiment": "neutral",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2942,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2943,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2944,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2945,
+    "sentiment": "negative",
+    "feedback_type": "ux_friction",
+    "product_area": "onboarding_general",
+    "severity": "critical",
+    "agreement_signal": false,
+    "claude_summary": "Account opened more than 9 days ago; approval not received; support unresponsive."
+  },
+  {
+    "row_number": 2946,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2947,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2948,
+    "sentiment": "neutral",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2949,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2950,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2951,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2952,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2953,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2954,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2955,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2956,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2957,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2958,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2959,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2960,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2961,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2962,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2963,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2964,
+    "sentiment": "neutral",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2965,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2966,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2967,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2968,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2969,
+    "sentiment": "neutral",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2970,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2971,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2972,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2973,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2974,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2975,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2976,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2977,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about trading app performance or features, unrelated to account opening."
+  },
+  {
+    "row_number": 2978,
+    "sentiment": "negative",
+    "feedback_type": "bug",
+    "product_area": "onboarding_general",
+    "severity": "critical",
+    "agreement_signal": false,
+    "claude_summary": "Rejected without reason during onboarding despite being accepted by other apps."
+  },
+  {
+    "row_number": 2979,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 2980,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 2981,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 2982,
+    "sentiment": "negative",
+    "feedback_type": "ux_friction",
+    "product_area": "onboarding_general",
+    "severity": "high",
+    "agreement_signal": false,
+    "claude_summary": "User went in person after receiving promotional messages but was rejected at the end."
+  },
+  {
+    "row_number": 2983,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 2984,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 2985,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 2986,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 2987,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 2988,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 2989,
+    "sentiment": "negative",
+    "feedback_type": "bug",
+    "product_area": "onboarding_general",
+    "severity": "critical",
+    "agreement_signal": false,
+    "claude_summary": "App rejects users without any reason during onboarding."
+  },
+  {
+    "row_number": 2990,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 2991,
+    "sentiment": "negative",
+    "feedback_type": "bug",
+    "product_area": "onboarding_general",
+    "severity": "critical",
+    "agreement_signal": false,
+    "claude_summary": "App collects all personal data then rejects user within seconds of submission."
+  },
+  {
+    "row_number": 2992,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 2993,
+    "sentiment": "negative",
+    "feedback_type": "bug",
+    "product_area": "onboarding_general",
+    "severity": "critical",
+    "agreement_signal": false,
+    "claude_summary": "User rejected mid-application with no reason given."
+  },
+  {
+    "row_number": 2994,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 2995,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 2996,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 2997,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 2998,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 2999,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3000,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3001,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3002,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3003,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3004,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3005,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3006,
+    "sentiment": "negative",
+    "feedback_type": "ux_friction",
+    "product_area": "nid_verification",
+    "severity": "medium",
+    "agreement_signal": false,
+    "claude_summary": "App repeatedly fails during photo capture due to weak network, forcing multiple retries."
+  },
+  {
+    "row_number": 3007,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3008,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3009,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3010,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3011,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3012,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3013,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3014,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3015,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3016,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3017,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3018,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3019,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3020,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3021,
+    "sentiment": "mixed",
+    "feedback_type": "bug",
+    "product_area": "onboarding_general",
+    "severity": "critical",
+    "agreement_signal": false,
+    "claude_summary": "App is excellent but user received an unexplained rejection during onboarding."
+  },
+  {
+    "row_number": 3022,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3023,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3024,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3025,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3026,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3027,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3028,
+    "sentiment": "neutral",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3029,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3030,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3031,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3032,
+    "sentiment": "neutral",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3033,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3034,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3035,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3036,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3037,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3038,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3039,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3040,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3041,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3042,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3043,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3044,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3045,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3046,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3047,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3048,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3049,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3050,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3051,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3052,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3053,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3054,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3055,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3056,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3057,
+    "sentiment": "negative",
+    "feedback_type": "ux_friction",
+    "product_area": "onboarding_general",
+    "severity": "high",
+    "agreement_signal": false,
+    "claude_summary": "Booth onboarding took more than 1 hour; credit limit changed/reduced 4+ times; can't find payment option in app."
+  },
+  {
+    "row_number": 3058,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3059,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3060,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3061,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about wallet transactions or app performance, unrelated to digital wallet opening."
+  },
+  {
+    "row_number": 3062,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3063,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3064,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3065,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3066,
+    "sentiment": "negative",
+    "feedback_type": "ux_friction",
+    "product_area": "nid_verification",
+    "severity": "medium",
+    "agreement_signal": false,
+    "claude_summary": "App continuously attempts to access the photo gallery without user permission."
+  },
+  {
+    "row_number": 3067,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3068,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3069,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3070,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3071,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3072,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3073,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3074,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3075,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3076,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3077,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3078,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3079,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3080,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3081,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3082,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3083,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3084,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3085,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3086,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3087,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3088,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3089,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3090,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3091,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3092,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3093,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3094,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3095,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3096,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3097,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3098,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3099,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3100,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3101,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3102,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3103,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3104,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3105,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3106,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3107,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3108,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3109,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3110,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3111,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3112,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3113,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3114,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3115,
+    "sentiment": "neutral",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3116,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3117,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3118,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3119,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3120,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3121,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3122,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3123,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3124,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3125,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about ride, vehicle, or app experience unrelated to rider onboarding."
+  },
+  {
+    "row_number": 3126,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3127,
+    "sentiment": "mixed",
+    "feedback_type": "compliment",
+    "product_area": "onboarding_general",
+    "severity": "low",
+    "agreement_signal": false,
+    "claude_summary": "Application process is easy but credit limit is low at 20k despite having a high-value vehicle."
+  },
+  {
+    "row_number": 3128,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3129,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3130,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3131,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3132,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3133,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3134,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3135,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3136,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3137,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3138,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3139,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3140,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3141,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3142,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3143,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3144,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3145,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3146,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3147,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3148,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3149,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3150,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3151,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3152,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3153,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3154,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3155,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3156,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3157,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3158,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3159,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3160,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3161,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3162,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3163,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3164,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3165,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3166,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3167,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3168,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3169,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3170,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3171,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3172,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3173,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3174,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3175,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3176,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3177,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3178,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3179,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3180,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3181,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3182,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3183,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3184,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3185,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3186,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3187,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3188,
+    "sentiment": "neutral",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3189,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3190,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3191,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3192,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3193,
+    "sentiment": "negative",
+    "feedback_type": "bug",
+    "product_area": "onboarding_general",
+    "severity": "critical",
+    "agreement_signal": false,
+    "claude_summary": "Unable to register at all; app blocks registration and tells user to retry after 90 days."
+  },
+  {
+    "row_number": 3194,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3195,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3196,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3197,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3198,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3199,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3200,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3201,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3202,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3203,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3204,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3205,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3206,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3207,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3208,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3209,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3210,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3211,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3212,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3213,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3214,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3215,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3216,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3217,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3218,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3219,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3220,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3221,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3222,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3223,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3224,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3225,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3226,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3227,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3228,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3229,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3230,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3231,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3232,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3233,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3234,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about BNPL installments or existing account, unrelated to registration."
+  },
+  {
+    "row_number": 3235,
+    "sentiment": "negative",
+    "feedback_type": "bug",
+    "product_area": "onboarding_general",
+    "severity": "critical",
+    "agreement_signal": false,
+    "claude_summary": "App freezes and won't complete the data registration step during onboarding."
+  },
+  {
+    "row_number": 3236,
+    "sentiment": "negative",
+    "feedback_type": "ux_friction",
+    "product_area": "onboarding_general",
+    "severity": "high",
+    "agreement_signal": false,
+    "claude_summary": "Activating the app requires a branch visit to sign a blank document in favor of Raya; user strongly warns against."
+  },
+  {
+    "row_number": 3237,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Generic one-word positive review with no context about the onboarding flow."
+  },
+  {
+    "row_number": 3238,
+    "sentiment": "negative",
+    "feedback_type": "bug",
+    "product_area": "onboarding_general",
+    "severity": "high",
+    "agreement_signal": false,
+    "claude_summary": "OTP message not arriving, blocking app access and activation."
+  },
+  {
+    "row_number": 3239,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3240,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3241,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3242,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3243,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3244,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3245,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3246,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3247,
+    "sentiment": "neutral",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3248,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3249,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3250,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3251,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3252,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3253,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3254,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3255,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3256,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3257,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3258,
+    "sentiment": "negative",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3259,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3260,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  },
+  {
+    "row_number": 3261,
+    "sentiment": "positive",
+    "feedback_type": "off_topic",
+    "product_area": "other",
+    "severity": "none",
+    "agreement_signal": false,
+    "claude_summary": "Complaint about salary advance or withdrawal, unrelated to app signup."
+  }
+]

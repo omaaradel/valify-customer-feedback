@@ -1,0 +1,151 @@
+{
+  "run_id": "2026-07-05T08:18:35",
+  "results": [
+    {
+      "row_id": "3259",
+      "sentiment": "negative",
+      "feedback_type": "off_topic",
+      "product_area": "other",
+      "severity": "none",
+      "agreement_signal": false,
+      "claude_summary": "Complaint about delivery delays and unprofessional customer service agents, unrelated to verification.",
+      "valify_scope": false
+    },
+    {
+      "row_id": "3260",
+      "sentiment": "negative",
+      "feedback_type": "off_topic",
+      "product_area": "other",
+      "severity": "none",
+      "agreement_signal": false,
+      "claude_summary": "Complaint about stolen orders and tracking issues, unrelated to verification.",
+      "valify_scope": false
+    },
+    {
+      "row_id": "3261",
+      "sentiment": "negative",
+      "feedback_type": "off_topic",
+      "product_area": "other",
+      "severity": "none",
+      "agreement_signal": false,
+      "claude_summary": "Complaint about poor delivery service and order cancellation, unrelated to verification.",
+      "valify_scope": false
+    },
+    {
+      "row_id": "3312",
+      "sentiment": "negative",
+      "feedback_type": "off_topic",
+      "product_area": "other",
+      "severity": "none",
+      "agreement_signal": false,
+      "claude_summary": "Complaint about customer service and installment payments not registering, unrelated to verification.",
+      "valify_scope": false
+    },
+    {
+      "row_id": "3313",
+      "sentiment": "negative",
+      "feedback_type": "off_topic",
+      "product_area": "other",
+      "severity": "none",
+      "agreement_signal": false,
+      "claude_summary": "Complaint about high prices, limited locations, and scooter locking issues, unrelated to verification.",
+      "valify_scope": false
+    },
+    {
+      "row_id": "3314",
+      "sentiment": "positive",
+      "feedback_type": "off_topic",
+      "product_area": "other",
+      "severity": "none",
+      "agreement_signal": false,
+      "claude_summary": "Praise for the overall service and friendly customer support, unrelated to verification.",
+      "valify_scope": false
+    },
+    {
+      "row_id": "3315",
+      "sentiment": "negative",
+      "feedback_type": "off_topic",
+      "product_area": "other",
+      "severity": "none",
+      "agreement_signal": false,
+      "claude_summary": "Complaint about customer service being unhelpful, unrelated to verification.",
+      "valify_scope": false
+    },
+    {
+      "row_id": "3316",
+      "sentiment": "positive",
+      "feedback_type": "off_topic",
+      "product_area": "other",
+      "severity": "none",
+      "agreement_signal": false,
+      "claude_summary": "General expression of love for the service, unrelated to verification.",
+      "valify_scope": false
+    },
+    {
+      "row_id": "3317",
+      "sentiment": "negative",
+      "feedback_type": "off_topic",
+      "product_area": "other",
+      "severity": "none",
+      "agreement_signal": false,
+      "claude_summary": "Complaint about high prices, unrelated to verification.",
+      "valify_scope": false
+    },
+    {
+      "row_id": "3318",
+      "sentiment": "negative",
+      "feedback_type": "off_topic",
+      "product_area": "other",
+      "severity": "none",
+      "agreement_signal": false,
+      "claude_summary": "Complaint about unauthorized card withdrawals for negative balances, unrelated to verification.",
+      "valify_scope": false
+    },
+    {
+      "row_id": "3329",
+      "sentiment": "negative",
+      "feedback_type": "off_topic",
+      "product_area": "other",
+      "severity": "none",
+      "agreement_signal": false,
+      "claude_summary": "User complains about very bad customer service, which is unrelated to verification.",
+      "valify_scope": false
+    },
+    {
+      "row_id": "3330",
+      "sentiment": "positive",
+      "feedback_type": "off_topic",
+      "product_area": "other",
+      "severity": "none",
+      "agreement_signal": false,
+      "claude_summary": "User praises the professional and fast response, unrelated to verification.",
+      "valify_scope": false
+    },
+    {
+      "row_id": "3331",
+      "sentiment": "negative",
+      "feedback_type": "off_topic",
+      "product_area": "other",
+      "severity": "none",
+      "agreement_signal": false,
+      "claude_summary": "User complains that the app is random and useless, unrelated to verification.",
+      "valify_scope": false
+    }
+  ],
+  "skipped_row_ids": [],
+  "provider_used": {
+    "3259": "gemini",
+    "3260": "gemini",
+    "3261": "gemini",
+    "3312": "gemini",
+    "3313": "gemini",
+    "3314": "gemini",
+    "3315": "gemini",
+    "3316": "gemini",
+    "3317": "gemini",
+    "3318": "gemini",
+    "3329": "gemini",
+    "3330": "gemini",
+    "3331": "gemini"
+  }
+}
