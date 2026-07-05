@@ -24,11 +24,11 @@ Valify Analytics' account team needs early warning of KYC friction that users
 are venting about publicly, before clients escalate it as a support ticket.
 This system scrapes public feedback (app store reviews and web results) for each
 of Valify's 8 priority clients, enriches
-each item with a 6-field classification via Claude Code, writes results to a
-shared Google Sheet, and is designed to deliver a daily email digest. The
-enrichment step is currently triggered manually by pasting
-`docs/enrich_prompt.md` into a Claude Code session; automation is planned for
-Phase 10.
+each item with a multi-field classification, writes results to a
+shared Google Sheet, and delivers a weekly email digest. Enrichment is
+automated via Gemini (with Groq fallback) as part of the Phase 9 daily
+GitHub Actions pipeline. A legacy manual mode, pasting
+`docs/enrich_prompt.md` into a Claude Code session, is retained for ad-hoc runs.
 
 ---
 
@@ -66,9 +66,9 @@ Notes on disambiguation:
 - web_ddg: `duckduckgo-search`. Disabled in Phase 8c. Returns search snippets, not user reviews. 73 rows quarantined to Quarantine tab. Re-enable: `_DDG_ENABLED = True` in scrapers/web.py.
 - web_trustpilot: Trustpilot page scraping. Disabled in Phase 7. AWS WAF blocks at TLS-fingerprint level. Re-enable: `_TRUSTPILOT_ENABLED = True` in scrapers/web.py (also add cloudscraper/curl_cffi).
 
-**Enrichment:** Two modes after Phase 8. (1) Legacy manual: paste `docs/enrich_prompt.md` into Claude Code. (2) Gemini automated: `python scripts/enrich_phase8.py --mode full` for unenriched rows, `--mode scope-only` to backfill valify_scope + sentiment on already-enriched rows. Requires GEMINI_API_KEY in .env. Model: gemini-3.5-flash (gemini-1.5-flash no longer exists; gemini-2.0-flash has quota 0 on free tier keys; gemini-3.5-flash is the correct Flash model for this key).
+**Enrichment:** Enrichment has two modes: (1) legacy manual, via `docs/enrich_prompt.md` in Claude Code, retained for ad-hoc runs, (2) automated, via `scripts/enrich_phase8.py` called from the GitHub Actions daily pipeline (Phase 9). Requires GEMINI_API_KEY in .env. Model: gemini-3.5-flash (gemini-1.5-flash no longer exists; gemini-2.0-flash has quota 0 on free tier keys; gemini-3.5-flash is the correct Flash model for this key).
 
-**Automation:** `main.py` orchestrates scrape, dedup, write, housekeeping. GitHub Actions cron is designed but not yet enabled (Phase 10 deliverable).
+**Automation:** `main.py` orchestrates scrape, dedup, write, housekeeping, enrichment, JSON export, backup, and digest as callable functions. Phase 9 delivers full automation via a GitHub Actions cron workflow (`.github/workflows/daily_pipeline.yml`) that runs Gemini auto-enrichment with Groq fallback daily.
 
 **Dedup:** SHA-256 of `source + post_url + raw_text[:200]` stored in `seen_hashes` tab. Stateless and idempotent.
 
@@ -229,9 +229,10 @@ Notes on disambiguation:
 | 8c-r1 | done | Post-8c recovery, closed 2026-07-05. Column-drop fix verified (47/47 test assertions). Found and fixed a second bug: 42 rows (29 + 13) had literal "parse_error" written to valify_scope/enrichment fields instead of being left blank; both recovery scripts' row-selection predicates now treat "parse_error" as missing. Step 1 (valify-scope, 29 rows): done, true=10/false=13/unsure=6, sanity check passed. Step 2 (parse-error, 13 rows): done, all real values, none remain parse_error. Step 3 (scope-only backfill): 0 rows needed, confirming Steps 1-2 fully closed the gap. Inter-batch sleep raised 4s to 6s. No unresolved rows. |
 | 8-fallback | done | Fallback provider architecture: circuit breaker, provider chain (Gemini then Groq), write guard, checkpoint file. |
 | 9 | next | Full automation. GitHub Actions cron at 06:00 UTC. Gemini auto-enrichment with Groq fallback. Git backup commit weekly. Email digest via Gmail SMTP. Groq Arabic quality test on 20-row sample before enabling fallback in production. GEMINI_API_KEY and GROQ_API_KEY required as GitHub Actions secrets. |
-| 10 | pending | Tiered scaling (priority field per client, tier-based scrape frequency) |
-| 11 | pending | Historical backfill for the 7 non-Amazon clients |
-| 12 | pending | Extension runbooks (ADD_CLIENT.md, ADD_PLATFORM.md) |
+| 10 | pending | Read-only dashboard. Reads data/feedback.json via raw GitHub URL. Visible to full Valify team. Hosted on a free public platform. |
+| 11 | pending | Tiered scaling (priority field per client, tier-based scrape frequency) |
+| 12 | pending | Historical backfill for all 8 clients (App Store full, and the 7 non-Amazon Play Store clients) |
+| 13 | pending | Extension runbooks (ADD_CLIENT.md, ADD_PLATFORM.md) |
 
 ---
 
@@ -279,12 +280,12 @@ Blank valify_scope (3,291 rows) is all off_topic rows (3,233 play_store + 58 app
 **Infrastructure:**
 - Phase 9: Full automation. Enable GitHub Actions cron at 06:00 UTC, integrate Gemini auto-enrichment via scripts/enrich_phase8.py, commit /backups/ to Git on a weekly schedule, and activate the email digest via Gmail SMTP. Requires GEMINI_API_KEY as a GitHub Actions secret.
 - Trustpilot for Amazon (amazon.eg): approximately 85 reviews. Blocked in Phase 7 by AWS WAF at TLS-fingerprint level. Requires cloudscraper or curl_cffi to bypass. Low ROI vs Play Store volume. Re-enable by setting `_TRUSTPILOT_ENABLED = True` in scrapers/web.py after adding a bypass library.
-- Security: rotate the Google service account key referenced by GOOGLE_SERVICE_ACCOUNT_JSON. It was exposed in `.env.example` in git history (now purged, but was live on GitHub) and partially printed to a terminal during a local `.env` formatting fix, both on 2026-07-05. Rotate in Google Cloud Console (IAM, Service Accounts, Keys), update local `.env`, and update the GitHub Actions secret when Phase 9 sets it up. Not yet done.
+- Service account key rotation completed 2026-07-05. Three keys existed for feedback-scraper, the first two are deleted. The third (current) key is active and has not been exposed. No further rotation action needed.
 
 **Scale:**
-- Phase 10: Tiered scaling. Add a priority field per client and implement tier-based scrape frequency (daily vs. alternate-day).
-- Phase 11: Historical backfill for all 8 clients App Store + the 7 non-Amazon Play Store clients. Run `--mode historical` for all from their respective first_tx dates. App Store 30-day window was deliberate for Phase 8c; full backfill is Phase 11.
-- Phase 12: Extension runbooks. ADD_CLIENT.md and ADD_PLATFORM.md step-by-step guides.
+- Phase 11: Tiered scaling. Add a priority field per client and implement tier-based scrape frequency (daily vs. alternate-day).
+- Phase 12: Historical backfill for all 8 clients App Store + the 7 non-Amazon Play Store clients. Run `--mode historical` for all from their respective first_tx dates. App Store 30-day window was deliberate for Phase 8c; full backfill is Phase 12.
+- Phase 13: Extension runbooks. ADD_CLIENT.md and ADD_PLATFORM.md step-by-step guides.
 
 **Minor:**
 - scripts/enrich_phase8.py summary print shows valify_scope counts only for the last batch, not cumulative. The actual sheet data is correct. The display inconsistency is cosmetic; fix in a future cleanup pass.
