@@ -7,9 +7,11 @@ Two modes:
                       Targets rows where sentiment is set and feedback_type is not off_topic.
                       Expected count: ~27 rows from Phases 4-6.
 
-  --mode full         Full enrichment for unenriched web_ddg rows from Phase 7.
-                      Targets rows where sentiment is empty and source is web_ddg.
-                      Expected count: ~73 rows.
+  --mode full         Full enrichment for any row with no sentiment yet (any source).
+                      Originally targeted unenriched web_ddg rows only (Phase 7, ~73 rows);
+                      broadened in Phase 9 so it also covers newly-scraped play_store and
+                      appstore rows from the daily automation pipeline. web_ddg is retired
+                      and disabled, so this now effectively targets same-day new rows.
 
 Run from the repo root:
   python scripts/enrich_phase8.py --mode scope-only
@@ -132,8 +134,10 @@ def _pull_scope_only_rows(ws) -> list:
     return rows
 
 
-def _pull_unenriched_web_ddg_rows(ws) -> list:
-    """Rows where sentiment is empty and source is web_ddg."""
+def _pull_unenriched_rows(ws) -> list:
+    """Rows where sentiment is empty or parse_error, any source. Used both for the
+    one-time Phase 7 web_ddg backlog and for newly-scraped rows in the Phase 9
+    daily automation pipeline."""
     all_values = ws.get_all_values()
     if len(all_values) < 2:
         return []
@@ -149,7 +153,7 @@ def _pull_unenriched_web_ddg_rows(ws) -> list:
         sentiment = row[col_sentiment] if col_sentiment is not None else ""
         source = row[col_source] if col_source is not None else ""
 
-        if (not sentiment or sentiment == "parse_error") and source == "web_ddg":
+        if not sentiment or sentiment == "parse_error":
             rows.append({
                 "row_id": str(row_idx),
                 "row_number": row_idx,
@@ -200,8 +204,7 @@ def _write_full_results(ws, results: list, dry_run: bool) -> None:
             ws.batch_update(updates)
 
 
-def _print_scope_summary(results: list) -> None:
-    total = len(results)
+def _tally_counts(results: list) -> tuple:
     scope_counts = {}
     sentiment_counts = {}
     for r in results:
@@ -209,6 +212,12 @@ def _print_scope_summary(results: list) -> None:
         s = r.get("sentiment", "")
         scope_counts[vs] = scope_counts.get(vs, 0) + 1
         sentiment_counts[s] = sentiment_counts.get(s, 0) + 1
+    return scope_counts, sentiment_counts
+
+
+def _print_scope_summary(results: list) -> None:
+    total = len(results)
+    scope_counts, sentiment_counts = _tally_counts(results)
 
     print(f"\nTotal rows processed: {total}")
     print("valify_scope breakdown:")
@@ -237,13 +246,7 @@ def _print_scope_summary(results: list) -> None:
 
 def _print_full_summary(results: list) -> None:
     total = len(results)
-    scope_counts = {}
-    sentiment_counts = {}
-    for r in results:
-        vs = r.get("valify_scope", "")
-        s = r.get("sentiment", "")
-        scope_counts[vs] = scope_counts.get(vs, 0) + 1
-        sentiment_counts[s] = sentiment_counts.get(s, 0) + 1
+    scope_counts, sentiment_counts = _tally_counts(results)
 
     print(f"\nTotal rows processed: {total}")
     print("valify_scope breakdown:")
@@ -272,7 +275,7 @@ def _merge_row_numbers(api_results: list, source_rows: list) -> list:
     return [r for r in api_results if r["row_number"] is not None]
 
 
-def run_scope_only(dry_run: bool) -> None:
+def run_scope_only(dry_run: bool = False) -> dict:
     chain, system_instruction = _build_chain()
     print("Connecting to sheet...")
     ws = _open_sheet()
@@ -283,7 +286,7 @@ def run_scope_only(dry_run: bool) -> None:
     print(f"Found {len(source_rows)} on-topic enriched rows.")
     if len(source_rows) == 0:
         print("No rows to process.")
-        return
+        return {"total": 0, "valify_scope": {}, "sentiment": {}, "skipped": 0}
     if abs(len(source_rows) - 27) > 15:
         print(
             f"NOTE: Expected ~27 rows but found {len(source_rows)}."
@@ -302,25 +305,28 @@ def run_scope_only(dry_run: bool) -> None:
         print("Done.")
 
     _print_scope_summary(merged)
+    scope_counts, sentiment_counts = _tally_counts(merged)
+    skipped = len(source_rows) - len(merged)
+    return {
+        "total": len(merged),
+        "valify_scope": scope_counts,
+        "sentiment": sentiment_counts,
+        "skipped": skipped,
+    }
 
 
-def run_full(dry_run: bool) -> None:
+def run_full(dry_run: bool = False) -> dict:
     chain, system_instruction = _build_chain()
     print("Connecting to sheet...")
     ws = _open_sheet()
     _ensure_valify_scope_header(ws)
 
-    print("Pulling unenriched web_ddg rows...")
-    source_rows = _pull_unenriched_web_ddg_rows(ws)
-    print(f"Found {len(source_rows)} unenriched web_ddg rows.")
+    print("Pulling unenriched rows (any source)...")
+    source_rows = _pull_unenriched_rows(ws)
+    print(f"Found {len(source_rows)} unenriched rows.")
     if len(source_rows) == 0:
         print("No rows to process.")
-        return
-    if abs(len(source_rows) - 73) > 20:
-        print(
-            f"NOTE: Expected ~73 rows but found {len(source_rows)}."
-            " Review this count before proceeding."
-        )
+        return {"total": 0, "valify_scope": {}, "sentiment": {}, "skipped": 0}
 
     print(f"Running enrich_full_batch on {len(source_rows)} rows...")
     api_results = chain.enrich_full_batch(source_rows, system_instruction)
@@ -334,6 +340,14 @@ def run_full(dry_run: bool) -> None:
         print("Done.")
 
     _print_full_summary(merged)
+    scope_counts, sentiment_counts = _tally_counts(merged)
+    skipped = len(source_rows) - len(merged)
+    return {
+        "total": len(merged),
+        "valify_scope": scope_counts,
+        "sentiment": sentiment_counts,
+        "skipped": skipped,
+    }
 
 
 def run_smoke_test() -> None:

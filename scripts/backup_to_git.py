@@ -29,7 +29,8 @@ BACKUPS_DIR = os.path.join(
 )
 
 
-def main() -> None:
+def run_backup() -> str:
+    """Dump all Sheet tabs to /backups/ as CSV. Returns the backups directory path."""
     sa_b64 = os.environ["GOOGLE_SERVICE_ACCOUNT_JSON"]
     sa_info = json.loads(base64.b64decode(sa_b64))
     gc = gspread.service_account_from_dict(sa_info)
@@ -52,6 +53,11 @@ def main() -> None:
         print(f"Wrote {len(data):>6} rows  ->  backups/{filename}")
 
     print(f"Backup complete. {len(sh.worksheets())} tabs written to backups/")
+    return BACKUPS_DIR
+
+
+def main() -> None:
+    run_backup()
 
 
 if __name__ == "__main__":

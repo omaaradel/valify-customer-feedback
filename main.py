@@ -8,12 +8,16 @@ Usage:
   python main.py --client amazon --mode daily
   python main.py --client amazon --mode daily --source appstore
   python main.py --client all --mode daily --source all --days 30
+  python main.py                            (defaults: client=all, mode=daily, source=all)
+  python main.py --enrich                   (Gemini/Groq enrichment, full mode)
+  python main.py --enrich --enrich-mode scope-only
+  python main.py --export-json
+  python main.py --digest
+  python main.py --digest --dry-run
 """
 import argparse
 import logging
-import subprocess
 import sys
-import time
 import warnings
 from typing import Any, Dict, List, Optional, Set
 
@@ -32,6 +36,7 @@ from utils.dates import get_since_date
 from utils.dedup import filter_new
 
 _VALID_SOURCES = ("playstore", "appstore", "web", "all")
+_VALID_ENRICH_MODES = ("full", "scope-only")
 
 
 def setup_logging() -> None:
@@ -121,125 +126,200 @@ def scrape_client(
     return raw
 
 
-def run(
-    client_key: str,
-    mode: str,
-    source: str,
-    dry_run: bool,
+def run_scrape(
+    client_key: str = "all",
+    mode: str = "daily",
+    source: str = "all",
+    dry_run: bool = False,
     backup: bool = False,
     days: int = None,
-) -> None:
+) -> Dict[str, int]:
+    """Scrape, dedup, and write feedback for one or all clients, then run
+    housekeeping. Returns a dict mapping client_key to the number of new rows
+    written (0 for dry runs, empty items, or clients with nothing new). Errors
+    are logged and leave the affected client's count out of the result rather
+    than raising; the caller decides what to do with a partial result.
+    """
     log = logging.getLogger("main")
+    results: Dict[str, int] = {}
 
-    # Resolve client list
-    if client_key.lower() == "all":
-        client_keys = list(CLIENTS.keys())
-    else:
-        key = client_key.lower()
-        if key not in CLIENTS:
-            log.error("Unknown client '%s'. Available: %s", key, sorted(CLIENTS.keys()))
-            sys.exit(1)
-        client_keys = [key]
-
-    # Create the Sheets connection and load seen hashes ONCE for the entire run.
-    # Sharing one client avoids hitting the 60-reads/minute API quota when running
-    # all 8 clients sequentially.
-    sheet: Optional[SheetsClient] = None
-    seen: Set[str] = set()
-    if not dry_run:
-        sheet = SheetsClient()
-        seen = sheet.get_seen_hashes()
-        log.info("Loaded %d existing hashes from Sheet", len(seen))
-
-    # Tracks how many App Store fetches have completed this run.
-    # Passed to scrape_client so it can tell fetch_appstore to sleep before
-    # non-first clients, preventing Apple CDN throttling.
-    appstore_call_n = 0
-
-    for key in client_keys:
-        client = CLIENTS[key]
-        log.info(
-            "=== %s | mode=%s | source=%s | dry_run=%s ===",
-            client.display_name, mode, source, dry_run,
-        )
-
-        since = get_since_date(mode, client.first_tx, days=days)
-        log.info("Fetching feedback since %s", since.date())
-
-        if days and days > 7:
-            max_per_lang = 5000
-        elif mode == "historical":
-            max_per_lang = 2000
+    try:
+        if client_key.lower() == "all":
+            client_keys = list(CLIENTS.keys())
         else:
-            max_per_lang = 300
+            key = client_key.lower()
+            if key not in CLIENTS:
+                log.error("Unknown client '%s'. Available: %s", key, sorted(CLIENTS.keys()))
+                return results
+            client_keys = [key]
 
-        # ── Scrape ────────────────────────────────────────────────────────────
-        raw_items = scrape_client(client, key, source, since, max_per_lang,
-                                  appstore_call_n=appstore_call_n)
-        if source in ("appstore", "all") and client.appstore_id:
-            appstore_call_n += 1
-        log.info(
-            "[%s] Scraped: %d raw items (source: %s)",
-            client.display_name, len(raw_items), source,
-        )
+        # Create the Sheets connection and load seen hashes ONCE for the entire run.
+        # Sharing one client avoids hitting the 60-reads/minute API quota when running
+        # all 8 clients sequentially.
+        sheet: Optional[SheetsClient] = None
+        seen: Set[str] = set()
+        if not dry_run:
+            sheet = SheetsClient()
+            seen = sheet.get_seen_hashes()
+            log.info("Loaded %d existing hashes from Sheet", len(seen))
 
-        if not raw_items:
-            log.info("[%s] No items found.", client.display_name)
-            if sheet:
-                kws = get_keywords(client)
-                sheet.upsert_admin(client, "success_empty", kws["en"], kws["ar"])
-            continue
+        # Tracks how many App Store fetches have completed this run.
+        # Passed to scrape_client so it can tell fetch_appstore to sleep before
+        # non-first clients, preventing Apple CDN throttling.
+        appstore_call_n = 0
 
-        # ── Dedup ─────────────────────────────────────────────────────────────
-        new_items = filter_new(raw_items, seen)
-        skipped = len(raw_items) - len(new_items)
-        log.info(
-            "[%s] After dedup: %d new, %d already seen",
-            client.display_name, len(new_items), skipped,
-        )
-
-        if not new_items:
-            log.info("[%s] Nothing new to write.", client.display_name)
-            if sheet:
-                kws = get_keywords(client)
-                sheet.upsert_admin(client, "success_no_new", kws["en"], kws["ar"])
-            continue
-
-        # ── Write or preview ──────────────────────────────────────────────────
-        if dry_run:
+        for key in client_keys:
+            client = CLIENTS[key]
             log.info(
-                "[%s] [DRY RUN] Would write %d items. First 5:",
-                client.display_name, len(new_items),
+                "=== %s | mode=%s | source=%s | dry_run=%s ===",
+                client.display_name, mode, source, dry_run,
             )
-            for item in new_items[:5]:
+
+            since = get_since_date(mode, client.first_tx, days=days)
+            log.info("Fetching feedback since %s", since.date())
+
+            if days and days > 7:
+                max_per_lang = 5000
+            elif mode == "historical":
+                max_per_lang = 2000
+            else:
+                max_per_lang = 300
+
+            # -- Scrape --------------------------------------------------------
+            raw_items = scrape_client(client, key, source, since, max_per_lang,
+                                      appstore_call_n=appstore_call_n)
+            if source in ("appstore", "all") and client.appstore_id:
+                appstore_call_n += 1
+            log.info(
+                "[%s] Scraped: %d raw items (source: %s)",
+                client.display_name, len(raw_items), source,
+            )
+
+            if not raw_items:
+                log.info("[%s] No items found.", client.display_name)
+                results[key] = 0
+                if sheet:
+                    kws = get_keywords(client)
+                    sheet.upsert_admin(client, "success_empty", kws["en"], kws["ar"])
+                continue
+
+            # -- Dedup -----------------------------------------------------------
+            new_items = filter_new(raw_items, seen)
+            skipped = len(raw_items) - len(new_items)
+            log.info(
+                "[%s] After dedup: %d new, %d already seen",
+                client.display_name, len(new_items), skipped,
+            )
+
+            if not new_items:
+                log.info("[%s] Nothing new to write.", client.display_name)
+                results[key] = 0
+                if sheet:
+                    kws = get_keywords(client)
+                    sheet.upsert_admin(client, "success_no_new", kws["en"], kws["ar"])
+                continue
+
+            # -- Write or preview --------------------------------------------------
+            if dry_run:
                 log.info(
-                    "  %s  src=%-16s  rating=%-2s  %r",
-                    item["post_date"][:10] if item.get("post_date") else "no-date",
-                    item["source"],
-                    item.get("rating", "?"),
-                    item["raw_text"][:80],
+                    "[%s] [DRY RUN] Would write %d items. First 5:",
+                    client.display_name, len(new_items),
                 )
-            if len(new_items) > 5:
-                log.info("  ... and %d more", len(new_items) - 5)
-            continue
+                for item in new_items[:5]:
+                    log.info(
+                        "  %s  src=%-16s  rating=%-2s  %r",
+                        item["post_date"][:10] if item.get("post_date") else "no-date",
+                        item["source"],
+                        item.get("rating", "?"),
+                        item["raw_text"][:80],
+                    )
+                if len(new_items) > 5:
+                    log.info("  ... and %d more", len(new_items) - 5)
+                results[key] = len(new_items)
+                continue
 
-        new_hashes = [item["_hash"] for item in new_items]
-        sheet.append_feedback(new_items)
-        sheet.append_hashes(new_hashes)
-        # Update local seen set so subsequent clients in this run don't re-process
-        seen.update(new_hashes)
+            new_hashes = [item["_hash"] for item in new_items]
+            sheet.append_feedback(new_items)
+            sheet.append_hashes(new_hashes)
+            # Update local seen set so subsequent clients in this run don't re-process
+            seen.update(new_hashes)
 
-        kws = get_keywords(client)
-        sheet.upsert_admin(client, "success", kws["en"], kws["ar"])
-        log.info("[%s] Wrote %d rows to Feedback Log.", client.display_name, len(new_items))
+            kws = get_keywords(client)
+            sheet.upsert_admin(client, "success", kws["en"], kws["ar"])
+            log.info("[%s] Wrote %d rows to Feedback Log.", client.display_name, len(new_items))
+            results[key] = len(new_items)
 
-        # ── Housekeeping ──────────────────────────────────────────────────────
-        run_housekeeping(sheet, dry_run=False)
+            # -- Housekeeping ------------------------------------------------------
+            run_housekeeping(sheet, dry_run=False)
 
-    # ── Optional backup (once, after all clients complete) ────────────────────
-    if backup:
-        log.info("Running backup_to_git.py ...")
-        subprocess.run([sys.executable, "scripts/backup_to_git.py"], check=True)
+        # -- Optional backup (once, after all clients complete) ------------------
+        if backup:
+            log.info("Running backup...")
+            run_backup()
+
+    except Exception as exc:
+        log.error("run_scrape failed: %s", exc)
+
+    return results
+
+
+def run_enrich(mode: str = "full") -> dict:
+    """Run Gemini/Groq enrichment via the provider chain. mode is 'full' (any
+    row with no sentiment yet) or 'scope-only' (backfill valify_scope on
+    already-enriched on-topic rows). Returns a summary dict: total rows
+    processed, valify_scope counts, sentiment counts, and skipped count. On
+    failure, returns a zeroed summary with an 'error' key instead of raising.
+    """
+    log = logging.getLogger("main")
+    empty = {"total": 0, "valify_scope": {}, "sentiment": {}, "skipped": 0}
+    if mode not in _VALID_ENRICH_MODES:
+        log.error("Unknown enrich mode '%s'. Use one of %s", mode, _VALID_ENRICH_MODES)
+        return {**empty, "error": f"unknown mode {mode}"}
+    try:
+        from scripts.enrich_phase8 import run_scope_only, run_full
+        if mode == "scope-only":
+            return run_scope_only(dry_run=False)
+        return run_full(dry_run=False)
+    except Exception as exc:
+        log.error("run_enrich failed: %s", exc)
+        return {**empty, "error": str(exc)}
+
+
+def run_export_json() -> Optional[str]:
+    """Export the Feedback Log to data/feedback.json, structured by client.
+    Returns the output path, or None on failure."""
+    log = logging.getLogger("main")
+    try:
+        from scripts.export_json import export_feedback_json
+        return export_feedback_json()
+    except Exception as exc:
+        log.error("run_export_json failed: %s", exc)
+        return None
+
+
+def run_backup() -> Optional[str]:
+    """Dump all Sheet tabs to /backups/ as CSV. Returns the backups directory
+    path, or None on failure."""
+    log = logging.getLogger("main")
+    try:
+        from scripts.backup_to_git import run_backup as _run_backup_impl
+        return _run_backup_impl()
+    except Exception as exc:
+        log.error("run_backup failed: %s", exc)
+        return None
+
+
+def run_digest(dry_run: bool = False) -> bool:
+    """Send the weekly email digest (Mondays only, unless dry_run). Returns
+    True if an email was sent, False if skipped (not Monday, dry run, missing
+    data/feedback.json, or a send failure)."""
+    log = logging.getLogger("main")
+    try:
+        from scripts.send_digest import send_digest
+        return send_digest(dry_run=dry_run)
+    except Exception as exc:
+        log.error("run_digest failed: %s", exc)
+        return False
 
 
 def main() -> None:
@@ -254,19 +334,25 @@ Examples:
   python main.py --client amazon --mode daily
   python main.py --client amazon --mode daily --source appstore
   python main.py --client all --mode daily --source all --days 30
+  python main.py
+  python main.py --enrich
+  python main.py --enrich --enrich-mode scope-only
+  python main.py --export-json
+  python main.py --digest
+  python main.py --digest --dry-run
 """,
     )
     parser.add_argument(
         "--client",
-        required=True,
+        default="all",
         metavar="NAME",
-        help="Client key (e.g. 'amazon') or 'all' to run every client.",
+        help="Client key (e.g. 'amazon') or 'all' to run every client. Default: all.",
     )
     parser.add_argument(
         "--mode",
         choices=["historical", "daily"],
-        required=True,
-        help="'historical' sweeps back to first_tx; 'daily' fetches last 48 h",
+        default="daily",
+        help="'historical' sweeps back to first_tx; 'daily' fetches last 48 h. Default: daily.",
     )
     parser.add_argument(
         "--source",
@@ -277,7 +363,7 @@ Examples:
     parser.add_argument(
         "--dry-run",
         action="store_true",
-        help="Scrape and log results without writing to Sheet",
+        help="Scrape and log results without writing to Sheet. Also used by --digest to preview without sending.",
     )
     parser.add_argument(
         "--backup",
@@ -291,8 +377,48 @@ Examples:
         metavar="N",
         help="Override lookback window to exactly N days. Use --days 30 for the Phase 7 sweep.",
     )
+    parser.add_argument(
+        "--enrich",
+        action="store_true",
+        help="Run Gemini/Groq enrichment instead of scraping. Use --enrich-mode to pick full or scope-only.",
+    )
+    parser.add_argument(
+        "--enrich-mode",
+        choices=list(_VALID_ENRICH_MODES),
+        default="full",
+        help="Enrichment mode when --enrich is set: full or scope-only. Default: full.",
+    )
+    parser.add_argument(
+        "--export-json",
+        action="store_true",
+        help="Export the Feedback Log to data/feedback.json, structured by client.",
+    )
+    parser.add_argument(
+        "--digest",
+        action="store_true",
+        help="Send the weekly email digest. Skips cleanly if today is not Monday.",
+    )
     args = parser.parse_args()
-    run(args.client, args.mode, args.source, args.dry_run, backup=args.backup, days=args.days)
+
+    ran_action = False
+
+    if args.enrich:
+        result = run_enrich(mode=args.enrich_mode)
+        print(result)
+        ran_action = True
+
+    if args.export_json:
+        path = run_export_json()
+        print(path)
+        ran_action = True
+
+    if args.digest:
+        sent = run_digest(dry_run=args.dry_run)
+        print(f"digest sent: {sent}")
+        ran_action = True
+
+    if not ran_action:
+        run_scrape(args.client, args.mode, args.source, args.dry_run, backup=args.backup, days=args.days)
 
 
 if __name__ == "__main__":
