@@ -1,6 +1,5 @@
 .env
 .env.example
-data/feedback.json
 __pycache__/
 *.py[cod]
 *.egg-info/

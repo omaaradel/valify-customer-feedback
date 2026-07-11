@@ -1,0 +1,93 @@
+name: Daily pipeline
+
+# The schedule trigger is commented out on purpose. GitHub Actions has no
+# "declared but inactive" state for a schedule trigger: once this file lands
+# on the default branch with an active schedule block, it starts firing at
+# the next matching UTC time with no further action needed. Phase 9 asks for
+# the first run to be a manual workflow_dispatch validation before the daily
+# cron goes live, so the schedule block below is commented out until that
+# validation run has been done. To go live, uncomment the two schedule lines.
+# Once active: 06:00 UTC daily, 08:00 Cairo winter time, 09:00 Cairo DST.
+"on":
+  # schedule:
+  #   - cron: "0 6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  daily-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        continue-on-error: true
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        continue-on-error: true
+        run: pip install -r requirements.txt
+
+      - name: Write .env
+        continue-on-error: true
+        run: |
+          cat <<'ENVFILE' > .env
+          GOOGLE_SERVICE_ACCOUNT_JSON=${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GOOGLE_SHEET_ID=${{ secrets.GOOGLE_SHEET_ID }}
+          GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY=${{ secrets.GROQ_API_KEY }}
+          GMAIL_SENDER=${{ secrets.GMAIL_SENDER }}
+          GMAIL_APP_PASSWORD=${{ secrets.GMAIL_APP_PASSWORD }}
+          ENVFILE
+
+      - name: Scrape
+        id: scrape
+        continue-on-error: true
+        run: python main.py
+
+      - name: Enrich
+        id: enrich
+        continue-on-error: true
+        run: python main.py --enrich
+
+      - name: Export JSON
+        id: export_json
+        continue-on-error: true
+        run: python main.py --export-json
+
+      - name: Backup
+        id: backup
+        continue-on-error: true
+        run: python scripts/backup_to_git.py
+
+      - name: Commit data updates
+        id: commit
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add backups/ data/feedback.json
+          git diff --cached --quiet || git commit -m "Daily pipeline: backup and export $(date -u +%Y-%m-%d)"
+          git push origin master
+
+      - name: Send digest (Monday only)
+        id: digest
+        continue-on-error: true
+        run: python main.py --digest
+
+      - name: Report step outcomes
+        if: always()
+        run: |
+          echo "Scrape:      ${{ steps.scrape.outcome }}"
+          echo "Enrich:      ${{ steps.enrich.outcome }}"
+          echo "Export JSON: ${{ steps.export_json.outcome }}"
+          echo "Backup:      ${{ steps.backup.outcome }}"
+          echo "Commit push: ${{ steps.commit.outcome }}"
+          echo "Digest:      ${{ steps.digest.outcome }}"
