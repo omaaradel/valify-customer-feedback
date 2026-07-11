@@ -1,0 +1,271 @@
+{
+  "Amazon": {
+    "total": 412,
+    "on_topic": 5,
+    "off_topic": 407,
+    "reviews": [
+      {
+        "source": "play_store",
+        "post_date": "2026-07-10",
+        "language": "ar",
+        "raw_text": "طلبوا مني اصور البطاقة عشان ارجع المنتج، الصورة رفضت اكتر من مرة ومش عارف اكمل الاسترجاع",
+        "sentiment": "negative",
+        "feedback_type": "ux_friction",
+        "product_area": "nid_verification",
+        "severity": "high",
+        "claude_summary": "User's ID photo was rejected repeatedly during the return flow, blocking the refund.",
+        "valify_scope": "true"
+      },
+      {
+        "source": "appstore",
+        "post_date": "2026-07-05",
+        "language": "en",
+        "raw_text": "Why do they need my national ID just to return a product. Seems excessive for a simple return.",
+        "sentiment": "negative",
+        "feedback_type": "ux_friction",
+        "product_area": "nid_verification",
+        "severity": "medium",
+        "claude_summary": "User questions why ID verification is required for a return.",
+        "valify_scope": "true"
+      },
+      {
+        "source": "play_store",
+        "post_date": "2026-06-22",
+        "language": "ar",
+        "raw_text": "التحقق من الهوية كان سريع جدا لما رجعت المنتج، ما توقعتش يكون بالسهولة دي",
+        "sentiment": "positive",
+        "feedback_type": "compliment",
+        "product_area": "nid_verification",
+        "severity": "none",
+        "claude_summary": "User praises the fast ID verification during the return flow.",
+        "valify_scope": "true"
+      },
+      {
+        "source": "play_store",
+        "post_date": "2026-06-01",
+        "language": "en",
+        "raw_text": "Seller registration asked for a photo of my ID and it kept failing on a blurry camera step.",
+        "sentiment": "negative",
+        "feedback_type": "bug",
+        "product_area": "nid_verification",
+        "severity": "critical",
+        "claude_summary": "Seller registration ID photo step fails repeatedly due to camera issues.",
+        "valify_scope": "true"
+      },
+      {
+        "source": "appstore",
+        "post_date": "2026-05-14",
+        "language": "ar",
+        "raw_text": "حسابي البائع لسه قيد المراجعة من كذا يوم ومحدش بيرد عليا",
+        "sentiment": "negative",
+        "feedback_type": "ux_friction",
+        "product_area": "onboarding_general",
+        "severity": "medium",
+        "claude_summary": "Seller account stuck in review for days with no support response.",
+        "valify_scope": "unsure"
+      }
+    ]
+  },
+  "Thndr": {
+    "total": 156,
+    "on_topic": 4,
+    "off_topic": 152,
+    "reviews": [
+      {
+        "source": "appstore",
+        "post_date": "2026-07-11",
+        "language": "en",
+        "raw_text": "The app asked me to scan my ID and take a selfie, both worked on the first try. Account opened in under five minutes.",
+        "sentiment": "positive",
+        "feedback_type": "compliment",
+        "product_area": "facematch",
+        "severity": "none",
+        "claude_summary": "User praises fast, smooth ID scan and facematch during account opening.",
+        "valify_scope": "true"
+      },
+      {
+        "source": "play_store",
+        "post_date": "2026-07-09",
+        "language": "ar",
+        "raw_text": "قالي الوش مش متطابق مع البطاقة بعد ما صورت اكتر من مرة، مش عارف المشكلة فين",
+        "sentiment": "negative",
+        "feedback_type": "bug",
+        "product_area": "facematch",
+        "severity": "high",
+        "claude_summary": "Facematch repeatedly rejects the user despite multiple attempts.",
+        "valify_scope": "true"
+      },
+      {
+        "source": "play_store",
+        "post_date": "2026-06-18",
+        "language": "en",
+        "raw_text": "Phone verification code never arrived while opening my trading account, had to try three times.",
+        "sentiment": "negative",
+        "feedback_type": "ux_friction",
+        "product_area": "other",
+        "severity": "medium",
+        "claude_summary": "SMS verification code delayed during account opening onboarding.",
+        "valify_scope": "true"
+      },
+      {
+        "source": "appstore",
+        "post_date": "2026-05-02",
+        "language": "en",
+        "raw_text": "Trading fees are a bit high compared to other apps I have used.",
+        "sentiment": "neutral",
+        "feedback_type": "feature_request",
+        "product_area": "other",
+        "severity": "none",
+        "claude_summary": "User comments on trading fees, unrelated to onboarding verification.",
+        "valify_scope": "false"
+      }
+    ]
+  },
+  "Klivvr": {
+    "total": 88,
+    "on_topic": 4,
+    "off_topic": 84,
+    "reviews": [
+      {
+        "source": "play_store",
+        "post_date": "2026-07-08",
+        "language": "ar",
+        "raw_text": "اسمي مكتوب غلط بعد ما رفعت جواز السفر، فيه مشكلة في تحويل الاسم من العربي للانجليزي",
+        "sentiment": "negative",
+        "feedback_type": "bug",
+        "product_area": "nid_verification",
+        "severity": "high",
+        "claude_summary": "Name transliteration error after passport upload during wallet signup.",
+        "valify_scope": "true"
+      },
+      {
+        "source": "play_store",
+        "post_date": "2026-06-29",
+        "language": "en",
+        "raw_text": "Wallet setup rejected my ID twice then accepted it the third time with no explanation of what changed.",
+        "sentiment": "neutral",
+        "feedback_type": "ux_friction",
+        "product_area": "nid_verification",
+        "severity": "medium",
+        "claude_summary": "ID document rejected twice before acceptance, no reason given.",
+        "valify_scope": "true"
+      },
+      {
+        "source": "appstore",
+        "post_date": "2026-06-10",
+        "language": "ar",
+        "raw_text": "ياريت يكون في خيار اني ارفع صورة البطاقة من المعرض مش بس كاميرا",
+        "sentiment": "neutral",
+        "feedback_type": "feature_request",
+        "product_area": "nid_verification",
+        "severity": "none",
+        "claude_summary": "User requests a gallery upload option instead of camera-only ID capture.",
+        "valify_scope": "true"
+      },
+      {
+        "source": "play_store",
+        "post_date": "2026-04-20",
+        "language": "en",
+        "raw_text": "Sending money to friends is really convenient once the wallet is set up.",
+        "sentiment": "positive",
+        "feedback_type": "compliment",
+        "product_area": "other",
+        "severity": "none",
+        "claude_summary": "User praises money transfer convenience, unrelated to onboarding.",
+        "valify_scope": "false"
+      }
+    ]
+  },
+  "Rabbit": {
+    "total": 70,
+    "on_topic": 3,
+    "off_topic": 67,
+    "reviews": [
+      {
+        "source": "play_store",
+        "post_date": "2026-07-06",
+        "language": "en",
+        "raw_text": "Had to take a selfie ten times before my first ride, the liveness check kept timing out.",
+        "sentiment": "negative",
+        "feedback_type": "bug",
+        "product_area": "liveness_detection",
+        "severity": "high",
+        "claude_summary": "Liveness check times out repeatedly before the rider's first ride is unlocked.",
+        "valify_scope": "true"
+      },
+      {
+        "source": "appstore",
+        "post_date": "2026-06-25",
+        "language": "ar",
+        "raw_text": "تسجيل الدخول وتوثيق الهوية كان سهل قوي وسريع قبل اول رحلة",
+        "sentiment": "positive",
+        "feedback_type": "compliment",
+        "product_area": "nid_verification",
+        "severity": "none",
+        "claude_summary": "User praises easy, fast identity verification before their first ride.",
+        "valify_scope": "true"
+      },
+      {
+        "source": "play_store",
+        "post_date": "2026-03-15",
+        "language": "en",
+        "raw_text": "Scooter battery died halfway through my ride and there was no swap station nearby.",
+        "sentiment": "negative",
+        "feedback_type": "bug",
+        "product_area": "other",
+        "severity": "medium",
+        "claude_summary": "Scooter hardware and charging complaint, unrelated to onboarding.",
+        "valify_scope": "false"
+      }
+    ]
+  },
+  "ADIB": {
+    "total": 75,
+    "on_topic": 2,
+    "off_topic": 73,
+    "reviews": [
+      {
+        "source": "appstore",
+        "post_date": "2026-07-01",
+        "language": "ar",
+        "raw_text": "رفضوني على طول بعد ما صورت البطاقة وعملت السيلفي، مش فاهم ليه",
+        "sentiment": "negative",
+        "feedback_type": "bug",
+        "product_area": "facematch",
+        "severity": "critical",
+        "claude_summary": "Application rejected immediately after ID photo and selfie with no reason given.",
+        "valify_scope": "true"
+      },
+      {
+        "source": "play_store",
+        "post_date": "2026-04-11",
+        "language": "en",
+        "raw_text": "In-branch service was slow but the staff were friendly and helpful.",
+        "sentiment": "positive",
+        "feedback_type": "compliment",
+        "product_area": "other",
+        "severity": "none",
+        "claude_summary": "User praises in-branch service, unrelated to digital onboarding.",
+        "valify_scope": "false"
+      }
+    ]
+  },
+  "Midbank": {
+    "total": 113,
+    "on_topic": 0,
+    "off_topic": 113,
+    "reviews": []
+  },
+  "Raya": {
+    "total": 4,
+    "on_topic": 0,
+    "off_topic": 4,
+    "reviews": []
+  },
+  "Khazna": {
+    "total": 23,
+    "on_topic": 0,
+    "off_topic": 23,
+    "reviews": []
+  }
+}
