@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-11T15:02:13Z",
-  "total_rows": 3510,
+  "generated_at": "2026-07-11T15:32:01Z",
+  "total_rows": 3515,
   "clients": {
     "Amazon": {
-      "total": 2981,
-      "on_topic": 21,
-      "off_topic": 2960,
+      "total": 2986,
+      "on_topic": 11,
+      "off_topic": 2975,
       "reviews": [
         {
           "source": "play_store",
@@ -18,126 +18,6 @@
           "severity": "high",
           "claude_summary": "User objects to being asked for a national ID photo to complete an online order after payment.",
           "valify_scope": "true"
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-07-09T22:59:17+00:00",
-          "language": "en",
-          "raw_text": "I got this blanket from Amazon and I my dog's name put on its the most softest blanket you've ever seen you. can purchase this for your dog and the price was awesome so check it out on Amazon",
-          "sentiment": "",
-          "feedback_type": "",
-          "product_area": "",
-          "severity": "",
-          "claude_summary": "",
-          "valify_scope": ""
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-07-09T22:56:01+00:00",
-          "language": "en",
-          "raw_text": "keeps acting like I need to sign in or that I dont have prime when I do. works better on the website.",
-          "sentiment": "",
-          "feedback_type": "",
-          "product_area": "",
-          "severity": "",
-          "claude_summary": "",
-          "valify_scope": ""
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-07-09T22:33:59+00:00",
-          "language": "en",
-          "raw_text": "please fix the app ...I can't see nothing in it it's not showing nothing at all fixed that bug please I can't get in my Alexa because I can't login Amazon be it's unusable smh 🤔",
-          "sentiment": "",
-          "feedback_type": "",
-          "product_area": "",
-          "severity": "",
-          "claude_summary": "",
-          "valify_scope": ""
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-07-09T22:32:10+00:00",
-          "language": "en",
-          "raw_text": "love it allways fast delivery. as long as it is the warehouse.... .. .",
-          "sentiment": "",
-          "feedback_type": "",
-          "product_area": "",
-          "severity": "",
-          "claude_summary": "",
-          "valify_scope": ""
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-07-09T22:30:54+00:00",
-          "language": "en",
-          "raw_text": "it is so good everything is new but expensive.",
-          "sentiment": "",
-          "feedback_type": "",
-          "product_area": "",
-          "severity": "",
-          "claude_summary": "",
-          "valify_scope": ""
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-07-09T22:22:14+00:00",
-          "language": "ar",
-          "raw_text": "بتوصلنا رسائل بخصم للبرايم بالدولار و انا مش مسجلة الكارت مش عارفة ليه",
-          "sentiment": "",
-          "feedback_type": "",
-          "product_area": "",
-          "severity": "",
-          "claude_summary": "",
-          "valify_scope": ""
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-07-09T22:10:38+00:00",
-          "language": "en",
-          "raw_text": "So far it's not so good. On my very first purchase Amazon frozen my account for suspicious spending. I have only tried to buy one thing every on Amazon. How could that be suspicious spending? In addition it is very difficult to get any account information to stick, even with the assistance of Amazon's own customer service nothing works , as far as getting notifications for package delivers.",
-          "sentiment": "",
-          "feedback_type": "",
-          "product_area": "",
-          "severity": "",
-          "claude_summary": "",
-          "valify_scope": ""
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-07-09T22:07:51+00:00",
-          "language": "en",
-          "raw_text": "The best",
-          "sentiment": "",
-          "feedback_type": "",
-          "product_area": "",
-          "severity": "",
-          "claude_summary": "",
-          "valify_scope": ""
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-07-09T21:44:20+00:00",
-          "language": "en",
-          "raw_text": "Trash AI slop. This app has been going down hill for awhile now. now they've implemented their Alexa AI into the search feature. rather than a simple search, you now must feed the AI learning model without your consent or ability to opt out of it. the settings are virtually hidden and made as dificult to find as possible to detur you from making account changes. The minimal settings give you very little if not no control over your personal information / data. LET ME TURN OFF YOUR AI SLOP AMAZON",
-          "sentiment": "",
-          "feedback_type": "",
-          "product_area": "",
-          "severity": "",
-          "claude_summary": "",
-          "valify_scope": ""
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-07-09T21:26:21+00:00",
-          "language": "en",
-          "raw_text": "Every delivery date they list is wrong. Nothing comes when they say it will.",
-          "sentiment": "",
-          "feedback_type": "",
-          "product_area": "",
-          "severity": "",
-          "claude_summary": "",
-          "valify_scope": ""
         },
         {
           "source": "appstore",
