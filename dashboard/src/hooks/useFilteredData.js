@@ -53,7 +53,7 @@ export function useFilteredData(data, filters) {
     }
 
     if (filters.scope !== 'all') {
-      const scopeValue = { in: 'true', out: 'false', unsure: 'unsure' }[filters.scope];
+      const scopeValue = { in: 'true', unsure: 'unsure' }[filters.scope];
       reviews = reviews.filter((r) => r.valify_scope === scopeValue);
     }
 

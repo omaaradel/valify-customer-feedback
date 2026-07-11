@@ -71,7 +71,7 @@
     },
     "Thndr": {
       "total": 156,
-      "on_topic": 4,
+      "on_topic": 3,
       "off_topic": 152,
       "reviews": [
         {
@@ -109,24 +109,12 @@
           "severity": "medium",
           "claude_summary": "SMS verification code delayed during account opening onboarding.",
           "valify_scope": "true"
-        },
-        {
-          "source": "appstore",
-          "post_date": "2026-05-02",
-          "language": "en",
-          "raw_text": "Trading fees are a bit high compared to other apps I have used.",
-          "sentiment": "neutral",
-          "feedback_type": "feature_request",
-          "product_area": "other",
-          "severity": "none",
-          "claude_summary": "User comments on trading fees, unrelated to onboarding verification.",
-          "valify_scope": "false"
         }
       ]
     },
     "Klivvr": {
       "total": 88,
-      "on_topic": 4,
+      "on_topic": 3,
       "off_topic": 84,
       "reviews": [
         {
@@ -164,24 +152,12 @@
           "severity": "none",
           "claude_summary": "User requests a gallery upload option instead of camera-only ID capture.",
           "valify_scope": "true"
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-04-20",
-          "language": "en",
-          "raw_text": "Sending money to friends is really convenient once the wallet is set up.",
-          "sentiment": "positive",
-          "feedback_type": "compliment",
-          "product_area": "other",
-          "severity": "none",
-          "claude_summary": "User praises money transfer convenience, unrelated to onboarding.",
-          "valify_scope": "false"
         }
       ]
     },
     "Rabbit": {
       "total": 70,
-      "on_topic": 3,
+      "on_topic": 2,
       "off_topic": 67,
       "reviews": [
         {
@@ -207,24 +183,12 @@
           "severity": "none",
           "claude_summary": "User praises easy, fast identity verification before their first ride.",
           "valify_scope": "true"
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-03-15",
-          "language": "en",
-          "raw_text": "Scooter battery died halfway through my ride and there was no swap station nearby.",
-          "sentiment": "negative",
-          "feedback_type": "bug",
-          "product_area": "other",
-          "severity": "medium",
-          "claude_summary": "Scooter hardware and charging complaint, unrelated to onboarding.",
-          "valify_scope": "false"
         }
       ]
     },
     "ADIB": {
       "total": 75,
-      "on_topic": 2,
+      "on_topic": 1,
       "off_topic": 73,
       "reviews": [
         {
@@ -238,18 +202,6 @@
           "severity": "critical",
           "claude_summary": "Application rejected immediately after ID photo and selfie with no reason given.",
           "valify_scope": "true"
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-04-11",
-          "language": "en",
-          "raw_text": "In-branch service was slow but the staff were friendly and helpful.",
-          "sentiment": "positive",
-          "feedback_type": "compliment",
-          "product_area": "other",
-          "severity": "none",
-          "claude_summary": "User praises in-branch service, unrelated to digital onboarding.",
-          "valify_scope": "false"
         }
       ]
     },

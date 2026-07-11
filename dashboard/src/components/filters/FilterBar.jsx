@@ -17,7 +17,6 @@ const SOURCE_OPTIONS = [
 const SCOPE_OPTIONS = [
   { value: 'all', label: 'All' },
   { value: 'in', label: 'In scope' },
-  { value: 'out', label: 'Out of scope' },
   { value: 'unsure', label: 'Unsure' },
 ];
 

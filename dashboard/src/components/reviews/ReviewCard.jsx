@@ -38,7 +38,7 @@ function ReviewCard({ review, delayMs = 0 }) {
   const [overflowing, setOverflowing] = useState(false);
   const textRef = useRef(null);
 
-  const text = review.claude_summary?.trim() || review.raw_text || '';
+  const text = review.raw_text || '';
   const sourceBadge = SOURCE_BADGE[review.source];
   const scopeBadge = SCOPE_BADGE[review.valify_scope];
   const sentimentBadge = SENTIMENT_BADGE[review.sentiment];

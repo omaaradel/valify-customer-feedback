@@ -44,7 +44,10 @@ def _open_sheet():
 def export_feedback_json() -> str:
     """Export the Feedback Log to data/feedback.json, structured by client.
     Off-topic rows are excluded from each client's reviews array but counted
-    in total and off_topic. Returns the output file path."""
+    in total and off_topic. Rows where valify_scope is "false" are also
+    excluded from the reviews array and from on_topic: they still exist in
+    the Sheet, they are just not surfaced on the dashboard, which has no
+    "Out of scope" view. Returns the output file path."""
     ws = _open_sheet()
     all_values = ws.get_all_values()
     header = all_values[0] if all_values else []
@@ -79,6 +82,11 @@ def export_feedback_json() -> str:
         feedback_type = get(row, "feedback_type")
         if feedback_type == "off_topic":
             bucket["off_topic"] += 1
+            continue
+        # valify_scope "false" (out of scope) rows are on-topic feedback_type
+        # but not relevant to a Valify KYC flow: excluded from the export.
+        valify_scope = get(row, "valify_scope")
+        if valify_scope not in ("true", "unsure"):
             continue
         bucket["on_topic"] += 1
         bucket["reviews"].append({field: get(row, field) for field in _REVIEW_FIELDS})
