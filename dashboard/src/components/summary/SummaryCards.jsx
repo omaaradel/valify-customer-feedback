@@ -33,25 +33,11 @@ function BreakdownRow({ items }) {
   );
 }
 
-function SummaryCards({ reviews }) {
-  const total = reviews.length;
-
-  const scopeCounts = { inScope: 0, outOfScope: 0, unsure: 0 };
-  const sentimentCounts = { positive: 0, neutral: 0, negative: 0 };
-  const sourceCounts = { appstore: 0, play_store: 0 };
-
-  for (const review of reviews) {
-    if (review.valify_scope === 'true') scopeCounts.inScope += 1;
-    else if (review.valify_scope === 'false') scopeCounts.outOfScope += 1;
-    else if (review.valify_scope === 'unsure') scopeCounts.unsure += 1;
-
-    if (review.sentiment === 'positive') sentimentCounts.positive += 1;
-    else if (review.sentiment === 'neutral') sentimentCounts.neutral += 1;
-    else if (review.sentiment === 'negative') sentimentCounts.negative += 1;
-
-    if (review.source === 'appstore') sourceCounts.appstore += 1;
-    else if (review.source === 'play_store') sourceCounts.play_store += 1;
-  }
+// Renders the four summary cards from precomputed stats (see
+// hooks/useFilteredData.js), so this component only ever displays numbers,
+// it never recomputes them, keeping cards and the review list in agreement.
+function SummaryCards({ stats }) {
+  const { total, scopeCounts, sentimentCounts, sourceCounts } = stats;
 
   return (
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
