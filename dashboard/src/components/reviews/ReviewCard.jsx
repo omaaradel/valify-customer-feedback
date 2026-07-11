@@ -9,7 +9,6 @@ const SOURCE_BADGE = {
 
 const SCOPE_BADGE = {
   true: { variant: 'scope-true', label: 'In scope' },
-  false: { variant: 'scope-false', label: 'Out of scope' },
   unsure: { variant: 'scope-unsure', label: 'Unsure' },
 };
 

@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-07-12T09:00:00Z",
-  "total_rows": 941,
+  "total_rows": 937,
   "clients": {
     "Amazon": {
       "total": 412,
@@ -70,7 +70,7 @@
       ]
     },
     "Thndr": {
-      "total": 156,
+      "total": 155,
       "on_topic": 3,
       "off_topic": 152,
       "reviews": [
@@ -113,7 +113,7 @@
       ]
     },
     "Klivvr": {
-      "total": 88,
+      "total": 87,
       "on_topic": 3,
       "off_topic": 84,
       "reviews": [
@@ -156,7 +156,7 @@
       ]
     },
     "Rabbit": {
-      "total": 70,
+      "total": 69,
       "on_topic": 2,
       "off_topic": 67,
       "reviews": [
@@ -187,7 +187,7 @@
       ]
     },
     "ADIB": {
-      "total": 75,
+      "total": 74,
       "on_topic": 1,
       "off_topic": 73,
       "reviews": [

@@ -1,8 +1,8 @@
-// Horizontal stacked bar showing the in-scope / out-of-scope / unsure split,
-// with a legend underneath giving each segment's count.
+// Horizontal stacked bar showing the in-scope / unsure split, with a legend
+// underneath giving each segment's count. Out-of-scope reviews are never
+// exported, so there is no out-of-scope segment here.
 const SEGMENTS = [
   { key: 'inScope', label: 'In scope', color: 'var(--color-in-scope)' },
-  { key: 'outOfScope', label: 'Out of scope', color: 'var(--color-out-scope)' },
   { key: 'unsure', label: 'Unsure', color: 'var(--color-unsure)' },
 ];
 

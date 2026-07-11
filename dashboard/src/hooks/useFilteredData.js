@@ -10,13 +10,14 @@ function withinLastDays(postDate, days, now) {
 }
 
 function computeStats(reviews) {
-  const scopeCounts = { inScope: 0, outOfScope: 0, unsure: 0 };
+  // Out-of-scope reviews are never exported, so there is no outOfScope count
+  // here; only in-scope and unsure can appear.
+  const scopeCounts = { inScope: 0, unsure: 0 };
   const sentimentCounts = { positive: 0, neutral: 0, negative: 0 };
   const sourceCounts = { appstore: 0, play_store: 0 };
 
   for (const review of reviews) {
     if (review.valify_scope === 'true') scopeCounts.inScope += 1;
-    else if (review.valify_scope === 'false') scopeCounts.outOfScope += 1;
     else if (review.valify_scope === 'unsure') scopeCounts.unsure += 1;
 
     if (review.sentiment === 'positive') sentimentCounts.positive += 1;

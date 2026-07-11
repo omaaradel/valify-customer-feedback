@@ -4,7 +4,6 @@ const VARIANT_COLORS = {
   'source-playstore': 'var(--color-blue)',
   'source-appstore': 'var(--color-purple)',
   'scope-true': 'var(--color-in-scope)',
-  'scope-false': 'var(--color-out-scope)',
   'scope-unsure': 'var(--color-unsure)',
   'sentiment-positive': 'var(--color-positive)',
   'sentiment-negative': 'var(--color-negative)',
