@@ -23,12 +23,40 @@ from enrichment.providers.base import (
     ProviderQuotaError,
     ProviderUnavailableError,
 )
+from enrichment.providers.gemini import GeminiProvider
+from enrichment.providers.groq import GroqProvider
+from enrichment.providers.openrouter import OpenRouterProvider
 
 _BATCH_SIZE = 10
 _BATCH_DELAY = 6.0  # seconds between batches — raised from 4.0 to stay clear of the 15 RPM free-tier ceiling
 
 _PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 _CHECKPOINT_PATH = os.path.join(_PROJECT_ROOT, "scripts", "enrichment_checkpoint.json")
+
+
+def build_default_providers() -> list:
+    """Standard provider order: Gemini (primary, required), Groq (fallback,
+    optional), OpenRouter (second fallback, optional). Each fallback is only
+    added if its API key is set in the environment. Shared by every script
+    that builds a ProviderChain, so the fallback order lives in one place."""
+    gemini_key = os.environ.get("GEMINI_API_KEY", "")
+    if not gemini_key:
+        raise RuntimeError("GEMINI_API_KEY not set in .env")
+    providers = [GeminiProvider(gemini_key)]
+
+    names = ["Gemini (primary)"]
+    groq_key = os.environ.get("GROQ_API_KEY", "")
+    if groq_key:
+        providers.append(GroqProvider(groq_key))
+        names.append("Groq (fallback)")
+
+    openrouter_key = os.environ.get("OPENROUTER_API_KEY", "")
+    if openrouter_key:
+        providers.append(OpenRouterProvider(openrouter_key))
+        names.append("OpenRouter (fallback)")
+
+    print(f"[chain] Providers: {' + '.join(names)}")
+    return providers
 
 
 class ProviderChain:

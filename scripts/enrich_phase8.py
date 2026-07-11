@@ -32,9 +32,7 @@ load_dotenv()
 import gspread
 
 from enrichment.gemini_classifier import build_system_instruction
-from enrichment.providers.gemini import GeminiProvider
-from enrichment.providers.groq import GroqProvider
-from enrichment.provider_chain import ProviderChain
+from enrichment.provider_chain import ProviderChain, build_default_providers
 
 
 def _col_letter(n: int) -> str:
@@ -71,17 +69,10 @@ _FULL_COLS = {
 
 
 def _build_chain() -> tuple:
-    """Build a ProviderChain with Gemini primary + Groq fallback (if key is set)."""
-    gemini_key = os.environ.get("GEMINI_API_KEY", "")
-    if not gemini_key:
-        raise RuntimeError("GEMINI_API_KEY not set in .env")
-    providers = [GeminiProvider(gemini_key)]
-    groq_key = os.environ.get("GROQ_API_KEY", "")
-    if groq_key:
-        providers.append(GroqProvider(groq_key))
-        print("[chain] Providers: Gemini (primary) + Groq (fallback)")
-    else:
-        print("[chain] Provider: Gemini only. Set GROQ_API_KEY to enable Groq fallback.")
+    """Build a ProviderChain using the standard provider order (Gemini, then
+    Groq and OpenRouter if their keys are set). See
+    enrichment.provider_chain.build_default_providers."""
+    providers = build_default_providers()
     return ProviderChain(providers), build_system_instruction()
 
 
