@@ -1,6 +1,10 @@
 {
   "outputDirectory": "dist",
   "rewrites": [
+    {
+      "source": "/api/data",
+      "destination": "https://raw.githubusercontent.com/omaaradel/valify-customer-feedback/master/data/feedback.json"
+    },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

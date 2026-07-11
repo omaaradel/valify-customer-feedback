@@ -53,12 +53,13 @@ CLI. Steps:
 5. Add an environment variable: `VITE_DATA_URL` = `/api/data`.
 6. Deploy.
 
-If the repo is private, `raw.githubusercontent.com` will return 404 for
-unauthenticated requests to `data/feedback.json`. Either make the repo public,
-or add a GitHub token to the rewrite's request headers in `vercel.json` as a
-Vercel environment variable (never hardcode a token in this file or anywhere
-in source). This decision is left for Omar; see `docs/HANDOFF.md` for the
-current status.
+The repo is currently public (confirmed via `gh repo view`), so
+`raw.githubusercontent.com` serves `data/feedback.json` with no authentication
+needed, `vercel.json`'s rewrite already points at it directly. If the repo is
+ever made private, that rewrite will start returning 404, and either the repo
+needs to go back to public, or a GitHub token needs to be added to the
+rewrite's request headers as a Vercel environment variable (never hardcode a
+token in `vercel.json` or anywhere in source). Revisit if visibility changes.
 
 ## Project structure
 
@@ -69,10 +70,12 @@ dashboard/
     valify-logo-white.png     white silhouette logo for the dark header
   src/
     main.jsx                  entry point
-    App.jsx                   root component, data fetching
+    App.jsx                   root component, data fetching, filter state
     config.js                 data source URL, feature flags
+    utils/
+      flattenReviews.js       per-client feedback.json to one flat, client-tagged array
     hooks/
-      useFilteredData.js      filter logic, memoized
+      useFilteredData.js      date/source/client/scope filtering, sorting, stats, memoized
     components/
       layout/                 Header, PageContainer
       summary/                SummaryCards, StatCard, ScopeSplitBar

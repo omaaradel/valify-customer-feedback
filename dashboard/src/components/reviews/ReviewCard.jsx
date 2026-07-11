@@ -33,7 +33,7 @@ function formatDate(value) {
   return parsed.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 }
 
-function ReviewCard({ review }) {
+function ReviewCard({ review, delayMs = 0 }) {
   const [expanded, setExpanded] = useState(false);
   const [overflowing, setOverflowing] = useState(false);
   const textRef = useRef(null);
@@ -56,6 +56,7 @@ function ReviewCard({ review }) {
     <div
       className="review-card bg-white"
       style={{
+        '--review-card-delay': `${delayMs}ms`,
         borderRadius: 'var(--radius-card)',
         padding: 'var(--card-padding)',
         boxShadow: 'var(--shadow-card)',

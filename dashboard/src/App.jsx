@@ -43,7 +43,7 @@ function App() {
           <>
             <SummaryCards stats={stats} />
             <FilterBar data={data} filters={filters} onChange={handleFilterChange} onReset={handleReset} />
-            <ReviewList reviews={reviews} total={totalUnfiltered} />
+            <ReviewList reviews={reviews} total={totalUnfiltered} filterKey={JSON.stringify(filters)} />
           </>
         )}
       </PageContainer>
