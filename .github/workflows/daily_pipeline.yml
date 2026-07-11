@@ -9,8 +9,8 @@ name: Daily pipeline
 # validation run has been done. To go live, uncomment the two schedule lines.
 # Once active: 06:00 UTC daily, 08:00 Cairo winter time, 09:00 Cairo DST.
 "on":
-  # schedule:
-  #   - cron: "0 6 * * *"
+  schedule:
+  - cron: "0 6 * * *"
   workflow_dispatch: {}
 
 permissions:
