@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react';
 import config from './config';
 import { useFilteredData } from './hooks/useFilteredData';
+import { flattenReviews } from './utils/flattenReviews';
 import Header from './components/layout/Header';
 import PageContainer from './components/layout/PageContainer';
 import SummaryCards from './components/summary/SummaryCards';
 import FilterBar, { DEFAULT_FILTERS } from './components/filters/FilterBar';
+import ReviewList from './components/reviews/ReviewList';
 
 function App() {
   const [data, setData] = useState(null);
@@ -22,6 +24,7 @@ function App() {
   }, []);
 
   const { reviews, stats } = useFilteredData(data || {}, filters);
+  const totalUnfiltered = data ? flattenReviews(data).length : 0;
 
   const handleFilterChange = (key, value) => {
     setFilters((prev) => ({ ...prev, [key]: value }));
@@ -40,6 +43,7 @@ function App() {
           <>
             <SummaryCards stats={stats} />
             <FilterBar data={data} filters={filters} onChange={handleFilterChange} onReset={handleReset} />
+            <ReviewList reviews={reviews} total={totalUnfiltered} />
           </>
         )}
       </PageContainer>

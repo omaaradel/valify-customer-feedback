@@ -27,3 +27,11 @@ body {
 #root {
   min-height: 100vh;
 }
+
+.review-card {
+  transition: box-shadow 150ms ease-out;
+}
+
+.review-card:hover {
+  box-shadow: var(--shadow-card-hover);
+}

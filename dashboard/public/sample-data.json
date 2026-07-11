@@ -13,7 +13,7 @@
         "feedback_type": "ux_friction",
         "product_area": "nid_verification",
         "severity": "high",
-        "claude_summary": "User's ID photo was rejected repeatedly during the return flow, blocking the refund.",
+        "claude_summary": "",
         "valify_scope": "true"
       },
       {
@@ -135,7 +135,7 @@
         "feedback_type": "bug",
         "product_area": "nid_verification",
         "severity": "high",
-        "claude_summary": "Name transliteration error after passport upload during wallet signup.",
+        "claude_summary": "",
         "valify_scope": "true"
       },
       {
