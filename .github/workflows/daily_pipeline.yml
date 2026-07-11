@@ -52,6 +52,11 @@ jobs:
         continue-on-error: true
         run: python main.py
 
+      - name: Diagnose Groq (temporary, remove after Module 1 of the follow-up prompt is closed)
+        id: diagnose_groq
+        continue-on-error: true
+        run: python scripts/diagnose_groq.py
+
       - name: Enrich
         id: enrich
         continue-on-error: true
@@ -86,6 +91,7 @@ jobs:
         if: always()
         run: |
           echo "Scrape:      ${{ steps.scrape.outcome }}"
+          echo "Diagnose Groq: ${{ steps.diagnose_groq.outcome }}"
           echo "Enrich:      ${{ steps.enrich.outcome }}"
           echo "Export JSON: ${{ steps.export_json.outcome }}"
           echo "Backup:      ${{ steps.backup.outcome }}"
