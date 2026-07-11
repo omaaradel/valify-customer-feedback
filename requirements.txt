@@ -2,8 +2,9 @@ google-play-scraper==1.2.7
 gspread==6.1.4
 google-auth==2.36.0
 python-dotenv==1.0.1
-# Phase 7: App Store, Web, and dependencies
-app-store-scraper==0.3.5
+# Phase 7: App Store (direct iTunes RSS via requests, not the app-store-scraper
+# package: that pip package is unused dead weight and hard-pins requests==2.23.0,
+# which conflicts with the requests version needed here), Web, and dependencies
 requests==2.32.3
 duckduckgo-search==8.1.1
 beautifulsoup4==4.13.4
