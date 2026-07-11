@@ -24,7 +24,7 @@ const SCOPE_OPTIONS = [
 function FilterBar({ data, filters, onChange, onReset }) {
   const clientOptions = [
     { value: 'all', label: 'All' },
-    ...Object.entries(data || {})
+    ...Object.entries(data?.clients || {})
       .filter(([, bucket]) => (bucket?.reviews?.length || 0) > 0)
       .map(([client]) => ({ value: client, label: client })),
   ];
