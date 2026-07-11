@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-11T15:32:01Z",
+  "generated_at": "2026-07-11T23:03:19Z",
   "total_rows": 3515,
   "clients": {
     "Amazon": {
-      "total": 2986,
-      "on_topic": 11,
+      "total": 2984,
+      "on_topic": 9,
       "off_topic": 2975,
       "reviews": [
         {
@@ -42,18 +42,6 @@
           "severity": "critical",
           "claude_summary": "ID verification rejects user's ID after account lock, preventing refund and account access.",
           "valify_scope": "true"
-        },
-        {
-          "source": "appstore",
-          "post_date": "2026-05-22T15:58:43+00:00",
-          "language": "en",
-          "raw_text": "Always think twice before ordering and never pay online: I ordered some cleaning products and they canceled the order without notice or refund. It took me 3 calls with very incompetent persons just to issue the refund! Whether the refund will take place or not is something in the unknown.",
-          "sentiment": "negative",
-          "feedback_type": "ux_friction",
-          "product_area": "nid_verification",
-          "severity": "critical",
-          "claude_summary": "User complains about a painful return process involving identity verification, photos, and lost items.",
-          "valify_scope": "false"
         },
         {
           "source": "play_store",
@@ -117,18 +105,6 @@
         },
         {
           "source": "play_store",
-          "post_date": "2026-04-03T17:00:41+00:00",
-          "language": "ar",
-          "raw_text": "التطبيق له عشر ايام مايفتح ويلغي الطلبيات اللي اطلبهم وماحد تواصل معي لفتح التطبيق وكل خدمه عملاءهم فشله ماحد يعرف يحل المشكله وقسم الإدارة تبعهم له عشر ايام مافتح التطبيق متعذرا بأعذار واهيه صار تطبيق امازون أسوأ تطبيق الكتروني وأسوأ متجر الكتروني لو كان في اقل من نجمه لعملتها..حتى هويتي الاماراتيه رسلتها لهم لإثبات ان الحساب لي .. مافي مصداقيه ابدا ومافي اهتمام بزباءنهم ابدا لايستحق اي نجمه على الإطلاق.. تطبيق امازون اخيس تطبيق الكتروني وأسوأ متجر الكتروني",
-          "sentiment": "negative",
-          "feedback_type": "ux_friction",
-          "product_area": "nid_verification",
-          "severity": "high",
-          "claude_summary": "App has not opened for 10 days, cancels orders, and rejected user's UAE national ID; customer service could not resolve.",
-          "valify_scope": "false"
-        },
-        {
-          "source": "play_store",
           "post_date": "2026-04-01T20:58:27+00:00",
           "language": "ar",
           "raw_text": "بقا اسوء بكتير وبقا بيطلب بطاقة شخصيه وليا فلوس على الحساب وفلوس أوردر موصلش من شهر فبرابر",
@@ -142,22 +118,10 @@
       ]
     },
     "Thndr": {
-      "total": 146,
-      "on_topic": 6,
+      "total": 141,
+      "on_topic": 1,
       "off_topic": 140,
       "reviews": [
-        {
-          "source": "appstore",
-          "post_date": "2026-06-06T22:17:09+00:00",
-          "language": "ar",
-          "raw_text": "شكرًا ثاندر!: ٥ نجوم قليل عليكم! ♥️🙏",
-          "sentiment": "negative",
-          "feedback_type": "bug",
-          "product_area": "nid_verification",
-          "severity": "critical",
-          "claude_summary": "User is blocked from returning items because their identity documents are repeatedly rejected during verification.",
-          "valify_scope": "false"
-        },
         {
           "source": "play_store",
           "post_date": "2026-05-12T01:03:36+00:00",
@@ -169,60 +133,12 @@
           "severity": "none",
           "claude_summary": "User praises easy account opening at Thndr but complains about price sync delays in trading.",
           "valify_scope": "true"
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-05-05T21:52:33+00:00",
-          "language": "ar",
-          "raw_text": "اريد ارسال عقد فتح حسابي باسمي و ايضا اريد رقم واتس اب لارسال العقد بعد ان اوقعه انا انتظرت كثير و يمكن اذا طال الوقت اكثر من ذلك الغي اشتراكي بالتطبيق و لذلك لم اودع مبالغ حتي الان و ذلك بسبب التجاهل و عدم الرد ... و لن ارسل رسائل ثانية",
-          "sentiment": "negative",
-          "feedback_type": "ux_friction",
-          "product_area": "onboarding_general",
-          "severity": "medium",
-          "claude_summary": "User waiting to send signed account-opening contract but no WhatsApp number provided; threatens to cancel.",
-          "valify_scope": "false"
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-05-04T01:21:29+00:00",
-          "language": "ar",
-          "raw_text": "عملت إيداع بعد كده كتب قيد الانتظار وراح قالي حسابك تم رفضه ومش عارف اخد فلوسي ولا اعمل اي وخدمه العملاء مفيش اي رد",
-          "sentiment": "negative",
-          "feedback_type": "bug",
-          "product_area": "onboarding_general",
-          "severity": "critical",
-          "claude_summary": "User deposited funds but account was then rejected; money is stuck with no support response.",
-          "valify_scope": "false"
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-04-30T03:15:10+00:00",
-          "language": "ar",
-          "raw_text": "فريق دعم بعد اذنكم في مشكله تاخير مراجعة عقدي مش عارف اسحب ولا اعمل إيداع بسبب كده بقالي اكتر من اسبوعين وحذفت تطبيق ونزلته تاني وبردو نفس مشكله مازلت فأرجو منكم حل مشكله ف اسرع وقت لكي استثمر واستفيد",
-          "sentiment": "negative",
-          "feedback_type": "ux_friction",
-          "product_area": "onboarding_general",
-          "severity": "critical",
-          "claude_summary": "Account contract review stuck for 2+ weeks; user unable to deposit or withdraw; support unresponsive.",
-          "valify_scope": "false"
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-04-27T03:36:07+00:00",
-          "language": "ar",
-          "raw_text": "قمت بفتح حساب من اكتر من 9ايام ولم تاتي الموافقة والتواصل مع الدعم ولكن لا يوجد رد",
-          "sentiment": "negative",
-          "feedback_type": "ux_friction",
-          "product_area": "onboarding_general",
-          "severity": "critical",
-          "claude_summary": "Account opened more than 9 days ago; approval not received; support unresponsive.",
-          "valify_scope": "false"
         }
       ]
     },
     "Klivvr": {
-      "total": 89,
-      "on_topic": 9,
+      "total": 86,
+      "on_topic": 6,
       "off_topic": 80,
       "reviews": [
         {
@@ -251,18 +167,6 @@
         },
         {
           "source": "play_store",
-          "post_date": "2026-05-22T19:17:50+00:00",
-          "language": "ar",
-          "raw_text": "اسوء ناس ينزلوا الليمت ويصدعوك رسائل وقرف وتكلم خدمة العملاء يقولك تمام اتوجة يا افندم وتضرب المشوار وف الاخر يقولك اترفض",
-          "sentiment": "negative",
-          "feedback_type": "ux_friction",
-          "product_area": "onboarding_general",
-          "severity": "high",
-          "claude_summary": "User went in person after receiving promotional messages but was rejected at the end.",
-          "valify_scope": "false"
-        },
-        {
-          "source": "play_store",
           "post_date": "2026-05-21T17:15:05+00:00",
           "language": "ar",
           "raw_text": "سيئ جدا برفضك بدون اي سبب",
@@ -287,18 +191,6 @@
         },
         {
           "source": "play_store",
-          "post_date": "2026-05-19T20:07:15+00:00",
-          "language": "ar",
-          "raw_text": "بجد زي الزفت واشتغلالت وخلاص يجي موقفه وتروح يقولك مش مؤهل زفت زفتتين كمان ولا حد بيعبرك والرد كلم خدمه عدم التقدير والرد والله مش عاوزين نتفسح والعادي ان كد يعبرك مع الشكوي مش انت اللي تدور وبعدن هههههخ موافقه ب10000 الف علي كل ده",
-          "sentiment": "negative",
-          "feedback_type": "bug",
-          "product_area": "onboarding_general",
-          "severity": "critical",
-          "claude_summary": "User rejected mid-application with no reason given.",
-          "valify_scope": "false"
-        },
-        {
-          "source": "play_store",
           "post_date": "2026-05-09T14:30:41+00:00",
           "language": "ar",
           "raw_text": "فاشل فاشل كل شويه شبكه النت ضعيفه يلا نصور تاني بعدين النت ضعيف ويكرر ناس بتعذب الناس منكم لله",
@@ -320,18 +212,6 @@
           "severity": "critical",
           "claude_summary": "App is excellent but user received an unexplained rejection during onboarding.",
           "valify_scope": "unsure"
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-04-30T11:14:51+00:00",
-          "language": "en",
-          "raw_text": "I regret that I joined them!! It is one of the worst financial app/company, if not the worst!! I took more than one hour to finalize the process at their booth (I took few minutes with the other applications). They kept changing and reducing my approved limit for more than 4 times. Now, I'm trying to pay the 1st. installment but I can't find the payment option on the app. It is very poor app and their customer service is horrible with either no response or bad response.",
-          "sentiment": "negative",
-          "feedback_type": "ux_friction",
-          "product_area": "onboarding_general",
-          "severity": "high",
-          "claude_summary": "Booth onboarding took more than 1 hour; credit limit changed/reduced 4+ times; can't find payment option in app.",
-          "valify_scope": "false"
         }
       ]
     },
@@ -361,8 +241,8 @@
       "reviews": []
     },
     "Midbank": {
-      "total": 120,
-      "on_topic": 3,
+      "total": 118,
+      "on_topic": 1,
       "off_topic": 117,
       "reviews": [
         {
@@ -376,36 +256,12 @@
           "severity": "critical",
           "claude_summary": "User strongly advises against using the app, objecting to its data collection practices.",
           "valify_scope": "true"
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-05-24T17:44:42+00:00",
-          "language": "ar",
-          "raw_text": "قدمت عليه و إجراءاته سهلة لكن الرصيد قليل 20 ألف بس مع العلم معايا رخصة موديل عالى",
-          "sentiment": "negative",
-          "feedback_type": "compliment",
-          "product_area": "onboarding_general",
-          "severity": "low",
-          "claude_summary": "Application process is easy but credit limit is low at 20k despite having a high-value vehicle.",
-          "valify_scope": "false"
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-05-05T07:29:48+00:00",
-          "language": "ar",
-          "raw_text": "تطبيق زباله من قبل اسجل اي حاجة لقيتو كتبلي لا يمكن تسجيل طلبك سجل بعد 90 يوم اي الهبل ده ميستحقش ولا نجمه بس حطيت نجمه عشان اعرف اكتب التعليق",
-          "sentiment": "negative",
-          "feedback_type": "bug",
-          "product_area": "onboarding_general",
-          "severity": "critical",
-          "claude_summary": "Unable to register at all; app blocks registration and tells user to retry after 90 days.",
-          "valify_scope": "false"
         }
       ]
     },
     "Raya": {
-      "total": 4,
-      "on_topic": 3,
+      "total": 3,
+      "on_topic": 2,
       "off_topic": 1,
       "reviews": [
         {
@@ -419,18 +275,6 @@
           "severity": "critical",
           "claude_summary": "App freezes and won't complete the data registration step during onboarding.",
           "valify_scope": "unsure"
-        },
-        {
-          "source": "play_store",
-          "post_date": "2026-05-07T17:43:01+00:00",
-          "language": "ar",
-          "raw_text": "برنامج سئ جدا علشان تفعله لازم تروح الفرع وتمضي وصل على بياض لصالح رايه ولا انصح بالتعامل مع به",
-          "sentiment": "negative",
-          "feedback_type": "ux_friction",
-          "product_area": "onboarding_general",
-          "severity": "high",
-          "claude_summary": "Activating the app requires a branch visit to sign a blank document in favor of Raya; user strongly warns against.",
-          "valify_scope": "false"
         },
         {
           "source": "play_store",
