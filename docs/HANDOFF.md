@@ -1,5 +1,5 @@
 # Valify Customer Feedback Monitor. Persistent handoff.
-Last updated: 2026-07-06 by Claude Code (Phase 9 post-launch follow-up in progress: Module 1 of 6 built and pushed, awaiting a manual workflow_dispatch trigger and its output before the decision gate to Module 2 can resolve. See "Phase 9 follow-up modules" in the decisions log and open backlog for exactly where to resume.).
+Last updated: 2026-07-11 by Claude Code (Phase 9 closed, all six follow-up modules done: Groq confirmed blocked from automation by Cloudflare, OpenRouter is the production secondary fallback, daily cron live at 06:00 UTC, sheet confirmed clean. Phase 10 next.).
 
 ---
 
@@ -68,7 +68,7 @@ Notes on disambiguation:
 
 **Enrichment:** Enrichment has two modes: (1) legacy manual, via `docs/enrich_prompt.md` in Claude Code, retained for ad-hoc runs, (2) automated, via `scripts/enrich_phase8.py` called from the GitHub Actions daily pipeline (Phase 9). Requires GEMINI_API_KEY in .env. Model: gemini-3.5-flash (gemini-1.5-flash no longer exists; gemini-2.0-flash has quota 0 on free tier keys; gemini-3.5-flash is the correct Flash model for this key).
 
-**Automation:** `main.py` orchestrates scrape, dedup, write, housekeeping, enrichment, JSON export, backup, and digest as callable functions. Phase 9 delivers full automation via a GitHub Actions cron workflow (`.github/workflows/daily_pipeline.yml`) that runs Gemini auto-enrichment with Groq fallback daily.
+**Automation:** `main.py` orchestrates scrape, dedup, write, housekeeping, enrichment, JSON export, backup, and digest as callable functions. Phase 9 delivers full automation via a GitHub Actions cron workflow (`.github/workflows/daily_pipeline.yml`, live daily at 06:00 UTC since 2026-07-11) that runs Gemini auto-enrichment with OpenRouter as the working fallback; Groq stays in the provider chain but is confirmed blocked (Cloudflare error 1010) from every automated environment tested, see the 2026-07-11 decisions log entries.
 
 **Dedup:** SHA-256 of `source + post_url + raw_text[:200]` stored in `seen_hashes` tab. Stateless and idempotent.
 
@@ -162,6 +162,7 @@ Notes on disambiguation:
 - 2026-07-11: Module 1 decision gate resolved. Groq confirmed blocked from GitHub Actions by Cloudflare error 1010 (bot-signature block, not geographic). Bare Python urllib requests are rejected regardless of IP origin. Groq remains in the provider chain for theoretical compatibility but is not a functioning fallback in any automated environment. OpenRouter (Module 2) replaces Groq as the production secondary fallback. Adding TLS fingerprinting (cloudscraper, curl_cffi) to bypass the block is not justified at current scale. Diagnostic artifacts (`scripts/diagnose_groq.py` and the temporary "Diagnose Groq" workflow step) removed once this verdict was recorded, see the entry below.
 - 2026-07-11: Module 4, unenriched rows processed and audited. Local `.env` does not have OPENROUTER_API_KEY (only the user has that value, it was added directly as a GitHub Actions secret, never shared with this session), so a local `--enrich` run could not exercise the real 3-provider chain. Triggered `workflow_dispatch` directly via `gh` CLI instead (run 29157839249), a judgment call: earlier in these follow-up modules the user was asked to trigger runs themselves, but by this point they had already run the pipeline manually several times and had said to continue all modules in order, and only the GitHub Actions environment has all three provider keys configured correctly. Result: 15 unenriched rows found (down from 153 when the follow-up modules started, most of the backlog had already cleared during Module 2 and 3 testing runs), all 15 enriched successfully via Gemini alone in 2 batches, no fallback needed. The Module 3 retry step then ran and correctly found 0 rows left. **OpenRouter has still never been exercised by a real run**, Gemini has not failed since the Module 1 investigation, so its correctness as a fallback remains unverified by live evidence, only by the Module 2 unit-level checks. Read-only audit afterward (`validation/post_phase9_audit.md`): 3,515 total rows, zero blank sentiment, zero parse_error anywhere, zero on-topic rows missing valify_scope. Local repo fast-forwarded to the workflow's own commit (`5af4b58`) before running the audit, so results reflect the actual current sheet. HANDOFF's "Sheet state" section updated with the new totals.
 - 2026-07-11: Module 5 (Groq Arabic quality test on Actions) skipped per its own instructions, since Module 1 confirmed Groq is blocked, not a key or geography issue. No temporary workflow step was added, no comparison was run, there is no working Groq call on any automated environment to compare against Gemini. `scripts/groq_arabic_test.py` and `validation/groq_arabic_test.md` (from the original Phase 9 Step 4) are left as-is, a historical record of the local-only test that first surfaced the 403, not deleted, they document real diagnostic history. The 75 percent match threshold from that plan was never evaluated since there was nothing to measure. Verdict recorded: Groq Arabic quality is unconfirmed and now moot, OpenRouter is the production secondary fallback going forward, and the open "Groq Arabic quality test" and "Ollama" backlog items are closed below with this resolution.
+- 2026-07-11: Module 6, final cleanup and Phase 9 closure. Verified all three required end states in `.github/workflows/daily_pipeline.yml`: the schedule cron lines are uncommented and active (`0 6 * * *`), the "Enrich retry (if needed)" step from Module 3 is present, and `OPENROUTER_API_KEY` is referenced in the "Write .env" step. `scripts/diagnose_groq.py` and its temporary workflow step were already removed when Module 1's decision gate closed, nothing left to remove here. Rewrote the workflow's top-of-file comment block, it previously said the schedule was "commented out on purpose" even though it had been live since 2026-07-11, a stale, self-contradicting comment left over from before the user manually enabled it; now it accurately states the schedule is live and when it was enabled. Phase status table: Phase 9 row rewritten to summarize both the original 2026-07-06 launch and all six follow-up modules, closed 2026-07-11. Open backlog: removed the completed "Phase 9: Full automation" infrastructure item (done), the "Resume point" pointer (no longer needed, nothing left to resume), and consolidated the Groq Arabic test, Ollama, and GitHub Actions secrets items into a "Closed, no further action" group; added one new item, OpenRouter has still never been exercised by a real enrichment run and its live behavior is unconfirmed. This closes the Phase 9 follow-up modules started 2026-07-06.
 
 ---
 
@@ -179,11 +180,10 @@ Notes on disambiguation:
 +-- housekeeping.py                 Row count checks, off-topic archival, ceiling guard
 +-- sheets.py                       gspread wrapper for all Sheet operations
 +-- requirements.txt                Pinned Python dependencies
-+-- .env.example                    Template for local .env (GEMINI_API_KEY added Phase 8)
-+-- .gitignore
++-- .gitignore                      Includes .env and .env.example; that file does not exist in this repo, see the 2026-07-05 decisions log
 +-- .github/
 |   +-- workflows/
-|       +-- daily_pipeline.yml       GitHub Actions daily cron (schedule commented out pending first manual validation), workflow_dispatch [Phase 9]
+|       +-- daily_pipeline.yml       GitHub Actions daily cron, live at 06:00 UTC since 2026-07-11, workflow_dispatch also available [Phase 9]
 +-- data/
 |   +-- feedback.json               Client-keyed export of the Feedback Log, regenerated every run, committed by the workflow [Phase 9]
 +-- scrapers/
@@ -200,7 +200,8 @@ Notes on disambiguation:
 |       +-- __init__.py
 |       +-- base.py                 BaseProvider ABC. Shared prompt builders. ProviderQuotaError, ProviderUnavailableError, ProviderParseError.
 |       +-- gemini.py               GeminiProvider. Raises exceptions instead of returning parse_error values.
-|       +-- groq.py                 GroqProvider. OpenAI-compatible Groq REST API. Default model llama-3.3-70b-versatile.
+|       +-- groq.py                 GroqProvider. OpenAI-compatible Groq REST API. Default model llama-3.3-70b-versatile. Confirmed blocked (Cloudflare 403, error 1010) from every automated environment tested as of 2026-07-11; stays in the chain but is not relied on.
+|       +-- openrouter.py           OpenRouterProvider. OpenAI-compatible OpenRouter REST API. Default model google/gemma-4-31b-it:free. The working production fallback since 2026-07-11 [Phase 9 follow-up]
 +-- utils/
 |   +-- __init__.py
 |   +-- dedup.py                    SHA-256 hash deduplication
@@ -222,7 +223,8 @@ Notes on disambiguation:
 |   +-- test_replace_feedback_rows.py  47-assertion in-memory test for replace_feedback_rows column-drop fix [2026-06-16]
 +-- validation/
 |   +-- audit_pre_recovery.md       Pre-recovery audit report, all invariants confirmed [2026-06-16]
-|   +-- groq_arabic_test.md         Groq Arabic quality test results, deferred to first GitHub Actions run [2026-07-06]
+|   +-- groq_arabic_test.md         Groq Arabic quality test, local-only result (403, geo-blocked). Historical record; the Actions-side comparison was never run, see 2026-07-11 Module 5 [2026-07-06]
+|   +-- post_phase9_audit.md        Read-only audit after Module 4: sheet clean, 0 blank sentiment, 0 parse_error, 0 on-topic rows missing valify_scope [2026-07-11]
 +-- docs/
 |   +-- HANDOFF.md                  This file
 |   +-- scrapers.md                 Platform approach and verified app IDs
@@ -255,7 +257,7 @@ Notes on disambiguation:
 | 8c | done | App Store first write (30-day window, 93 rows), Gemini enrichment, web_ddg retirement (73 rows quarantined), sheets.py FEEDBACK_HEADERS fix. Phase 8 fully complete. |
 | 8c-r1 | done | Post-8c recovery, closed 2026-07-05. Column-drop fix verified (47/47 test assertions). Found and fixed a second bug: 42 rows (29 + 13) had literal "parse_error" written to valify_scope/enrichment fields instead of being left blank; both recovery scripts' row-selection predicates now treat "parse_error" as missing. Step 1 (valify-scope, 29 rows): done, true=10/false=13/unsure=6, sanity check passed. Step 2 (parse-error, 13 rows): done, all real values, none remain parse_error. Step 3 (scope-only backfill): 0 rows needed, confirming Steps 1-2 fully closed the gap. Inter-batch sleep raised 4s to 6s. No unresolved rows. |
 | 8-fallback | done | Fallback provider architecture: circuit breaker, provider chain (Gemini then Groq), write guard, checkpoint file. |
-| 9 | done | Full automation delivered 2026-07-06. main.py refactored into callable functions (run_scrape, run_enrich, run_export_json, run_backup, run_digest) plus new CLI flags (--enrich, --enrich-mode, --export-json, --digest); scripts/export_json.py (client-keyed JSON export); scripts/send_digest.py (weekly Gmail SMTP digest, Mondays only); .github/workflows/daily_pipeline.yml (cron 06:00 UTC, currently commented out pending first manual workflow_dispatch validation); Groq Arabic quality test run and deferred to that first Actions run (Groq confirmed geo-blocked locally); dead app-store-scraper dependency removed from requirements.txt (it was breaking a clean pip install). |
+| 9 | done | Closed 2026-07-11. Full automation delivered 2026-07-06: main.py refactored into callable functions (run_scrape, run_enrich, run_export_json, run_backup, run_digest) plus new CLI flags (--enrich, --enrich-mode, --export-json, --digest); scripts/export_json.py (client-keyed JSON export); scripts/send_digest.py (weekly Gmail SMTP digest, Mondays only); .github/workflows/daily_pipeline.yml; dead app-store-scraper dependency removed from requirements.txt. Six follow-up modules closed 2026-07-11: Module 1 found Groq is blocked from every automated environment by a Cloudflare bot-signature rule (error 1010), not geography or a key problem. Module 2 added OpenRouter (google/gemma-4-31b-it:free) as the real production secondary fallback, Groq stays in the chain but is not relied on. Module 3 added a same-run enrichment retry (310 second cooldown) to the workflow. Module 4 cleared the unenriched backlog and confirmed the sheet clean (0 blank sentiment, 0 parse_error, 0 on-topic rows missing valify_scope). Module 5 was skipped, no working Groq call existed to benchmark against Gemini. Module 6 closed out cleanup: the daily cron is live (06:00 UTC), diagnostic artifacts removed, backlog and sheet state current. |
 | 10 | next | Read-only dashboard. Reads data/feedback.json via raw GitHub URL. Visible to full Valify team. Hosted on a free public platform. |
 | 11 | pending | Tiered scaling (priority field per client, tier-based scrape frequency) |
 | 12 | pending | Historical backfill for all 8 clients (App Store full, and the 7 non-Amazon Play Store clients) |
@@ -300,12 +302,12 @@ Blank valify_scope (3,291 rows, unchanged from 2026-07-05) is the pre-Phase-9 hi
 
 ## Open backlog
 
-**Resume point, Phase 9 follow-up modules (6 total, started 2026-07-06):** Modules 1 through 5 are done. Module 1 verdict: Groq is genuinely blocked by Cloudflare (error 1010, bot-signature based, not geographic, not a key issue), OpenRouter replaces it as the production secondary fallback. Module 4: sheet is clean, 0 unenriched, 0 parse_error, 0 on-topic rows missing valify_scope, as of 2026-07-11. Module 5: skipped per the Module 1 verdict, no working Groq call existed to compare against Gemini. Next: Module 6 (final cleanup, confirm the workflow has the retry step and OPENROUTER_API_KEY wired up, and close out Phase 9 in the phase status table). See the "Phase 9 follow-up modules" decisions log entries above for full detail on each module.
+**Phase 9: closed 2026-07-11, including all six follow-up modules.** Daily cron is live at 06:00 UTC. Groq is confirmed blocked from every automated environment (Cloudflare error 1010, bot-signature based); OpenRouter is the real production secondary fallback. Sheet confirmed clean as of the Module 4 audit. See the decisions log entries dated 2026-07-06 through 2026-07-11 for full detail on every step.
 
 **Phase 8c-r1: closed 2026-07-05.** No immediate next steps remain for enrichment recovery. See decisions log for the parse_error-in-column-Q bug found and fixed during closure.
 
 **Infrastructure:**
-- Phase 9: Full automation. Enable GitHub Actions cron at 06:00 UTC, integrate Gemini auto-enrichment via scripts/enrich_phase8.py, commit /backups/ to Git on a weekly schedule, and activate the email digest via Gmail SMTP. Requires GEMINI_API_KEY as a GitHub Actions secret.
+- OpenRouter has never been exercised by a real enrichment run. It was added 2026-07-11 (Module 2) and unit-tested, but every real run since then has had Gemini succeed for all rows, so Groq and OpenRouter both went unused. Its actual behavior as a fallback (does it get invoked correctly on a Gemini failure, does its Arabic classification quality hold up) remains unconfirmed by live evidence. No action needed now; worth checking the sheet after the next time a run's log shows an OpenRouter batch actually firing.
 - Trustpilot for Amazon (amazon.eg): approximately 85 reviews. Blocked in Phase 7 by AWS WAF at TLS-fingerprint level. Requires cloudscraper or curl_cffi to bypass. Low ROI vs Play Store volume. Re-enable by setting `_TRUSTPILOT_ENABLED = True` in scrapers/web.py after adding a bypass library.
 - Service account key rotation completed 2026-07-05. Three keys existed for feedback-scraper, the first two are deleted. The third (current) key is active and has not been exposed. No further rotation action needed.
 
@@ -318,13 +320,14 @@ Blank valify_scope (3,291 rows, unchanged from 2026-07-05) is the pre-Phase-9 hi
 - scripts/enrich_phase8.py summary print shows valify_scope counts only for the last batch, not cumulative. The actual sheet data is correct. The display inconsistency is cosmetic; fix in a future cleanup pass.
 - scripts/appstore_write_and_enrich.py and scripts/_restore_valify_scope_header.py are one-time scripts. Consider removing them after Phase 11 to reduce clutter.
 - 41 play_store rows have sentiment="mixed" from pre-Phase-8 manual enrichment. The Phase 8 taxonomy does not include "mixed". These rows are harmless as-is; they will be re-classified if a future scope-only pass targets them. No immediate action needed.
-- Inter-batch sleep raised to 6s on 2026-07-05 (see decisions log). Closed.
-- Local machine has no pagefile configured, which caused intermittent MemoryError failures during this session's Sheets API calls (unrelated to sheet size). See 2026-07-05 decisions log entry. Consider configuring a pagefile if local enrichment runs become unreliable again.
+- The workflow's "Enrich retry (if needed)" step (Module 3) sleeps 310 seconds on every daily run regardless of whether anything needs retrying, adding over 5 minutes to every run. Acceptable at current scale (one run a day, free-tier Actions minutes), revisit only if this becomes a real cost or time concern.
+- Local machine has no pagefile configured, which caused intermittent MemoryError failures during Sheets API calls in an earlier session (unrelated to sheet size). See 2026-07-05 decisions log entry. Consider configuring a pagefile if local runs become unreliable again.
 
-**Phase 9 pre-work, closed 2026-07-11:**
-- Groq Arabic quality test: closed without a Gemini-vs-Groq comparison ever running from GitHub Actions. Module 1 of the Phase 9 follow-up modules found the actual root cause first: Groq returns HTTP 403 from GitHub Actions' own US-based runner (Cloudflare error 1010, a bot-signature block, not geography), so a real quality comparison was never possible, there is no working Groq call to compare against Gemini in any automated environment. Per the follow-up prompt's Module 5 instructions, this comparison is skipped entirely rather than attempted, and OpenRouter (`enrichment/providers/openrouter.py`, added Module 2) replaces Groq as the production secondary fallback. Groq stays in the provider chain (`build_default_providers()`) for theoretical compatibility, e.g. if Cloudflare's rule ever changes, but is not relied on. See the 2026-07-11 "Module 1 decision gate resolved" and Module 5 decisions log entries.
+**Closed, no further action:**
+- Groq Arabic quality test: closed 2026-07-11 without ever running a Gemini-vs-Groq comparison from GitHub Actions, because Module 1 found there was no working Groq call to compare, Groq returns HTTP 403 from GitHub Actions' own US-based runner (Cloudflare error 1010), not a geography or key issue. OpenRouter (`enrichment/providers/openrouter.py`) is the production secondary fallback going forward; Groq stays in `build_default_providers()` for theoretical compatibility only.
+- Ollama: not needed. It was only ever a contingency for poor Groq Arabic quality; Groq turned out to be unreachable from automation entirely (a different failure mode), and OpenRouter fills the fallback role instead. Revisit only if OpenRouter's own Arabic quality turns out to be poor in practice.
 - GitHub Actions secrets: GEMINI_API_KEY, GROQ_API_KEY, and OPENROUTER_API_KEY are all set as repository secrets. Never commit any of them to the repo.
-- Ollama: not needed. It was only ever a contingency for poor Groq Arabic quality; Groq turned out to be unreachable from automation entirely (a different failure mode), and OpenRouter fills the fallback role instead. Revisit only if OpenRouter's own Arabic quality turns out to be poor in practice, no live evidence either way yet, see Module 4's note that OpenRouter has never actually been exercised by a real enrichment run.
+- Inter-batch sleep raised to 6s on 2026-07-05 (see decisions log). Closed.
 
 ---
 
