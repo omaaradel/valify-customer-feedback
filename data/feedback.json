@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-07-13T09:57:20Z",
-  "total_rows": 3750,
+  "generated_at": "2026-07-14T08:45:08Z",
+  "total_rows": 3876,
   "clients": {
     "Amazon": {
-      "total": 3130,
-      "on_topic": 9,
-      "off_topic": 3121,
+      "total": 3305,
+      "on_topic": 10,
+      "off_topic": 3295,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-11T12:19:48+00:00",
+          "language": "en",
+          "raw_text": "Did an order in a hurry, account in hold, verification with debit card and passport as asked, 24 hours to \"verify\", account cancelled without reason, money doesn't return. Wow",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's account was cancelled and money withheld after being asked to verify identity with a passport.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-10T03:57:06+00:00",
@@ -118,10 +130,22 @@
       ]
     },
     "Thndr": {
-      "total": 143,
-      "on_topic": 1,
-      "off_topic": 142,
+      "total": 147,
+      "on_topic": 2,
+      "off_topic": 145,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-12T17:25:40+00:00",
+          "language": "ar",
+          "raw_text": "تطبيق متخلف الصوره الشخصيه انظر شمال لا انظر يمين لا انظر لأسفل جاتكو الارف",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "liveness_detection",
+          "severity": "critical",
+          "claude_summary": "User is highly frustrated with the liveness detection selfie step, complaining about the look left/right/down prompts.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-05-12T01:03:36+00:00",
@@ -137,9 +161,9 @@
       ]
     },
     "Klivvr": {
-      "total": 86,
+      "total": 88,
       "on_topic": 6,
-      "off_topic": 80,
+      "off_topic": 82,
       "reviews": [
         {
           "source": "play_store",
@@ -216,9 +240,9 @@
       ]
     },
     "Rabbit": {
-      "total": 72,
+      "total": 73,
       "on_topic": 1,
-      "off_topic": 71,
+      "off_topic": 72,
       "reviews": [
         {
           "source": "play_store",
@@ -235,15 +259,15 @@
       ]
     },
     "ADIB": {
-      "total": 75,
+      "total": 77,
       "on_topic": 0,
-      "off_topic": 75,
+      "off_topic": 77,
       "reviews": []
     },
     "Midbank": {
-      "total": 119,
+      "total": 128,
       "on_topic": 1,
-      "off_topic": 118,
+      "off_topic": 127,
       "reviews": [
         {
           "source": "play_store",
@@ -291,10 +315,23 @@
       ]
     },
     "Khazna": {
-      "total": 27,
-      "on_topic": 0,
-      "off_topic": 27,
-      "reviews": []
+      "total": 29,
+      "on_topic": 1,
+      "off_topic": 28,
+      "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-12T15:08:03+00:00",
+          "language": "ar",
+          "raw_text": "التطبيق مش بيفتح لما ادوس تأكيد مفيش وكل شويه اكتب البيانات حاجه ممله بجد",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User is blocked during registration as pressing confirm does nothing and forces re-entering data.",
+          "valify_scope": "unsure"
+        }
+      ]
     }
   }
 }
