@@ -1,4 +1,40 @@
-function AccessGate() {
+import { useState } from 'react';
+import { GoogleLogin } from '@react-oauth/google';
+
+const NOT_AUTHORIZED_MESSAGE =
+  'Your account is not authorized to access this dashboard. Contact your Valify account manager.';
+const GENERIC_ERROR_MESSAGE = 'Sign-in failed. Please try again.';
+
+function AccessGate({ onAuthenticated }) {
+  const [error, setError] = useState(null);
+
+  const handleSuccess = async (credentialResponse) => {
+    setError(null);
+    try {
+      const res = await fetch('/api/auth/verify', {
+        method: 'POST',
+        credentials: 'same-origin',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ credential: credentialResponse.credential }),
+      });
+
+      if (res.ok) {
+        const data = await res.json();
+        onAuthenticated(data.email);
+        return;
+      }
+
+      if (res.status === 403) {
+        setError(NOT_AUTHORIZED_MESSAGE);
+        return;
+      }
+
+      setError(GENERIC_ERROR_MESSAGE);
+    } catch {
+      setError(GENERIC_ERROR_MESSAGE);
+    }
+  };
+
   return (
     <div
       className="flex min-h-screen items-center justify-center px-4 py-8 md:px-8"
@@ -33,9 +69,31 @@ function AccessGate() {
             margin: 0,
           }}
         >
-          This dashboard is currently unavailable. If you believe you should have access, please
-          contact your Valify account manager.
+          Sign in with your Valify Google account to continue.
         </p>
+        <div>
+          <GoogleLogin
+            onSuccess={handleSuccess}
+            onError={() => setError(GENERIC_ERROR_MESSAGE)}
+            locale="en"
+          />
+        </div>
+        {error && (
+          <p
+            style={{
+              color: '#FFFFFF',
+              background: 'color-mix(in srgb, var(--color-negative) 35%, transparent)',
+              borderRadius: 'var(--radius-badge)',
+              padding: 'var(--space-1) var(--space-2)',
+              fontSize: 'var(--font-size-body)',
+              fontWeight: 'var(--font-weight-body)',
+              lineHeight: 'var(--line-height-body)',
+              margin: 0,
+            }}
+          >
+            {error}
+          </p>
+        )}
       </div>
     </div>
   );

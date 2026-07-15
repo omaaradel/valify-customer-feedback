@@ -1,6 +1,9 @@
 {
   "outputDirectory": "dist",
   "rewrites": [
+    { "source": "/api/auth/verify", "destination": "/api/auth/verify" },
+    { "source": "/api/auth/check", "destination": "/api/auth/check" },
+    { "source": "/api/auth/logout", "destination": "/api/auth/logout" },
     {
       "source": "/api/data",
       "destination": "https://raw.githubusercontent.com/omaaradel/valify-customer-feedback/master/data/feedback.json"
