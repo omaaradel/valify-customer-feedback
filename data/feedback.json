@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-07-14T08:45:08Z",
-  "total_rows": 3876,
+  "generated_at": "2026-07-15T08:42:37Z",
+  "total_rows": 4014,
   "clients": {
     "Amazon": {
-      "total": 3305,
-      "on_topic": 10,
-      "off_topic": 3295,
+      "total": 3436,
+      "on_topic": 11,
+      "off_topic": 3425,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-14T06:24:13+00:00",
+          "language": "en",
+          "raw_text": "Awful. At Amazon Egypt, they won't process a return without an ID verification.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User complains about being forced to complete ID verification to process a return on Amazon Egypt.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-11T12:19:48+00:00",
@@ -130,9 +142,9 @@
       ]
     },
     "Thndr": {
-      "total": 147,
+      "total": 151,
       "on_topic": 2,
-      "off_topic": 145,
+      "off_topic": 149,
       "reviews": [
         {
           "source": "play_store",
@@ -161,9 +173,9 @@
       ]
     },
     "Klivvr": {
-      "total": 88,
+      "total": 90,
       "on_topic": 6,
-      "off_topic": 82,
+      "off_topic": 84,
       "reviews": [
         {
           "source": "play_store",
@@ -240,9 +252,9 @@
       ]
     },
     "Rabbit": {
-      "total": 73,
+      "total": 78,
       "on_topic": 1,
-      "off_topic": 72,
+      "off_topic": 77,
       "reviews": [
         {
           "source": "play_store",
@@ -259,15 +271,15 @@
       ]
     },
     "ADIB": {
-      "total": 77,
+      "total": 78,
       "on_topic": 0,
-      "off_topic": 77,
+      "off_topic": 78,
       "reviews": []
     },
     "Midbank": {
-      "total": 128,
+      "total": 130,
       "on_topic": 1,
-      "off_topic": 127,
+      "off_topic": 129,
       "reviews": [
         {
           "source": "play_store",
@@ -315,9 +327,9 @@
       ]
     },
     "Khazna": {
-      "total": 29,
+      "total": 30,
       "on_topic": 1,
-      "off_topic": 28,
+      "off_topic": 29,
       "reviews": [
         {
           "source": "play_store",
