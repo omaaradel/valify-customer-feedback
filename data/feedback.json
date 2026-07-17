@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-07-16T08:43:51Z",
-  "total_rows": 4158,
+  "generated_at": "2026-07-17T08:36:33Z",
+  "total_rows": 4301,
   "clients": {
     "Amazon": {
-      "total": 3557,
-      "on_topic": 11,
-      "off_topic": 3546,
+      "total": 3697,
+      "on_topic": 13,
+      "off_topic": 3684,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-16T07:42:05+00:00",
+          "language": "en",
+          "raw_text": "opened, put info, got banned? sent info, even called, still nothing, signed out and just sent money to a family member to buy anything, thanks",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User's account was banned after entering info, and sending info did not resolve the issue.",
+          "valify_scope": "unsure"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-07-15T06:57:38+00:00",
+          "language": "en",
+          "raw_text": "been using it for the past 2 years and I've always told people it's better than any other online website but recently their AI messed up my account and all because i logged in from the computer at work it flagged it as \"unusual activity\" and for about a week all my orders were getting cancelled and getting an email afterwards to verify my account with an ID. i refused but then was given no other option (that's after chatting to them 4 times & 2 📞) i emailed my ID & was promised response 3hr but",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's account was flagged for unusual activity and they were forced to submit their ID to verify it.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-14T06:24:13+00:00",
@@ -142,9 +166,9 @@
       ]
     },
     "Thndr": {
-      "total": 155,
+      "total": 158,
       "on_topic": 2,
-      "off_topic": 153,
+      "off_topic": 156,
       "reviews": [
         {
           "source": "play_store",
@@ -173,9 +197,9 @@
       ]
     },
     "Klivvr": {
-      "total": 91,
+      "total": 93,
       "on_topic": 6,
-      "off_topic": 85,
+      "off_topic": 87,
       "reviews": [
         {
           "source": "play_store",
@@ -252,9 +276,9 @@
       ]
     },
     "Rabbit": {
-      "total": 81,
+      "total": 82,
       "on_topic": 1,
-      "off_topic": 80,
+      "off_topic": 81,
       "reviews": [
         {
           "source": "play_store",
@@ -277,10 +301,22 @@
       "reviews": []
     },
     "Midbank": {
-      "total": 131,
-      "on_topic": 1,
-      "off_topic": 130,
+      "total": 138,
+      "on_topic": 2,
+      "off_topic": 136,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-14T16:03:31+00:00",
+          "language": "ar",
+          "raw_text": "ابليكشن سهل جدا و نزلى أعلى ليمت بالبطاقة الشخصية بس حقيقى تجربة تقسيط ممتازة و تعامل ذوق جدا من الموظفين",
+          "sentiment": "positive",
+          "feedback_type": "compliment",
+          "product_area": "nid_verification",
+          "severity": "none",
+          "claude_summary": "User praises the easy application and getting a high credit limit using just their national ID.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-09T16:46:34+00:00",
@@ -327,9 +363,9 @@
       ]
     },
     "Khazna": {
-      "total": 30,
+      "total": 34,
       "on_topic": 1,
-      "off_topic": 29,
+      "off_topic": 33,
       "reviews": [
         {
           "source": "play_store",
