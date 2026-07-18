@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-07-17T08:36:33Z",
-  "total_rows": 4301,
+  "generated_at": "2026-07-18T08:18:37Z",
+  "total_rows": 4432,
   "clients": {
     "Amazon": {
-      "total": 3697,
-      "on_topic": 13,
-      "off_topic": 3684,
+      "total": 3812,
+      "on_topic": 14,
+      "off_topic": 3798,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-16T13:34:55+00:00",
+          "language": "en",
+          "raw_text": "I can understand you wanting a good identity BUT wanting to TAKE OVER all my apps is unbelievable. .what has my photos got to do with a purchase I may want to make..etc: etc : my with suffers dementia and all I wanted from you was a identity bracelet...sorry..I hope you have a HAPPY life..because when you get to 87 it very quickly deteriates..good night",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User objects to identity verification and photo access requirements, refusing to complete the process.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-16T07:42:05+00:00",
@@ -166,9 +178,9 @@
       ]
     },
     "Thndr": {
-      "total": 158,
+      "total": 160,
       "on_topic": 2,
-      "off_topic": 156,
+      "off_topic": 158,
       "reviews": [
         {
           "source": "play_store",
@@ -197,10 +209,22 @@
       ]
     },
     "Klivvr": {
-      "total": 93,
-      "on_topic": 6,
-      "off_topic": 87,
+      "total": 97,
+      "on_topic": 7,
+      "off_topic": 90,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-16T13:37:09+00:00",
+          "language": "ar",
+          "raw_text": "يعني ادخل كل بيانات يقولي البطاقه مرتبطه بي رقم اخر",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is blocked during onboarding because the app states their national ID is already linked to another number.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-10T12:44:12+00:00",
@@ -276,10 +300,22 @@
       ]
     },
     "Rabbit": {
-      "total": 82,
-      "on_topic": 1,
-      "off_topic": 81,
+      "total": 85,
+      "on_topic": 2,
+      "off_topic": 83,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-16T21:39:32+00:00",
+          "language": "ar",
+          "raw_text": "لو سجلت بالبطاقه بتاعتك مره والاكونت اتمسح ما تقدرش تسجل ببطاقتك ثاني مع ان الاكونت خلاص مش موجود",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User cannot register with their national ID again after their previous account was deleted.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-05-23T19:38:34+00:00",
@@ -301,9 +337,9 @@
       "reviews": []
     },
     "Midbank": {
-      "total": 138,
+      "total": 144,
       "on_topic": 2,
-      "off_topic": 136,
+      "off_topic": 142,
       "reviews": [
         {
           "source": "play_store",
@@ -363,9 +399,9 @@
       ]
     },
     "Khazna": {
-      "total": 34,
+      "total": 35,
       "on_topic": 1,
-      "off_topic": 33,
+      "off_topic": 34,
       "reviews": [
         {
           "source": "play_store",
