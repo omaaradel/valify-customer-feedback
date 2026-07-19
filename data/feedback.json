@@ -1,12 +1,48 @@
 {
-  "generated_at": "2026-07-18T08:18:37Z",
-  "total_rows": 4432,
+  "generated_at": "2026-07-19T08:43:44Z",
+  "total_rows": 4581,
   "clients": {
     "Amazon": {
-      "total": 3812,
-      "on_topic": 14,
-      "off_topic": 3798,
+      "total": 3949,
+      "on_topic": 17,
+      "off_topic": 3932,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-18T02:43:02+00:00",
+          "language": "en",
+          "raw_text": "quite literally won't let me create an account. No matter what I try, it simply will not work. I used all the tips and suggestions the app provided, just foe it to lock me out again.",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User is completely blocked from creating an account despite trying troubleshooting tips.",
+          "valify_scope": "unsure"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-07-17T18:40:22+00:00",
+          "language": "en",
+          "raw_text": "Peor que Apple para asegurar información. No puedes introducir más de 2 tarjetas por que para todo pide confirmar información. Te cancelan los pedidos sin notificar nada y para poder restablecer los pedidos tienes que enviar quien sabe cuantos documentos y esperar quien sabe cuantos días cuando lo único que quieres es hacer una compra de menos de 1000 pesos. La plataforma más castrosa para hacer compras. Entiendo que tengan factores de seguridad pero he tenido problemas con todos sus servicios",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User complains about having to upload multiple documents and wait days to restore canceled orders.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-07-17T11:32:45+00:00",
+          "language": "en",
+          "raw_text": "they blocked me, because my account kept switching me to amazon.uk for no reason, they refused to verify my account when I sent the necessary documents, now I can't use it at all, is there no half or zero star?",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's account was blocked and Amazon refused to verify it after they submitted the necessary documents.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-16T13:34:55+00:00",
@@ -178,9 +214,9 @@
       ]
     },
     "Thndr": {
-      "total": 160,
+      "total": 161,
       "on_topic": 2,
-      "off_topic": 158,
+      "off_topic": 159,
       "reviews": [
         {
           "source": "play_store",
@@ -300,9 +336,9 @@
       ]
     },
     "Rabbit": {
-      "total": 85,
+      "total": 89,
       "on_topic": 2,
-      "off_topic": 83,
+      "off_topic": 87,
       "reviews": [
         {
           "source": "play_store",
@@ -337,9 +373,9 @@
       "reviews": []
     },
     "Midbank": {
-      "total": 144,
+      "total": 150,
       "on_topic": 2,
-      "off_topic": 142,
+      "off_topic": 148,
       "reviews": [
         {
           "source": "play_store",
@@ -399,9 +435,9 @@
       ]
     },
     "Khazna": {
-      "total": 35,
+      "total": 36,
       "on_topic": 1,
-      "off_topic": 34,
+      "off_topic": 35,
       "reviews": [
         {
           "source": "play_store",
