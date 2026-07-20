@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-07-19T08:43:44Z",
-  "total_rows": 4581,
+  "generated_at": "2026-07-20T09:43:39Z",
+  "total_rows": 4727,
   "clients": {
     "Amazon": {
-      "total": 3949,
-      "on_topic": 17,
-      "off_topic": 3932,
+      "total": 4084,
+      "on_topic": 19,
+      "off_topic": 4065,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-19T08:51:22+00:00",
+          "language": "en",
+          "raw_text": "Privacy concerns: they dont issue refunds anymore without a police report. My package was left in the STREET, and they still hounded me for my personal information and wouldn't refund me without it. Full of ads, and impossible to navigate. Genuinely just use another service bc this one totally dipped in quality.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User objects to providing personal information/ID for a refund, citing privacy concerns.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-07-18T14:26:06+00:00",
+          "language": "en",
+          "raw_text": "Prime subscriber, amazon lost my orders in transit and after telling me theyd reship them, then said they cant i have to order them again and then be re-refunded. Now amazon is cancelling all my orders because they flagged my account for \"unusual activity\" because i requested a refund/return. The link they gave to verify my identity didnt work, they said theyd contact my bank themselves and verify within 2 days. 3 days later im now being told 7-10 days. The level of service on this app is trash.",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's account was flagged after a return, and the identity verification link provided did not work.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-18T02:43:02+00:00",
@@ -214,9 +238,9 @@
       ]
     },
     "Thndr": {
-      "total": 161,
+      "total": 163,
       "on_topic": 2,
-      "off_topic": 159,
+      "off_topic": 161,
       "reviews": [
         {
           "source": "play_store",
@@ -245,9 +269,9 @@
       ]
     },
     "Klivvr": {
-      "total": 97,
+      "total": 99,
       "on_topic": 7,
-      "off_topic": 90,
+      "off_topic": 92,
       "reviews": [
         {
           "source": "play_store",
@@ -336,9 +360,9 @@
       ]
     },
     "Rabbit": {
-      "total": 89,
+      "total": 90,
       "on_topic": 2,
-      "off_topic": 87,
+      "off_topic": 88,
       "reviews": [
         {
           "source": "play_store",
@@ -367,15 +391,15 @@
       ]
     },
     "ADIB": {
-      "total": 78,
+      "total": 79,
       "on_topic": 0,
-      "off_topic": 78,
+      "off_topic": 79,
       "reviews": []
     },
     "Midbank": {
-      "total": 150,
+      "total": 154,
       "on_topic": 2,
-      "off_topic": 148,
+      "off_topic": 152,
       "reviews": [
         {
           "source": "play_store",
@@ -435,9 +459,9 @@
       ]
     },
     "Khazna": {
-      "total": 36,
+      "total": 37,
       "on_topic": 1,
-      "off_topic": 35,
+      "off_topic": 36,
       "reviews": [
         {
           "source": "play_store",
