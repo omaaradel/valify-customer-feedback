@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-07-21T08:53:39Z",
-  "total_rows": 4842,
+  "generated_at": "2026-07-22T08:58:09Z",
+  "total_rows": 4980,
   "clients": {
     "Amazon": {
-      "total": 4179,
-      "on_topic": 19,
-      "off_topic": 4160,
+      "total": 4291,
+      "on_topic": 20,
+      "off_topic": 4271,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-21T03:26:10+00:00",
+          "language": "en",
+          "raw_text": "this stupid app has no way to recover an account after the phone number has been changed. it's telling me to upload my govt id and wait up to 2 days.... This should not be so annoying just because I changed my number.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "high",
+          "claude_summary": "User is frustrated by being forced to upload a government ID to recover their account after changing their phone number.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-19T08:51:22+00:00",
@@ -238,9 +250,9 @@
       ]
     },
     "Thndr": {
-      "total": 164,
+      "total": 169,
       "on_topic": 2,
-      "off_topic": 162,
+      "off_topic": 167,
       "reviews": [
         {
           "source": "play_store",
@@ -360,9 +372,9 @@
       ]
     },
     "Rabbit": {
-      "total": 95,
+      "total": 98,
       "on_topic": 2,
-      "off_topic": 93,
+      "off_topic": 96,
       "reviews": [
         {
           "source": "play_store",
@@ -397,10 +409,22 @@
       "reviews": []
     },
     "Midbank": {
-      "total": 160,
-      "on_topic": 2,
-      "off_topic": 158,
+      "total": 168,
+      "on_topic": 3,
+      "off_topic": 165,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-20T13:46:42+00:00",
+          "language": "ar",
+          "raw_text": "تجربه جيده الموضوع خلص بسرعة و سهولة",
+          "sentiment": "positive",
+          "feedback_type": "compliment",
+          "product_area": "onboarding_general",
+          "severity": "none",
+          "claude_summary": "User praises the quick and easy onboarding process.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-14T16:03:31+00:00",
