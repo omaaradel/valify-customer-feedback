@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-07-22T08:58:09Z",
-  "total_rows": 4980,
+  "generated_at": "2026-07-23T08:58:08Z",
+  "total_rows": 5132,
   "clients": {
     "Amazon": {
-      "total": 4291,
-      "on_topic": 20,
-      "off_topic": 4271,
+      "total": 4440,
+      "on_topic": 21,
+      "off_topic": 4419,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-21T18:34:33+00:00",
+          "language": "en",
+          "raw_text": "I literally Live in the middle of nowhere and I just started using Amazon to order food. I ordered parts for stuff that we needed on the farm. And when I started ordering food, they limited me to ordering 10 to 20 things. At a time, I need more than that, so I had to place multiple orders. Well, they put my orders on hold. Including the stuff that was supposed to be delivered today and it's groceries I need today that I paid for i've literally sent my I.D in twice now to prove in the last three",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's orders were put on hold and they had to submit their ID twice to prove identity.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-21T03:26:10+00:00",
@@ -250,9 +262,9 @@
       ]
     },
     "Thndr": {
-      "total": 169,
+      "total": 177,
       "on_topic": 2,
-      "off_topic": 167,
+      "off_topic": 175,
       "reviews": [
         {
           "source": "play_store",
@@ -281,9 +293,9 @@
       ]
     },
     "Klivvr": {
-      "total": 100,
+      "total": 101,
       "on_topic": 7,
-      "off_topic": 93,
+      "off_topic": 94,
       "reviews": [
         {
           "source": "play_store",
@@ -372,9 +384,9 @@
       ]
     },
     "Rabbit": {
-      "total": 98,
+      "total": 99,
       "on_topic": 2,
-      "off_topic": 96,
+      "off_topic": 97,
       "reviews": [
         {
           "source": "play_store",
@@ -403,15 +415,15 @@
       ]
     },
     "ADIB": {
-      "total": 80,
+      "total": 81,
       "on_topic": 0,
-      "off_topic": 80,
+      "off_topic": 81,
       "reviews": []
     },
     "Midbank": {
-      "total": 168,
+      "total": 170,
       "on_topic": 3,
-      "off_topic": 165,
+      "off_topic": 167,
       "reviews": [
         {
           "source": "play_store",
