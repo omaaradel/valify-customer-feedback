@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-07-23T08:58:08Z",
-  "total_rows": 5132,
+  "generated_at": "2026-07-24T08:51:27Z",
+  "total_rows": 5267,
   "clients": {
     "Amazon": {
-      "total": 4440,
-      "on_topic": 21,
-      "off_topic": 4419,
+      "total": 4558,
+      "on_topic": 22,
+      "off_topic": 4536,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-22T14:42:41+00:00",
+          "language": "en",
+          "raw_text": "I always loved shopping on amazon. But yesterday I tried to buy something anf my order got canceled immediately due to suspicious activity, they requested to submit my ID, that has never happened, plus I've been trying to contact support and neither the chat nor the call services work on the app.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's order was canceled due to suspicious activity and they were requested to submit their ID.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-21T18:34:33+00:00",
@@ -262,9 +274,9 @@
       ]
     },
     "Thndr": {
-      "total": 177,
+      "total": 179,
       "on_topic": 2,
-      "off_topic": 175,
+      "off_topic": 177,
       "reviews": [
         {
           "source": "play_store",
@@ -293,9 +305,9 @@
       ]
     },
     "Klivvr": {
-      "total": 101,
+      "total": 102,
       "on_topic": 7,
-      "off_topic": 94,
+      "off_topic": 95,
       "reviews": [
         {
           "source": "play_store",
@@ -384,9 +396,9 @@
       ]
     },
     "Rabbit": {
-      "total": 99,
+      "total": 104,
       "on_topic": 2,
-      "off_topic": 97,
+      "off_topic": 102,
       "reviews": [
         {
           "source": "play_store",
@@ -421,10 +433,34 @@
       "reviews": []
     },
     "Midbank": {
-      "total": 170,
-      "on_topic": 3,
-      "off_topic": 167,
+      "total": 179,
+      "on_topic": 5,
+      "off_topic": 174,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-22T15:32:04+00:00",
+          "language": "ar",
+          "raw_text": "الابلكيشن ممتاز وسريع التفعيل بس الليمت قليل لحتيجاتي ارجو الزياده فيما بعد",
+          "sentiment": "positive",
+          "feedback_type": "compliment",
+          "product_area": "onboarding_general",
+          "severity": "none",
+          "claude_summary": "User praises the fast activation of the app but requests a higher credit limit.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-07-22T11:52:01+00:00",
+          "language": "ar",
+          "raw_text": "بسم الله ماشاء الله ماكنتش متوقع كدا خالص المبلغ كويس و الاجراءات سهلة جدا",
+          "sentiment": "positive",
+          "feedback_type": "compliment",
+          "product_area": "onboarding_general",
+          "severity": "none",
+          "claude_summary": "User praises the easy procedures and good credit limit amount.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-20T13:46:42+00:00",
