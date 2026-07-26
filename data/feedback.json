@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-07-25T08:34:26Z",
-  "total_rows": 5427,
+  "generated_at": "2026-07-26T08:52:15Z",
+  "total_rows": 5562,
   "clients": {
     "Amazon": {
-      "total": 4708,
-      "on_topic": 22,
-      "off_topic": 4686,
+      "total": 4827,
+      "on_topic": 23,
+      "off_topic": 4804,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-25T04:55:10+00:00",
+          "language": "en",
+          "raw_text": "Even though I'm using my card, it kicked me out of both my accounts and told me to show them lots of information about myself, but not letting me log into my accounts. They also keep sending me this email about how they know it's frustrating, but I have to retry it, and I have tried it about 10 times, but even if I don't use the card that's not working, I STILL CAN'T BUY ANYTHING! I'm also just a kid, and it's asking me for my social security number and my driver's license. I hate Amazon.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is blocked from buying and complains about being asked for a driver's license and SSN.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-22T14:42:41+00:00",
@@ -274,10 +286,22 @@
       ]
     },
     "Thndr": {
-      "total": 179,
-      "on_topic": 2,
-      "off_topic": 177,
+      "total": 183,
+      "on_topic": 3,
+      "off_topic": 180,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-24T13:46:47+00:00",
+          "language": "ar",
+          "raw_text": "التطبيق بطيء جدا في الفتح و التسجيل.. بياخد وقت طويل جدا",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "medium",
+          "claude_summary": "User complains that the app is very slow to open and complete the registration process.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-12T17:25:40+00:00",
@@ -305,9 +329,9 @@
       ]
     },
     "Klivvr": {
-      "total": 102,
+      "total": 103,
       "on_topic": 7,
-      "off_topic": 95,
+      "off_topic": 96,
       "reviews": [
         {
           "source": "play_store",
@@ -396,10 +420,22 @@
       ]
     },
     "Rabbit": {
-      "total": 104,
-      "on_topic": 2,
-      "off_topic": 102,
+      "total": 107,
+      "on_topic": 3,
+      "off_topic": 104,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-24T02:39:19+00:00",
+          "language": "ar",
+          "raw_text": "تجربه سيئه جدا ومش سلس عشان تبدأ رحله",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "high",
+          "claude_summary": "User reports a very bad and friction-filled experience when trying to start a ride.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-16T21:39:32+00:00",
@@ -427,16 +463,52 @@
       ]
     },
     "ADIB": {
-      "total": 81,
+      "total": 85,
       "on_topic": 0,
-      "off_topic": 81,
+      "off_topic": 85,
       "reviews": []
     },
     "Midbank": {
-      "total": 179,
-      "on_topic": 5,
-      "off_topic": 174,
+      "total": 192,
+      "on_topic": 8,
+      "off_topic": 184,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-24T19:06:32+00:00",
+          "language": "ar",
+          "raw_text": "ممتاز جدا و قدمت بالبطاقة بس اتوافق عليه ب 242 الف و تم تفعيل الحساب فى خلال 10 دقايق بالظبط",
+          "sentiment": "positive",
+          "feedback_type": "compliment",
+          "product_area": "nid_verification",
+          "severity": "none",
+          "claude_summary": "User praises the fast onboarding and ID verification, stating their account was activated in 10 minutes.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-07-23T19:19:45+00:00",
+          "language": "ar",
+          "raw_text": "تطبيق كويس جدا و بيقدم عادى لصف القوات المسلحة و الليمت ال بينزل عالى كمان فعلا تجربة ممتازة اوى",
+          "sentiment": "positive",
+          "feedback_type": "compliment",
+          "product_area": "onboarding_general",
+          "severity": "none",
+          "claude_summary": "User praises the smooth application process and high credit limit, specifically for armed forces members.",
+          "valify_scope": "unsure"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-07-23T19:15:50+00:00",
+          "language": "ar",
+          "raw_text": "اجراءات سهلة جدا و تسهيل خصوصا للقوات المسلحة بس لو الحد الائتمانى يكون اعلى من كدة لأن نزل ١٨ ألف بس",
+          "sentiment": "positive",
+          "feedback_type": "compliment",
+          "product_area": "onboarding_general",
+          "severity": "none",
+          "claude_summary": "User praises the very easy onboarding procedures but wishes for a higher credit limit.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-22T15:32:04+00:00",
@@ -531,9 +603,9 @@
       ]
     },
     "Khazna": {
-      "total": 38,
+      "total": 39,
       "on_topic": 1,
-      "off_topic": 37,
+      "off_topic": 38,
       "reviews": [
         {
           "source": "play_store",
