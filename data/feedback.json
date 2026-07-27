@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-07-26T08:52:15Z",
-  "total_rows": 5562,
+  "generated_at": "2026-07-27T10:15:26Z",
+  "total_rows": 5701,
   "clients": {
     "Amazon": {
-      "total": 4827,
-      "on_topic": 23,
-      "off_topic": 4804,
+      "total": 4940,
+      "on_topic": 24,
+      "off_topic": 4916,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-26T03:12:56+00:00",
+          "language": "en",
+          "raw_text": "Used to be good but now when you need to return a defective item they make you jump through hoops.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "medium",
+          "claude_summary": "User complains about friction and jumping through hoops when trying to return an item.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-25T04:55:10+00:00",
@@ -286,10 +298,22 @@
       ]
     },
     "Thndr": {
-      "total": 183,
-      "on_topic": 3,
-      "off_topic": 180,
+      "total": 188,
+      "on_topic": 4,
+      "off_topic": 184,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-25T17:31:55+00:00",
+          "language": "en",
+          "raw_text": "bad system installation and multiple verification",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "medium",
+          "claude_summary": "User complains about a bad system installation and having to undergo multiple verifications.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-24T13:46:47+00:00",
@@ -329,9 +353,9 @@
       ]
     },
     "Klivvr": {
-      "total": 103,
+      "total": 104,
       "on_topic": 7,
-      "off_topic": 96,
+      "off_topic": 97,
       "reviews": [
         {
           "source": "play_store",
@@ -420,9 +444,9 @@
       ]
     },
     "Rabbit": {
-      "total": 107,
+      "total": 108,
       "on_topic": 3,
-      "off_topic": 104,
+      "off_topic": 105,
       "reviews": [
         {
           "source": "play_store",
@@ -463,15 +487,15 @@
       ]
     },
     "ADIB": {
-      "total": 85,
+      "total": 86,
       "on_topic": 0,
-      "off_topic": 85,
+      "off_topic": 86,
       "reviews": []
     },
     "Midbank": {
-      "total": 192,
+      "total": 210,
       "on_topic": 8,
-      "off_topic": 184,
+      "off_topic": 202,
       "reviews": [
         {
           "source": "play_store",
