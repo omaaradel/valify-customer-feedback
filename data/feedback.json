@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-07-28T09:02:05Z",
-  "total_rows": 5848,
+  "generated_at": "2026-07-29T09:06:48Z",
+  "total_rows": 5996,
   "clients": {
     "Amazon": {
-      "total": 5075,
-      "on_topic": 24,
-      "off_topic": 5051,
+      "total": 5211,
+      "on_topic": 25,
+      "off_topic": 5186,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-28T02:59:28+00:00",
+          "language": "en",
+          "raw_text": "profile picture verification",
+          "sentiment": "neutral",
+          "feedback_type": "ux_friction",
+          "product_area": "facematch",
+          "severity": "medium",
+          "claude_summary": "User mentions profile picture verification.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-26T03:12:56+00:00",
@@ -298,9 +310,9 @@
       ]
     },
     "Thndr": {
-      "total": 190,
+      "total": 195,
       "on_topic": 4,
-      "off_topic": 186,
+      "off_topic": 191,
       "reviews": [
         {
           "source": "play_store",
@@ -444,9 +456,9 @@
       ]
     },
     "Rabbit": {
-      "total": 110,
+      "total": 112,
       "on_topic": 3,
-      "off_topic": 107,
+      "off_topic": 109,
       "reviews": [
         {
           "source": "play_store",
@@ -493,10 +505,34 @@
       "reviews": []
     },
     "Midbank": {
-      "total": 216,
-      "on_topic": 8,
-      "off_topic": 208,
+      "total": 221,
+      "on_topic": 10,
+      "off_topic": 211,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-27T18:24:06+00:00",
+          "language": "ar",
+          "raw_text": "تطبيق ممتاز وسهولة الاستخدام وسهولة فتح حساب و الموافقة فى اقل وقت ممكن فعلا تجربة ممتازة جدا",
+          "sentiment": "positive",
+          "feedback_type": "compliment",
+          "product_area": "onboarding_general",
+          "severity": "none",
+          "claude_summary": "User praises the app's ease of use and the quick account opening and approval process.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-07-27T14:18:59+00:00",
+          "language": "ar",
+          "raw_text": "موافقه بليمت كويس جدا و وقت قليل لتفعيل الاكونت",
+          "sentiment": "positive",
+          "feedback_type": "compliment",
+          "product_area": "onboarding_general",
+          "severity": "none",
+          "claude_summary": "User praises the quick account activation and receiving a good credit limit.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-24T19:06:32+00:00",
