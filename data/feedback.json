@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-07-29T09:06:48Z",
-  "total_rows": 5996,
+  "generated_at": "2026-07-30T08:56:31Z",
+  "total_rows": 6152,
   "clients": {
     "Amazon": {
-      "total": 5211,
-      "on_topic": 25,
-      "off_topic": 5186,
+      "total": 5357,
+      "on_topic": 26,
+      "off_topic": 5331,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-29T05:32:05+00:00",
+          "language": "en",
+          "raw_text": "Absolutely sucks, I cant even get back into my own account because they wont accept the documents I submitted. I bought a birthday gift for myself and it wont be arriving because they put my account on hold. Customer service doesn't help and their calls and chats never work for me. I will have to wait a while for a refund.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is locked out of their account because their submitted documents were not accepted.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-28T02:59:28+00:00",
@@ -365,9 +377,9 @@
       ]
     },
     "Klivvr": {
-      "total": 105,
+      "total": 106,
       "on_topic": 7,
-      "off_topic": 98,
+      "off_topic": 99,
       "reviews": [
         {
           "source": "play_store",
@@ -456,9 +468,9 @@
       ]
     },
     "Rabbit": {
-      "total": 112,
+      "total": 115,
       "on_topic": 3,
-      "off_topic": 109,
+      "off_topic": 112,
       "reviews": [
         {
           "source": "play_store",
@@ -505,10 +517,46 @@
       "reviews": []
     },
     "Midbank": {
-      "total": 221,
-      "on_topic": 10,
-      "off_topic": 211,
+      "total": 225,
+      "on_topic": 13,
+      "off_topic": 212,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-28T17:53:52+00:00",
+          "language": "ar",
+          "raw_text": "برنامج محترم و سريع جدا نزلت التطبيق و سجلت عليه و اشتريت فى نفس اليوم من غير اى تعقيد",
+          "sentiment": "positive",
+          "feedback_type": "compliment",
+          "product_area": "onboarding_general",
+          "severity": "none",
+          "claude_summary": "User praises the fast and uncomplicated registration and onboarding process.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-07-28T16:46:32+00:00",
+          "language": "ar",
+          "raw_text": "كويس جدا و سريع فى الموافقة و التفعيل خلال 12 دقائق بالظبط",
+          "sentiment": "positive",
+          "feedback_type": "compliment",
+          "product_area": "onboarding_general",
+          "severity": "none",
+          "claude_summary": "User praises the fast approval and activation process within 12 minutes.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-07-28T12:02:22+00:00",
+          "language": "ar",
+          "raw_text": "تجربه سيئة جدا جدا محدش يحمله وخدمه عملاء مش عارفين يتعاملوا مع المشكله ولا يحلوها وخدو البيانات الشخصية ولا استفدنا منهم ولا حذوفها من قاعده بيناتهم واجي اكلم خدمه العملاء لسبب الرفض يقولي منعرفش حتى التطبيق نفسه بيبعت رساله خطأ غير معروف كل مااضغط على حاجة",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User complains about rejection after submitting personal data, unhelpful customer support, and constant unknown errors.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-27T18:24:06+00:00",
