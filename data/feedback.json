@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-30T08:56:31Z",
-  "total_rows": 6152,
+  "generated_at": "2026-07-31T09:25:18Z",
+  "total_rows": 6277,
   "clients": {
     "Amazon": {
-      "total": 5357,
+      "total": 5469,
       "on_topic": 26,
-      "off_topic": 5331,
+      "off_topic": 5443,
       "reviews": [
         {
           "source": "play_store",
@@ -322,9 +322,9 @@
       ]
     },
     "Thndr": {
-      "total": 195,
+      "total": 199,
       "on_topic": 4,
-      "off_topic": 191,
+      "off_topic": 195,
       "reviews": [
         {
           "source": "play_store",
@@ -377,10 +377,22 @@
       ]
     },
     "Klivvr": {
-      "total": 106,
-      "on_topic": 7,
-      "off_topic": 99,
+      "total": 109,
+      "on_topic": 8,
+      "off_topic": 101,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-29T11:00:23+00:00",
+          "language": "ar",
+          "raw_text": "أزبل تطبيق على مستوى مصر لا انصح به انه احتيالى وبياخد بطاقتك الشخصيه وبيسربها من احد الموظفين الداخلين والله اعلم بيحصل ببطاقتك مصيبه ايه لا انصح بى تحميله من الاساس ولا التعامل به اللهم بلغت اللهم فا اشهد خطر التطبيق ده",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User strongly warns against using the app, claiming it is fraudulent and leaks national ID data.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-16T13:37:09+00:00",
@@ -468,9 +480,9 @@
       ]
     },
     "Rabbit": {
-      "total": 115,
+      "total": 118,
       "on_topic": 3,
-      "off_topic": 112,
+      "off_topic": 115,
       "reviews": [
         {
           "source": "play_store",
@@ -511,15 +523,15 @@
       ]
     },
     "ADIB": {
-      "total": 87,
+      "total": 89,
       "on_topic": 0,
-      "off_topic": 87,
+      "off_topic": 89,
       "reviews": []
     },
     "Midbank": {
-      "total": 225,
+      "total": 226,
       "on_topic": 13,
-      "off_topic": 212,
+      "off_topic": 213,
       "reviews": [
         {
           "source": "play_store",
