@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-07-31T09:25:18Z",
-  "total_rows": 6277,
+  "generated_at": "2026-08-01T08:46:09Z",
+  "total_rows": 6413,
   "clients": {
     "Amazon": {
-      "total": 5469,
-      "on_topic": 26,
-      "off_topic": 5443,
+      "total": 5587,
+      "on_topic": 27,
+      "off_topic": 5560,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-30T23:39:30+00:00",
+          "language": "en",
+          "raw_text": "Unfortunately, Although Amazon Egypt had started off well, it has now become very chaotic. I have stopped dealing with them entirely due to poor service and excessive delivery errors. Furthermore, none of my purchases came with invoices despite my repeated requests and their obligation to present a national ID card which are all tedious, bureaucratic headache!",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "high",
+          "claude_summary": "User complains about delivery errors and the tedious requirement to present a national ID card.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-29T05:32:05+00:00",
@@ -322,9 +334,9 @@
       ]
     },
     "Thndr": {
-      "total": 199,
+      "total": 200,
       "on_topic": 4,
-      "off_topic": 195,
+      "off_topic": 196,
       "reviews": [
         {
           "source": "play_store",
@@ -377,10 +389,22 @@
       ]
     },
     "Klivvr": {
-      "total": 109,
-      "on_topic": 8,
-      "off_topic": 101,
+      "total": 111,
+      "on_topic": 9,
+      "off_topic": 102,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-30T13:26:30+00:00",
+          "language": "ar",
+          "raw_text": "دخلت قبل كده واخدتو البطاقة وصور وفى الاخر اترفض",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User complains that they uploaded their ID card and photos but were ultimately rejected.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-29T11:00:23+00:00",
@@ -480,9 +504,9 @@
       ]
     },
     "Rabbit": {
-      "total": 118,
+      "total": 119,
       "on_topic": 3,
-      "off_topic": 115,
+      "off_topic": 116,
       "reviews": [
         {
           "source": "play_store",
@@ -523,16 +547,28 @@
       ]
     },
     "ADIB": {
-      "total": 89,
+      "total": 91,
       "on_topic": 0,
-      "off_topic": 89,
+      "off_topic": 91,
       "reviews": []
     },
     "Midbank": {
-      "total": 226,
-      "on_topic": 13,
-      "off_topic": 213,
+      "total": 236,
+      "on_topic": 14,
+      "off_topic": 222,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-30T14:55:32+00:00",
+          "language": "ar",
+          "raw_text": "سهولة فى الاستخدام و سرعة فى التسجيل و الموافقة",
+          "sentiment": "positive",
+          "feedback_type": "compliment",
+          "product_area": "onboarding_general",
+          "severity": "none",
+          "claude_summary": "User praises the ease of use and speed of registration and approval.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-28T17:53:52+00:00",
@@ -723,9 +759,9 @@
       ]
     },
     "Khazna": {
-      "total": 39,
+      "total": 41,
       "on_topic": 1,
-      "off_topic": 38,
+      "off_topic": 40,
       "reviews": [
         {
           "source": "play_store",
