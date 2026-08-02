@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-08-01T08:46:09Z",
-  "total_rows": 6413,
+  "generated_at": "2026-08-02T08:47:34Z",
+  "total_rows": 6579,
   "clients": {
     "Amazon": {
-      "total": 5587,
-      "on_topic": 27,
-      "off_topic": 5560,
+      "total": 5726,
+      "on_topic": 29,
+      "off_topic": 5697,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-07-31T14:54:32+00:00",
+          "language": "en",
+          "raw_text": "Amazon you seriously need to fix up! I can't access my account as I've changed my number, i tried everything to regain access and nothing is working, it tells you that you need to upload photo i.d but has you going round in circles! Why is there no contact number, totally nonsensical! Absolutely abysmal, shocking and a total and utter failure to me as a customer and also the fact that there is no live chat is ridiculous!",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is locked out of account and blocked by a broken photo ID upload verification loop.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-07-31T13:26:25+00:00",
+          "language": "ar",
+          "raw_text": "تطبيق زفت والحاجه بتيجي غير مطابقه للصورة كمان زودوا حكايه انه لازم اعمل اسكان البطاقه الشخصيه علشان ارجع الحاجه او استبدلها دي حاجه مزعجه جدا واضطريت ان انا اسيب فلوسى عندهم وامسح الابلكيشن",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User deleted the app and abandoned their money due to the national ID scan requirement for returns.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-30T23:39:30+00:00",
@@ -334,9 +358,9 @@
       ]
     },
     "Thndr": {
-      "total": 200,
+      "total": 205,
       "on_topic": 4,
-      "off_topic": 196,
+      "off_topic": 201,
       "reviews": [
         {
           "source": "play_store",
@@ -389,10 +413,22 @@
       ]
     },
     "Klivvr": {
-      "total": 111,
-      "on_topic": 9,
-      "off_topic": 102,
+      "total": 113,
+      "on_topic": 10,
+      "off_topic": 103,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-01T00:22:34+00:00",
+          "language": "ar",
+          "raw_text": "بعد عدة محاولات لم يقبل التسجيل يسحب اذونات من التليفون تجربة فاشلة",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User failed to register after multiple attempts and complains about phone permissions.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-30T13:26:30+00:00",
@@ -504,9 +540,9 @@
       ]
     },
     "Rabbit": {
-      "total": 119,
+      "total": 122,
       "on_topic": 3,
-      "off_topic": 116,
+      "off_topic": 119,
       "reviews": [
         {
           "source": "play_store",
@@ -547,15 +583,15 @@
       ]
     },
     "ADIB": {
-      "total": 91,
+      "total": 92,
       "on_topic": 0,
-      "off_topic": 91,
+      "off_topic": 92,
       "reviews": []
     },
     "Midbank": {
-      "total": 236,
+      "total": 248,
       "on_topic": 14,
-      "off_topic": 222,
+      "off_topic": 234,
       "reviews": [
         {
           "source": "play_store",
@@ -759,9 +795,9 @@
       ]
     },
     "Khazna": {
-      "total": 41,
+      "total": 45,
       "on_topic": 1,
-      "off_topic": 40,
+      "off_topic": 44,
       "reviews": [
         {
           "source": "play_store",
