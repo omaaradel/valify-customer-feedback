@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-08-02T08:47:34Z",
-  "total_rows": 6579,
+  "generated_at": "2026-08-03T10:13:43Z",
+  "total_rows": 6737,
   "clients": {
     "Amazon": {
-      "total": 5726,
-      "on_topic": 29,
-      "off_topic": 5697,
+      "total": 5875,
+      "on_topic": 31,
+      "off_topic": 5844,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-01T22:27:00+00:00",
+          "language": "en",
+          "raw_text": "horrible service horrible appeal system I lost 370$ in gift card I had to verify with ID I don't have one it was 50$ I had lost at first then few months later it was 320$ I wanted to get a laptop and a gift for my mom it was going to be special but Amazon with their horrible system trynna verify if your the person who placed the order I definitely recommend removing the verification system because I'm pissed they didn't give my money back and they deleted the account I wouldn't even rate this 1⭐",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's account was deleted and funds lost because they could not complete the required ID verification.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-08-01T14:23:46+00:00",
+          "language": "en",
+          "raw_text": "Age verification is utterly broken. Followed every instruction and it is still not enough. So sick of these big companies making ever worsening products.",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User reports that the age verification process is completely broken and fails despite following instructions.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-31T14:54:32+00:00",
@@ -358,9 +382,9 @@
       ]
     },
     "Thndr": {
-      "total": 205,
+      "total": 206,
       "on_topic": 4,
-      "off_topic": 201,
+      "off_topic": 202,
       "reviews": [
         {
           "source": "play_store",
@@ -413,9 +437,9 @@
       ]
     },
     "Klivvr": {
-      "total": 113,
+      "total": 114,
       "on_topic": 10,
-      "off_topic": 103,
+      "off_topic": 104,
       "reviews": [
         {
           "source": "play_store",
@@ -540,9 +564,9 @@
       ]
     },
     "Rabbit": {
-      "total": 122,
+      "total": 125,
       "on_topic": 3,
-      "off_topic": 119,
+      "off_topic": 122,
       "reviews": [
         {
           "source": "play_store",
@@ -583,15 +607,15 @@
       ]
     },
     "ADIB": {
-      "total": 92,
+      "total": 94,
       "on_topic": 0,
-      "off_topic": 92,
+      "off_topic": 94,
       "reviews": []
     },
     "Midbank": {
-      "total": 248,
+      "total": 249,
       "on_topic": 14,
-      "off_topic": 234,
+      "off_topic": 235,
       "reviews": [
         {
           "source": "play_store",
@@ -795,9 +819,9 @@
       ]
     },
     "Khazna": {
-      "total": 45,
+      "total": 46,
       "on_topic": 1,
-      "off_topic": 44,
+      "off_topic": 45,
       "reviews": [
         {
           "source": "play_store",
