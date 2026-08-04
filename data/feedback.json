@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-08-03T10:13:43Z",
-  "total_rows": 6737,
+  "generated_at": "2026-08-04T09:04:38Z",
+  "total_rows": 6868,
   "clients": {
     "Amazon": {
-      "total": 5875,
-      "on_topic": 31,
-      "off_topic": 5844,
+      "total": 5995,
+      "on_topic": 33,
+      "off_topic": 5962,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-03T05:42:37+00:00",
+          "language": "en",
+          "raw_text": "closed my account, couldn't verify my ID card",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's account was closed because they could not verify their ID card.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-08-02T17:30:22+00:00",
+          "language": "en",
+          "raw_text": "Since you have locked my account from me resetting my password while not on wifi, insisted I need to reset password and not recognized the password I set, I shall shop elsewhere. I am very frustrated that it insists I need to send my driver's license, which still will not be accurate because I changed marital status. Shopping should not involve the amount of paperwork I had to surrender to the government for getting on a plane. Sponsor ads vs. a specific item requested is never what people want",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is frustrated by account lockout and the requirement to submit a driver's license to shop.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-01T22:27:00+00:00",
@@ -382,9 +406,9 @@
       ]
     },
     "Thndr": {
-      "total": 206,
+      "total": 212,
       "on_topic": 4,
-      "off_topic": 202,
+      "off_topic": 208,
       "reviews": [
         {
           "source": "play_store",
@@ -613,9 +637,9 @@
       "reviews": []
     },
     "Midbank": {
-      "total": 249,
+      "total": 252,
       "on_topic": 14,
-      "off_topic": 235,
+      "off_topic": 238,
       "reviews": [
         {
           "source": "play_store",
@@ -819,9 +843,9 @@
       ]
     },
     "Khazna": {
-      "total": 46,
+      "total": 48,
       "on_topic": 1,
-      "off_topic": 45,
+      "off_topic": 47,
       "reviews": [
         {
           "source": "play_store",
