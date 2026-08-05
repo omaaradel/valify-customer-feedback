@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-04T09:04:38Z",
-  "total_rows": 6868,
+  "generated_at": "2026-08-05T09:04:08Z",
+  "total_rows": 7018,
   "clients": {
     "Amazon": {
-      "total": 5995,
+      "total": 6131,
       "on_topic": 33,
-      "off_topic": 5962,
+      "off_topic": 6098,
       "reviews": [
         {
           "source": "play_store",
@@ -406,10 +406,22 @@
       ]
     },
     "Thndr": {
-      "total": 212,
-      "on_topic": 4,
-      "off_topic": 208,
+      "total": 218,
+      "on_topic": 5,
+      "off_topic": 213,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-03T18:12:06+00:00",
+          "language": "ar",
+          "raw_text": "التطبيق بطيء جدا في التسجيل و طريقة تصوير المستندات ممكن تحسينها",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "medium",
+          "claude_summary": "User complains about slow registration and suggests improving the document scanning process.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-25T17:31:55+00:00",
@@ -461,9 +473,9 @@
       ]
     },
     "Klivvr": {
-      "total": 114,
+      "total": 115,
       "on_topic": 10,
-      "off_topic": 104,
+      "off_topic": 105,
       "reviews": [
         {
           "source": "play_store",
@@ -631,15 +643,15 @@
       ]
     },
     "ADIB": {
-      "total": 94,
+      "total": 95,
       "on_topic": 0,
-      "off_topic": 94,
+      "off_topic": 95,
       "reviews": []
     },
     "Midbank": {
-      "total": 252,
+      "total": 254,
       "on_topic": 14,
-      "off_topic": 238,
+      "off_topic": 240,
       "reviews": [
         {
           "source": "play_store",
@@ -843,9 +855,9 @@
       ]
     },
     "Khazna": {
-      "total": 48,
+      "total": 52,
       "on_topic": 1,
-      "off_topic": 47,
+      "off_topic": 51,
       "reviews": [
         {
           "source": "play_store",
