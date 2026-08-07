@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-06T09:03:15Z",
-  "total_rows": 7144,
+  "generated_at": "2026-08-07T07:51:32Z",
+  "total_rows": 7278,
   "clients": {
     "Amazon": {
-      "total": 6241,
+      "total": 6355,
       "on_topic": 33,
-      "off_topic": 6208,
+      "off_topic": 6322,
       "reviews": [
         {
           "source": "play_store",
@@ -406,9 +406,9 @@
       ]
     },
     "Thndr": {
-      "total": 222,
+      "total": 225,
       "on_topic": 5,
-      "off_topic": 217,
+      "off_topic": 220,
       "reviews": [
         {
           "source": "play_store",
@@ -473,10 +473,22 @@
       ]
     },
     "Klivvr": {
-      "total": 118,
-      "on_topic": 10,
-      "off_topic": 108,
+      "total": 120,
+      "on_topic": 11,
+      "off_topic": 109,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-05T23:29:58+00:00",
+          "language": "ar",
+          "raw_text": "تطبيق فاشل تقريبا نصابين او هواه جمع البيانات والداتا في كل الاحوال منصحش حد يحمله لو شفت تعليقي",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User objects to data collection requirements, calling the app a scam and advising against downloading.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-01T00:22:34+00:00",
@@ -600,9 +612,9 @@
       ]
     },
     "Rabbit": {
-      "total": 129,
+      "total": 132,
       "on_topic": 3,
-      "off_topic": 126,
+      "off_topic": 129,
       "reviews": [
         {
           "source": "play_store",
@@ -649,9 +661,9 @@
       "reviews": []
     },
     "Midbank": {
-      "total": 256,
+      "total": 257,
       "on_topic": 14,
-      "off_topic": 242,
+      "off_topic": 243,
       "reviews": [
         {
           "source": "play_store",
@@ -855,9 +867,9 @@
       ]
     },
     "Khazna": {
-      "total": 55,
+      "total": 56,
       "on_topic": 1,
-      "off_topic": 54,
+      "off_topic": 55,
       "reviews": [
         {
           "source": "play_store",
