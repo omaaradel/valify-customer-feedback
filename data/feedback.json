@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-08-07T07:51:32Z",
-  "total_rows": 7278,
+  "generated_at": "2026-08-08T07:19:21Z",
+  "total_rows": 7409,
   "clients": {
     "Amazon": {
-      "total": 6355,
-      "on_topic": 33,
-      "off_topic": 6322,
+      "total": 6477,
+      "on_topic": 35,
+      "off_topic": 6442,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-06T20:19:43+00:00",
+          "language": "en",
+          "raw_text": "The verify account for orders is bs they do not verify anything I'm closing my account they have nothing I want anymore. I can buy the same items elsewhere cheaper.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User is closing their account due to frustration with the order verification process.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-08-05T21:37:00+00:00",
+          "language": "en",
+          "raw_text": "Absolutely terrible experience. I placed an order and Amazon just cancelled it and asked me to verify my identity, decpite I was a customer since 2023 and had a long order history. Now my account is locked for a few days. Idiots",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User's order was cancelled and account locked after being asked to verify identity.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-03T05:42:37+00:00",
@@ -406,9 +430,9 @@
       ]
     },
     "Thndr": {
-      "total": 225,
+      "total": 231,
       "on_topic": 5,
-      "off_topic": 220,
+      "off_topic": 226,
       "reviews": [
         {
           "source": "play_store",
@@ -473,9 +497,9 @@
       ]
     },
     "Klivvr": {
-      "total": 120,
+      "total": 121,
       "on_topic": 11,
-      "off_topic": 109,
+      "off_topic": 110,
       "reviews": [
         {
           "source": "play_store",
@@ -612,9 +636,9 @@
       ]
     },
     "Rabbit": {
-      "total": 132,
+      "total": 135,
       "on_topic": 3,
-      "off_topic": 129,
+      "off_topic": 132,
       "reviews": [
         {
           "source": "play_store",
@@ -655,16 +679,28 @@
       ]
     },
     "ADIB": {
-      "total": 95,
+      "total": 96,
       "on_topic": 0,
-      "off_topic": 95,
+      "off_topic": 96,
       "reviews": []
     },
     "Midbank": {
-      "total": 257,
-      "on_topic": 14,
-      "off_topic": 243,
+      "total": 261,
+      "on_topic": 15,
+      "off_topic": 246,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-06T09:41:03+00:00",
+          "language": "ar",
+          "raw_text": "برنامج كداب وفاشل ما انصحش حد ينزله بيرفض ما بيكملش ثواني وبيرفض بدون اي اجراءات وبدون اي حاجه بيرفض برنامج فاشل بمعنى كلمه فاشل فاشل فاشل فاشل فاشل فاشل",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User complains that the app instantly rejects them during registration without any clear reason.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-30T14:55:32+00:00",
@@ -867,9 +903,9 @@
       ]
     },
     "Khazna": {
-      "total": 56,
+      "total": 57,
       "on_topic": 1,
-      "off_topic": 55,
+      "off_topic": 56,
       "reviews": [
         {
           "source": "play_store",
