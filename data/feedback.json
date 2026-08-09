@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-08-08T07:19:21Z",
-  "total_rows": 7409,
+  "generated_at": "2026-08-09T07:23:53Z",
+  "total_rows": 7578,
   "clients": {
     "Amazon": {
-      "total": 6477,
-      "on_topic": 35,
-      "off_topic": 6442,
+      "total": 6638,
+      "on_topic": 37,
+      "off_topic": 6601,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-07T16:09:47+00:00",
+          "language": "en",
+          "raw_text": "INFINITE SECURITY ALERT LOOP. The app refuses to dismiss the 'someone signed in' screen. The CLOSE BUTTON IS BROKEN. Fix your interface code! Every time app is touched, this is getting completely out of hand. Not to mention being asked to hand over photo ID and being locked out of my account for hours when I have 3 passkeys, the pinnacle of security!! (one for each device) I don't think so. Fix your infernal, ridiculous security loops.",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is stuck in an infinite security loop and objects to being asked for a photo ID.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-08-07T14:52:18+00:00",
+          "language": "en",
+          "raw_text": "I'm having one heck of a problem signing in. The app is stating I need additional documents to make sure it's me who's signing in. And because their is suspicious activity going on aka somebody else is trying to buy something off of my card.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is unable to sign in because the app requires additional documents to verify their identity due to suspicious activity.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-06T20:19:43+00:00",
@@ -430,9 +454,9 @@
       ]
     },
     "Thndr": {
-      "total": 231,
+      "total": 233,
       "on_topic": 5,
-      "off_topic": 226,
+      "off_topic": 228,
       "reviews": [
         {
           "source": "play_store",
@@ -497,9 +521,9 @@
       ]
     },
     "Klivvr": {
-      "total": 121,
+      "total": 124,
       "on_topic": 11,
-      "off_topic": 110,
+      "off_topic": 113,
       "reviews": [
         {
           "source": "play_store",
@@ -636,9 +660,9 @@
       ]
     },
     "Rabbit": {
-      "total": 135,
+      "total": 137,
       "on_topic": 3,
-      "off_topic": 132,
+      "off_topic": 134,
       "reviews": [
         {
           "source": "play_store",
@@ -872,10 +896,22 @@
       ]
     },
     "Raya": {
-      "total": 3,
-      "on_topic": 2,
+      "total": 4,
+      "on_topic": 3,
       "off_topic": 1,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-07T13:59:26+00:00",
+          "language": "ar",
+          "raw_text": "زي الزفت مش قابل مسح الصورة و مش عارف اسجل فالتطبيق همسحه مالوش لازمه",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is unable to register because the app fails to scan/accept the image, leading them to delete the app.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-05-13T22:00:30+00:00",
