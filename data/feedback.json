@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-08-09T07:23:53Z",
-  "total_rows": 7578,
+  "generated_at": "2026-08-10T08:10:51Z",
+  "total_rows": 7741,
   "clients": {
     "Amazon": {
-      "total": 6638,
-      "on_topic": 37,
-      "off_topic": 6601,
+      "total": 6790,
+      "on_topic": 38,
+      "off_topic": 6752,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-09T01:47:43+00:00",
+          "language": "ar",
+          "raw_text": "بيطلبوا معلومات شخصيه زي البطاقه بدون داعي ف الاستبدال والاسترجاع",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "medium",
+          "claude_summary": "User objects to being asked for personal ID card information during the return and replacement process.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-07T16:09:47+00:00",
@@ -454,9 +466,9 @@
       ]
     },
     "Thndr": {
-      "total": 233,
+      "total": 234,
       "on_topic": 5,
-      "off_topic": 228,
+      "off_topic": 229,
       "reviews": [
         {
           "source": "play_store",
@@ -521,10 +533,22 @@
       ]
     },
     "Klivvr": {
-      "total": 124,
-      "on_topic": 11,
-      "off_topic": 113,
+      "total": 127,
+      "on_topic": 12,
+      "off_topic": 115,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-08T13:49:57+00:00",
+          "language": "ar",
+          "raw_text": "كذب في كذب كل اما اقدم يترفض 😡",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User complains about their application being repeatedly rejected during onboarding.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-05T23:29:58+00:00",
@@ -660,9 +684,9 @@
       ]
     },
     "Rabbit": {
-      "total": 137,
+      "total": 143,
       "on_topic": 3,
-      "off_topic": 134,
+      "off_topic": 140,
       "reviews": [
         {
           "source": "play_store",
@@ -709,9 +733,9 @@
       "reviews": []
     },
     "Midbank": {
-      "total": 261,
+      "total": 262,
       "on_topic": 15,
-      "off_topic": 246,
+      "off_topic": 247,
       "reviews": [
         {
           "source": "play_store",
