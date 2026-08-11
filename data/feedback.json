@@ -1,12 +1,48 @@
 {
-  "generated_at": "2026-08-10T08:10:51Z",
-  "total_rows": 7741,
+  "generated_at": "2026-08-11T07:33:24Z",
+  "total_rows": 7883,
   "clients": {
     "Amazon": {
-      "total": 6790,
-      "on_topic": 38,
-      "off_topic": 6752,
+      "total": 6927,
+      "on_topic": 41,
+      "off_topic": 6886,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-10T01:20:35+00:00",
+          "language": "en",
+          "raw_text": "I'm a paid subscriber who orders frequently. lately, my orders are late, missing, and handled(ring doorbell or do not leave)is specified. Today, my order was received (no doorbell). however, it wasn't accurate containing only 4 pk of a 4/12 pk order. it's upsetting because they had the nerve to imply that I was scamming and needed to provide ID. THIS REQUIRES ME THE RESPONSIBILITY OF CONTACTING THEM IN 3 DAYS to assure that THEY RECIEVED IT! WHAT!!!! I'M WAITING ON ADVICE from Bono!",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "high",
+          "claude_summary": "User is frustrated by late/missing orders and Amazon requiring them to provide ID to resolve the issue.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-08-09T16:15:03+00:00",
+          "language": "en",
+          "raw_text": "Getting asked to verify my age when I'm 38 years old.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "medium",
+          "claude_summary": "User is frustrated by being asked to verify their age despite being 38 years old.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-08-09T10:11:21+00:00",
+          "language": "en",
+          "raw_text": "I like to use Amazon India for gifting our Kith and Keens but the eKYC would not be activated by laptop only through SIM slot and with the location data. the worst part is I have contacted the Amazon help for this and Preethi suggested to me that I should try with someone in India to get this eKYC verification which is a blunder because of the first system condition of the API funnel. Amazon wants to promote Amazon Pay, but it cannot do it without this verification with VPN. Very complicated.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User experiences severe friction with Amazon Pay eKYC, which requires a SIM slot and location data, blocking remote activation.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-09T01:47:43+00:00",
@@ -466,9 +502,9 @@
       ]
     },
     "Thndr": {
-      "total": 234,
+      "total": 238,
       "on_topic": 5,
-      "off_topic": 229,
+      "off_topic": 233,
       "reviews": [
         {
           "source": "play_store",
@@ -733,9 +769,9 @@
       "reviews": []
     },
     "Midbank": {
-      "total": 262,
+      "total": 263,
       "on_topic": 15,
-      "off_topic": 247,
+      "off_topic": 248,
       "reviews": [
         {
           "source": "play_store",
