@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-08-11T07:33:24Z",
-  "total_rows": 7883,
+  "generated_at": "2026-08-12T07:57:55Z",
+  "total_rows": 8050,
   "clients": {
     "Amazon": {
-      "total": 6927,
-      "on_topic": 41,
-      "off_topic": 6886,
+      "total": 7082,
+      "on_topic": 42,
+      "off_topic": 7040,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-11T01:14:38+00:00",
+          "language": "en",
+          "raw_text": "horrible servicio, quize comprar por primera vez una nintendo switch 2 y me suspendieron la cuenta, mande toda la informacion requerida pero nunca fue suficiente para ellos, horrible",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User's account was suspended on first purchase and required information was rejected.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-10T01:20:35+00:00",
@@ -502,9 +514,9 @@
       ]
     },
     "Thndr": {
-      "total": 238,
+      "total": 243,
       "on_topic": 5,
-      "off_topic": 233,
+      "off_topic": 238,
       "reviews": [
         {
           "source": "play_store",
@@ -569,10 +581,22 @@
       ]
     },
     "Klivvr": {
-      "total": 127,
-      "on_topic": 12,
-      "off_topic": 115,
+      "total": 129,
+      "on_topic": 13,
+      "off_topic": 116,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-10T22:52:40+00:00",
+          "language": "ar",
+          "raw_text": "اسوء تجربه منصحش حد ان يقدم على لمت او يشترك . بيسحبو كمية بيانات كتيرة مش عنك بس اجراءات تعقدية مقارنة باى شركة قسط تانية من اسوء التجارب ممكن متكملش اصلا التقديم وتمشى وكذا حد عمل كدا قصادى",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User complains about complex onboarding procedures and excessive data collection, leading to abandonment.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-08T13:49:57+00:00",
@@ -720,9 +744,9 @@
       ]
     },
     "Rabbit": {
-      "total": 143,
+      "total": 145,
       "on_topic": 3,
-      "off_topic": 140,
+      "off_topic": 142,
       "reviews": [
         {
           "source": "play_store",
@@ -763,9 +787,9 @@
       ]
     },
     "ADIB": {
-      "total": 96,
+      "total": 97,
       "on_topic": 0,
-      "off_topic": 96,
+      "off_topic": 97,
       "reviews": []
     },
     "Midbank": {
@@ -956,9 +980,9 @@
       ]
     },
     "Raya": {
-      "total": 4,
+      "total": 6,
       "on_topic": 3,
-      "off_topic": 1,
+      "off_topic": 3,
       "reviews": [
         {
           "source": "play_store",
