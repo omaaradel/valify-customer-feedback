@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-08-14T07:56:07Z",
-  "total_rows": 8354,
+  "generated_at": "2026-08-15T07:11:03Z",
+  "total_rows": 8478,
   "clients": {
     "Amazon": {
-      "total": 7222,
-      "on_topic": 43,
-      "off_topic": 7179,
+      "total": 7467,
+      "on_topic": 44,
+      "off_topic": 7423,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-13T14:32:04+00:00",
+          "language": "ar",
+          "raw_text": "سيئ جدا و فعمليات الارجاع بقي فيه تحديث انك لازم تحط بيانات بطاقتك غير آمن",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "high",
+          "claude_summary": "User objects to the new requirement of providing national ID details for returns, calling it unsafe.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-11T10:53:21+00:00",
@@ -526,9 +538,9 @@
       ]
     },
     "Thndr": {
-      "total": 243,
+      "total": 262,
       "on_topic": 5,
-      "off_topic": 238,
+      "off_topic": 257,
       "reviews": [
         {
           "source": "play_store",
@@ -593,9 +605,9 @@
       ]
     },
     "Klivvr": {
-      "total": 129,
+      "total": 133,
       "on_topic": 13,
-      "off_topic": 116,
+      "off_topic": 120,
       "reviews": [
         {
           "source": "play_store",
@@ -756,10 +768,22 @@
       ]
     },
     "Rabbit": {
-      "total": 145,
-      "on_topic": 3,
-      "off_topic": 142,
+      "total": 151,
+      "on_topic": 4,
+      "off_topic": 147,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-13T10:18:17+00:00",
+          "language": "ar",
+          "raw_text": "البرنامج مش راضي يسجل اى ارقام تليفون ودائما يظهر رسالة فشل فى الشبكة",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "App fails to register phone numbers during signup due to a network error.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-24T02:39:19+00:00",
@@ -799,15 +823,15 @@
       ]
     },
     "ADIB": {
-      "total": 97,
+      "total": 102,
       "on_topic": 0,
-      "off_topic": 97,
+      "off_topic": 102,
       "reviews": []
     },
     "Midbank": {
-      "total": 263,
+      "total": 269,
       "on_topic": 15,
-      "off_topic": 248,
+      "off_topic": 254,
       "reviews": [
         {
           "source": "play_store",
@@ -1035,9 +1059,9 @@
       ]
     },
     "Khazna": {
-      "total": 57,
+      "total": 59,
       "on_topic": 1,
-      "off_topic": 56,
+      "off_topic": 58,
       "reviews": [
         {
           "source": "play_store",
