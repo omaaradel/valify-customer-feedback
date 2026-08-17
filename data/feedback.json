@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-08-16T07:08:51Z",
-  "total_rows": 8595,
+  "generated_at": "2026-08-17T07:23:40Z",
+  "total_rows": 8728,
   "clients": {
     "Amazon": {
-      "total": 7567,
-      "on_topic": 44,
-      "off_topic": 7523,
+      "total": 7703,
+      "on_topic": 45,
+      "off_topic": 7658,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-15T19:57:50+00:00",
+          "language": "en",
+          "raw_text": "couldn't make a new account",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User was unable to create a new account.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-13T14:32:04+00:00",
@@ -538,10 +550,22 @@
       ]
     },
     "Thndr": {
-      "total": 262,
-      "on_topic": 5,
-      "off_topic": 257,
+      "total": 266,
+      "on_topic": 6,
+      "off_topic": 260,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-14T17:21:55+00:00",
+          "language": "ar",
+          "raw_text": "تجره قاسية ومرهقة لعدم قبول فتح الحساب الا ببطاقة الرقم القومي وليس بجواز السفر حيث انني خارج مصر",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is unable to open an account from abroad because the app only accepts national ID and not passports.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-03T18:12:06+00:00",
@@ -605,9 +629,9 @@
       ]
     },
     "Klivvr": {
-      "total": 133,
+      "total": 134,
       "on_topic": 13,
-      "off_topic": 120,
+      "off_topic": 121,
       "reviews": [
         {
           "source": "play_store",
@@ -768,9 +792,9 @@
       ]
     },
     "Rabbit": {
-      "total": 151,
+      "total": 156,
       "on_topic": 4,
-      "off_topic": 147,
+      "off_topic": 152,
       "reviews": [
         {
           "source": "play_store",
@@ -823,15 +847,15 @@
       ]
     },
     "ADIB": {
-      "total": 102,
+      "total": 103,
       "on_topic": 0,
-      "off_topic": 102,
+      "off_topic": 103,
       "reviews": []
     },
     "Midbank": {
-      "total": 269,
+      "total": 271,
       "on_topic": 15,
-      "off_topic": 254,
+      "off_topic": 256,
       "reviews": [
         {
           "source": "play_store",
@@ -1059,9 +1083,9 @@
       ]
     },
     "Khazna": {
-      "total": 59,
+      "total": 60,
       "on_topic": 1,
-      "off_topic": 58,
+      "off_topic": 59,
       "reviews": [
         {
           "source": "play_store",
