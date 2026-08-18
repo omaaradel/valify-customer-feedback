@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-17T07:23:40Z",
-  "total_rows": 8728,
+  "generated_at": "2026-08-18T07:11:56Z",
+  "total_rows": 8870,
   "clients": {
     "Amazon": {
-      "total": 7703,
+      "total": 7831,
       "on_topic": 45,
-      "off_topic": 7658,
+      "off_topic": 7786,
       "reviews": [
         {
           "source": "play_store",
@@ -550,9 +550,9 @@
       ]
     },
     "Thndr": {
-      "total": 266,
+      "total": 268,
       "on_topic": 6,
-      "off_topic": 260,
+      "off_topic": 262,
       "reviews": [
         {
           "source": "play_store",
@@ -792,9 +792,9 @@
       ]
     },
     "Rabbit": {
-      "total": 156,
+      "total": 157,
       "on_topic": 4,
-      "off_topic": 152,
+      "off_topic": 153,
       "reviews": [
         {
           "source": "play_store",
@@ -853,9 +853,9 @@
       "reviews": []
     },
     "Midbank": {
-      "total": 271,
+      "total": 272,
       "on_topic": 15,
-      "off_topic": 256,
+      "off_topic": 257,
       "reviews": [
         {
           "source": "play_store",
