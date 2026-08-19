@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-18T07:11:56Z",
-  "total_rows": 8870,
+  "generated_at": "2026-08-19T07:10:03Z",
+  "total_rows": 8974,
   "clients": {
     "Amazon": {
-      "total": 7831,
+      "total": 7923,
       "on_topic": 45,
-      "off_topic": 7786,
+      "off_topic": 7878,
       "reviews": [
         {
           "source": "play_store",
@@ -550,10 +550,34 @@
       ]
     },
     "Thndr": {
-      "total": 268,
-      "on_topic": 6,
-      "off_topic": 262,
+      "total": 277,
+      "on_topic": 8,
+      "off_topic": 269,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-17T19:19:32+00:00",
+          "language": "ar",
+          "raw_text": "تجربة سيئه جدا خدمة عملاء صفر او تحت الصفر عندكم مشكله في رفع البطاقه رفعت بطاقتي اكتر من ١٠ مرات وبتترفض ومعندهمش حل ولا في تواصل غير بعد ساعات او ايام لا انصح احد بتحميله",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's national ID card upload failed and was rejected over ten times during onboarding.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-08-16T11:06:37+00:00",
+          "language": "en",
+          "raw_text": "i am not able to verify my mobile number...does not send verfifcation sms also no short number for support or inquiry",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User is unable to verify their mobile number because the verification SMS is not sent.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-14T17:21:55+00:00",
@@ -629,10 +653,22 @@
       ]
     },
     "Klivvr": {
-      "total": 134,
-      "on_topic": 13,
-      "off_topic": 121,
+      "total": 138,
+      "on_topic": 14,
+      "off_topic": 124,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-16T13:17:31+00:00",
+          "language": "ar",
+          "raw_text": "رفض ليه مش عارف لا انصح بالتحميل",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User is frustrated after being rejected without knowing the reason and advises against downloading.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-10T22:52:40+00:00",
@@ -792,9 +828,9 @@
       ]
     },
     "Rabbit": {
-      "total": 157,
+      "total": 163,
       "on_topic": 4,
-      "off_topic": 153,
+      "off_topic": 159,
       "reviews": [
         {
           "source": "play_store",
@@ -1083,9 +1119,9 @@
       ]
     },
     "Khazna": {
-      "total": 60,
+      "total": 63,
       "on_topic": 1,
-      "off_topic": 59,
+      "off_topic": 62,
       "reviews": [
         {
           "source": "play_store",
