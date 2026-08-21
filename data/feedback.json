@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-20T07:12:03Z",
-  "total_rows": 9108,
+  "generated_at": "2026-08-21T07:13:18Z",
+  "total_rows": 9227,
   "clients": {
     "Amazon": {
-      "total": 8048,
+      "total": 8164,
       "on_topic": 45,
-      "off_topic": 8003,
+      "off_topic": 8119,
       "reviews": [
         {
           "source": "play_store",
@@ -828,9 +828,9 @@
       ]
     },
     "Rabbit": {
-      "total": 165,
+      "total": 166,
       "on_topic": 4,
-      "off_topic": 161,
+      "off_topic": 162,
       "reviews": [
         {
           "source": "play_store",
@@ -883,15 +883,15 @@
       ]
     },
     "ADIB": {
-      "total": 104,
+      "total": 105,
       "on_topic": 0,
-      "off_topic": 104,
+      "off_topic": 105,
       "reviews": []
     },
     "Midbank": {
-      "total": 272,
+      "total": 273,
       "on_topic": 15,
-      "off_topic": 257,
+      "off_topic": 258,
       "reviews": [
         {
           "source": "play_store",
