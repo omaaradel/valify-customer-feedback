@@ -1,4 +1,5 @@
 import jwt from 'jsonwebtoken';
+import { logDashboardVisit } from '../_lib/sheetsAppend.js';
 
 const SESSION_COOKIE_NAME = 'session_token';
 
@@ -15,7 +16,7 @@ function parseCookies(header) {
   return cookies;
 }
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
   if (req.method !== 'GET') {
     res.status(405).json({ authenticated: false });
     return;
@@ -29,10 +30,19 @@ export default function handler(req, res) {
     return;
   }
 
+  let payload;
   try {
-    const payload = jwt.verify(token, process.env.SESSION_SECRET);
-    res.status(200).json({ authenticated: true, email: payload.email });
+    payload = jwt.verify(token, process.env.SESSION_SECRET);
   } catch {
     res.status(401).json({ authenticated: false });
+    return;
   }
+
+  try {
+    await logDashboardVisit(payload.email, req.headers['user-agent']);
+  } catch (err) {
+    console.error('[dashboard-visits] failed to log visit:', err.message);
+  }
+
+  res.status(200).json({ authenticated: true, email: payload.email });
 }
