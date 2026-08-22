@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-21T07:13:18Z",
-  "total_rows": 9227,
+  "generated_at": "2026-08-22T07:05:52Z",
+  "total_rows": 9346,
   "clients": {
     "Amazon": {
-      "total": 8164,
+      "total": 8272,
       "on_topic": 45,
-      "off_topic": 8119,
+      "off_topic": 8227,
       "reviews": [
         {
           "source": "play_store",
@@ -550,9 +550,9 @@
       ]
     },
     "Thndr": {
-      "total": 280,
+      "total": 286,
       "on_topic": 8,
-      "off_topic": 272,
+      "off_topic": 278,
       "reviews": [
         {
           "source": "play_store",
@@ -653,10 +653,22 @@
       ]
     },
     "Klivvr": {
-      "total": 140,
-      "on_topic": 14,
-      "off_topic": 126,
+      "total": 142,
+      "on_topic": 15,
+      "off_topic": 127,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-20T23:11:46+00:00",
+          "language": "ar",
+          "raw_text": "اوعى حد يستخدم التطبيق الزباله ده بيجمع بيانات فقط لا غير هتقدم هتترفض تلقائى",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User warns others not to use the app, claiming it only collects data and automatically rejects applications.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-16T13:17:31+00:00",
@@ -828,9 +840,9 @@
       ]
     },
     "Rabbit": {
-      "total": 166,
+      "total": 168,
       "on_topic": 4,
-      "off_topic": 162,
+      "off_topic": 164,
       "reviews": [
         {
           "source": "play_store",
@@ -883,9 +895,9 @@
       ]
     },
     "ADIB": {
-      "total": 105,
+      "total": 106,
       "on_topic": 0,
-      "off_topic": 105,
+      "off_topic": 106,
       "reviews": []
     },
     "Midbank": {
