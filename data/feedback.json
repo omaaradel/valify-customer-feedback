@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-22T07:05:52Z",
-  "total_rows": 9346,
+  "generated_at": "2026-08-23T07:07:04Z",
+  "total_rows": 9480,
   "clients": {
     "Amazon": {
-      "total": 8272,
+      "total": 8395,
       "on_topic": 45,
-      "off_topic": 8227,
+      "off_topic": 8350,
       "reviews": [
         {
           "source": "play_store",
@@ -550,9 +550,9 @@
       ]
     },
     "Thndr": {
-      "total": 286,
+      "total": 288,
       "on_topic": 8,
-      "off_topic": 278,
+      "off_topic": 280,
       "reviews": [
         {
           "source": "play_store",
@@ -653,9 +653,9 @@
       ]
     },
     "Klivvr": {
-      "total": 142,
+      "total": 144,
       "on_topic": 15,
-      "off_topic": 127,
+      "off_topic": 129,
       "reviews": [
         {
           "source": "play_store",
@@ -840,9 +840,9 @@
       ]
     },
     "Rabbit": {
-      "total": 168,
+      "total": 173,
       "on_topic": 4,
-      "off_topic": 164,
+      "off_topic": 169,
       "reviews": [
         {
           "source": "play_store",
@@ -895,9 +895,9 @@
       ]
     },
     "ADIB": {
-      "total": 106,
+      "total": 107,
       "on_topic": 0,
-      "off_topic": 106,
+      "off_topic": 107,
       "reviews": []
     },
     "Midbank": {
@@ -1131,10 +1131,22 @@
       ]
     },
     "Khazna": {
-      "total": 64,
-      "on_topic": 1,
+      "total": 65,
+      "on_topic": 2,
       "off_topic": 63,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-22T05:52:04+00:00",
+          "language": "ar",
+          "raw_text": "مش عارف اعمل تسجيل حساب",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User is unable to register or create an account.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-07-12T15:08:03+00:00",
