@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-08-23T07:07:04Z",
-  "total_rows": 9480,
+  "generated_at": "2026-08-24T07:26:29Z",
+  "total_rows": 9609,
   "clients": {
     "Amazon": {
-      "total": 8395,
-      "on_topic": 45,
-      "off_topic": 8350,
+      "total": 8520,
+      "on_topic": 46,
+      "off_topic": 8474,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-22T21:58:47+00:00",
+          "language": "en",
+          "raw_text": "is it normal for them to ask for face verification for \"unusual activity\" for cancelling an order which I then ended up repurchasing?",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "facematch",
+          "severity": "medium",
+          "claude_summary": "User questions the necessity of face verification for cancelling an order.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-15T19:57:50+00:00",
@@ -550,9 +562,9 @@
       ]
     },
     "Thndr": {
-      "total": 288,
+      "total": 289,
       "on_topic": 8,
-      "off_topic": 280,
+      "off_topic": 281,
       "reviews": [
         {
           "source": "play_store",
@@ -840,9 +852,9 @@
       ]
     },
     "Rabbit": {
-      "total": 173,
+      "total": 174,
       "on_topic": 4,
-      "off_topic": 169,
+      "off_topic": 170,
       "reviews": [
         {
           "source": "play_store",
@@ -895,9 +907,9 @@
       ]
     },
     "ADIB": {
-      "total": 107,
+      "total": 108,
       "on_topic": 0,
-      "off_topic": 107,
+      "off_topic": 108,
       "reviews": []
     },
     "Midbank": {
@@ -1131,9 +1143,9 @@
       ]
     },
     "Khazna": {
-      "total": 65,
+      "total": 66,
       "on_topic": 2,
-      "off_topic": 63,
+      "off_topic": 64,
       "reviews": [
         {
           "source": "play_store",
