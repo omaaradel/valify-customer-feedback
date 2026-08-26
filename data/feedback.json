@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-08-25T07:13:11Z",
-  "total_rows": 9736,
+  "generated_at": "2026-08-26T07:17:48Z",
+  "total_rows": 9870,
   "clients": {
     "Amazon": {
-      "total": 8520,
-      "on_topic": 46,
-      "off_topic": 8474,
+      "total": 8689,
+      "on_topic": 48,
+      "off_topic": 8641,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-24T20:09:07+00:00",
+          "language": "ar",
+          "raw_text": "كنت اقوم بالاعتماد كل شهر على التطبيق لتوفير احتياجاتى الشهرية و لكن مؤخرا تكررت مشاكل كثيرة فى الطلبات (طلب مفتوح او تالف او غير مغلف) و عند قيامى بتقديم الشكوى كان فى البداية يتم التعامل باحترافية مع الشكاوى و سرعة حل المشكلة الى ان الموضوع بدأ يتدنى فى التعامل و آخرهم اليوم عندما قمت بطلب شراء باودر تعطى تكلفته ال ٤ الاف جنيها الى انهم قاموا بالغاء الطلب دون موافقتى و قاموا بعملية استرداد للاموال بدون علمى و عند قدامى بالبحث فى البريد الخاص بى وجدت انهم قاموا بارسال طلب لتحديث بيانات البطاقه",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "medium",
+          "claude_summary": "User mentions receiving a request to update ID card data following order cancellations.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-08-23T19:52:17+00:00",
+          "language": "en",
+          "raw_text": "Return process has become impossible with your so-called updates to the app. you want to integrate AI into everything so you have it asking following questions which there's no way to answer. Brings the process to a screeching halt. I tend to buy quite a bit off Amazon, both business and personal, but I'm not spending another dollar here until you get it together. and now you're making people upload pictures. I need to buy a replacement for the returned item, and the Walmart app worked fine.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is blocked during the return process due to frustrating AI questions and photo upload requirements.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-22T21:58:47+00:00",
@@ -562,9 +586,9 @@
       ]
     },
     "Thndr": {
-      "total": 289,
+      "total": 294,
       "on_topic": 8,
-      "off_topic": 281,
+      "off_topic": 286,
       "reviews": [
         {
           "source": "play_store",
@@ -665,10 +689,22 @@
       ]
     },
     "Klivvr": {
-      "total": 144,
-      "on_topic": 15,
+      "total": 145,
+      "on_topic": 16,
       "off_topic": 129,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-23T23:45:28+00:00",
+          "language": "ar",
+          "raw_text": "لا يستقبل الكود ويكتب تصحيح الكود",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User is unable to receive the verification code and gets an error to correct the code.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-20T23:11:46+00:00",
@@ -852,9 +888,9 @@
       ]
     },
     "Rabbit": {
-      "total": 174,
+      "total": 177,
       "on_topic": 4,
-      "off_topic": 170,
+      "off_topic": 173,
       "reviews": [
         {
           "source": "play_store",
@@ -1143,9 +1179,9 @@
       ]
     },
     "Khazna": {
-      "total": 66,
+      "total": 67,
       "on_topic": 2,
-      "off_topic": 64,
+      "off_topic": 65,
       "reviews": [
         {
           "source": "play_store",
