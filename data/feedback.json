@@ -1,12 +1,48 @@
 {
-  "generated_at": "2026-08-27T17:50:18Z",
-  "total_rows": 10022,
+  "generated_at": "2026-08-28T18:46:16Z",
+  "total_rows": 10161,
   "clients": {
     "Amazon": {
-      "total": 8809,
-      "on_topic": 50,
-      "off_topic": 8759,
+      "total": 8989,
+      "on_topic": 53,
+      "off_topic": 8936,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-27T13:14:23+00:00",
+          "language": "en",
+          "raw_text": "I haven't shopped with Amazon in some time, but recently created a new account and tried to place a small order. Well, they gave me this huge run-around with regards to \"verifying\" my payment method. it was a run-of-the-mill Visa bank card, but they treated me like a criminal trying to break into Fort Knox. After several attempts at uploading the requested documents, I was told my account had been closed! Unbelievable. Buh-bye, Amazon, nice knowing ya! There are plenty of other online retailers",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's account was closed after multiple failed attempts to upload requested documents for verification.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-08-27T00:12:31+00:00",
+          "language": "en",
+          "raw_text": "2FA keeps failing. *Not* my fault, I successfully completed 2 sets of pics, it said I succeded, then demanded I do 2 more, same game 4 times with 3 app errors (*not* my incorrect choices, error in the app). Finally gave up. Now it demands my gov't ID to get me back in. I DID NOTHING to make them doubt my identity. It's their stupid app that can't get it right. Why shd I give up my ID to another monster corp when they can afford to pay people to make their tech work right????",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is blocked by failing photo verification and objects to the subsequent demand for government ID.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-08-26T05:40:21+00:00",
+          "language": "en",
+          "raw_text": "got my acc on hold for sixth time! already tried to upload supporting documents to remove the hold on my acc but nothing happened. suck",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's account remains on hold despite attempting to upload supporting documents.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-24T20:09:07+00:00",
@@ -610,9 +646,9 @@
       ]
     },
     "Thndr": {
-      "total": 297,
+      "total": 303,
       "on_topic": 8,
-      "off_topic": 289,
+      "off_topic": 295,
       "reviews": [
         {
           "source": "play_store",
@@ -713,9 +749,9 @@
       ]
     },
     "Klivvr": {
-      "total": 146,
+      "total": 148,
       "on_topic": 16,
-      "off_topic": 130,
+      "off_topic": 132,
       "reviews": [
         {
           "source": "play_store",
@@ -912,9 +948,9 @@
       ]
     },
     "Rabbit": {
-      "total": 178,
+      "total": 179,
       "on_topic": 4,
-      "off_topic": 174,
+      "off_topic": 175,
       "reviews": [
         {
           "source": "play_store",
