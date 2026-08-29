@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-08-28T18:46:16Z",
-  "total_rows": 10161,
+  "generated_at": "2026-08-29T12:47:41Z",
+  "total_rows": 10265,
   "clients": {
     "Amazon": {
-      "total": 8989,
-      "on_topic": 53,
-      "off_topic": 8936,
+      "total": 9128,
+      "on_topic": 55,
+      "off_topic": 9073,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-27T20:41:38+00:00",
+          "language": "en",
+          "raw_text": "had several issues from amazon wanting id verification, going in circles with verifying......even after verifying my id amazon still gave me a hard time. ended up ordering through the manufacture for $150 cheaper than going through amazon......i HATE this app",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User abandoned Amazon and ordered elsewhere due to endless loops during ID verification.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-27T13:14:23+00:00",
@@ -17,6 +29,18 @@
           "product_area": "nid_verification",
           "severity": "critical",
           "claude_summary": "User's account was closed after multiple failed attempts to upload requested documents for verification.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-08-27T09:13:51+00:00",
+          "language": "en",
+          "raw_text": "my wife brought a red key cover for her car key couple months ago and there was nothing in the package 📦 when it arrived just air and she have report it and when she talk to customers service about the whole situation and they wanted her to take a picture of her id 🪪 and they will refund her and she never ever had someone like that ask for copy of her id and so many time she order on Amazon and she went around and around if that and I not the only person they done that to her and they also did",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User objects to Amazon customer service requiring an ID photo to process a refund for an empty package.",
           "valify_scope": "true"
         },
         {
@@ -646,9 +670,9 @@
       ]
     },
     "Thndr": {
-      "total": 303,
+      "total": 308,
       "on_topic": 8,
-      "off_topic": 295,
+      "off_topic": 300,
       "reviews": [
         {
           "source": "play_store",
@@ -749,9 +773,9 @@
       ]
     },
     "Klivvr": {
-      "total": 148,
+      "total": 151,
       "on_topic": 16,
-      "off_topic": 132,
+      "off_topic": 135,
       "reviews": [
         {
           "source": "play_store",
@@ -948,9 +972,9 @@
       ]
     },
     "Rabbit": {
-      "total": 179,
+      "total": 183,
       "on_topic": 4,
-      "off_topic": 175,
+      "off_topic": 179,
       "reviews": [
         {
           "source": "play_store",
@@ -1003,9 +1027,9 @@
       ]
     },
     "ADIB": {
-      "total": 109,
+      "total": 112,
       "on_topic": 0,
-      "off_topic": 109,
+      "off_topic": 112,
       "reviews": []
     },
     "Midbank": {
@@ -1239,9 +1263,9 @@
       ]
     },
     "Khazna": {
-      "total": 70,
+      "total": 71,
       "on_topic": 2,
-      "off_topic": 68,
+      "off_topic": 69,
       "reviews": [
         {
           "source": "play_store",
