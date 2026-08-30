@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-08-29T12:47:41Z",
-  "total_rows": 10265,
+  "generated_at": "2026-08-30T11:55:45Z",
+  "total_rows": 10396,
   "clients": {
     "Amazon": {
-      "total": 9128,
-      "on_topic": 55,
-      "off_topic": 9073,
+      "total": 9252,
+      "on_topic": 57,
+      "off_topic": 9195,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-28T17:01:06+00:00",
+          "language": "ar",
+          "raw_text": "تجربة مخيبة ومهينة مع أمازون. يطلبون تأكيد الهوية عند إرجاع المنتجات التالفة، ثم يرفضون جواز السفر السوداني ويصرّون على بطاقة الهوية المصرية فقط، وكأن العملاء من الجنسيات الأخرى لا وجود لهم! إذا كانت أمازون تبيع للجميع، فعليها أن توفر للجميع وسيلة عادلة للتحقق من الهوية. تعامل غير احترافي وإجراء غير عادل يجعلني أفقد الثقة بالمنصة تمامًا.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is blocked from returning an item because the ID verification step rejects Sudanese passports, requiring Egyptian IDs.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-08-28T16:30:36+00:00",
+          "language": "en",
+          "raw_text": "purches seems simple and easy system identification to applications is inaccurate. sellers agree to exept returns but system will not allow to do so and customers service doe not agree with requirements met even with all data requested is provied.",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User is unable to return items because the system identification is inaccurate and rejects provided data.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-27T20:41:38+00:00",
@@ -670,9 +694,9 @@
       ]
     },
     "Thndr": {
-      "total": 308,
+      "total": 310,
       "on_topic": 8,
-      "off_topic": 300,
+      "off_topic": 302,
       "reviews": [
         {
           "source": "play_store",
@@ -1263,9 +1287,9 @@
       ]
     },
     "Khazna": {
-      "total": 71,
+      "total": 72,
       "on_topic": 2,
-      "off_topic": 69,
+      "off_topic": 70,
       "reviews": [
         {
           "source": "play_store",
