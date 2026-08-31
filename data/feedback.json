@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-30T11:55:45Z",
-  "total_rows": 10396,
+  "generated_at": "2026-08-31T13:38:42Z",
+  "total_rows": 10534,
   "clients": {
     "Amazon": {
-      "total": 9252,
+      "total": 9380,
       "on_topic": 57,
-      "off_topic": 9195,
+      "off_topic": 9323,
       "reviews": [
         {
           "source": "play_store",
@@ -694,9 +694,9 @@
       ]
     },
     "Thndr": {
-      "total": 310,
+      "total": 311,
       "on_topic": 8,
-      "off_topic": 302,
+      "off_topic": 303,
       "reviews": [
         {
           "source": "play_store",
@@ -797,9 +797,9 @@
       ]
     },
     "Klivvr": {
-      "total": 151,
+      "total": 152,
       "on_topic": 16,
-      "off_topic": 135,
+      "off_topic": 136,
       "reviews": [
         {
           "source": "play_store",
@@ -996,9 +996,9 @@
       ]
     },
     "Rabbit": {
-      "total": 183,
+      "total": 184,
       "on_topic": 4,
-      "off_topic": 179,
+      "off_topic": 180,
       "reviews": [
         {
           "source": "play_store",
@@ -1051,15 +1051,15 @@
       ]
     },
     "ADIB": {
-      "total": 112,
+      "total": 113,
       "on_topic": 0,
-      "off_topic": 112,
+      "off_topic": 113,
       "reviews": []
     },
     "Midbank": {
-      "total": 274,
+      "total": 276,
       "on_topic": 15,
-      "off_topic": 259,
+      "off_topic": 261,
       "reviews": [
         {
           "source": "play_store",
@@ -1287,9 +1287,9 @@
       ]
     },
     "Khazna": {
-      "total": 72,
+      "total": 73,
       "on_topic": 2,
-      "off_topic": 70,
+      "off_topic": 71,
       "reviews": [
         {
           "source": "play_store",
