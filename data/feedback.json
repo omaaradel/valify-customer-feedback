@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-08-31T13:38:42Z",
-  "total_rows": 10534,
+  "generated_at": "2026-09-01T11:48:41Z",
+  "total_rows": 10652,
   "clients": {
     "Amazon": {
-      "total": 9380,
-      "on_topic": 57,
-      "off_topic": 9323,
+      "total": 9492,
+      "on_topic": 59,
+      "off_topic": 9433,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-08-30T21:37:15+00:00",
+          "language": "ar",
+          "raw_text": "سيى جدا شحنت بريم وبعدين قفل حسابى عالم نصابه وطلب منى البطاقه لما خفيت رقمه وسبت اخر اربع ارقام عمل غلق نهائى ممكن اعرف خدمه العملاء سيء جدآ لا بتحل ولا بتعمل هما عوزين يقلبوك وخلاص اسواء تجربه شراء على اى موقع طلبتو التحقق من وسيلت الدفع صورته ليه عوزين ارقام الفيزا كامله مش فهم نصب",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's account was permanently closed after they partially obscured their ID card during a verification request.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-08-30T17:49:39+00:00",
+          "language": "ar-en",
+          "raw_text": "A website for selling junk goods Not deserve one star XX إحذروهم XX A shaming and disappointing apk . تقوم شركة وموقع البيع منتجات الخردة اونلاين - أمازون Amazon بالتزييف والغش في جميع المعاملات علي جميع الحسابات في بادئ التعامل معهم عن طريق ارسال رسائل اتمام توصيل المنتجات لمنزلي بدون أن يصلني شيئ ومن ثم عند الاتصال بهم لتصحيح الأخطاء بيتم طلب رفع مستندات شخصية اولا وتتوالي الأخطاء منهم تباعا فضلا عن سوء التواصل هاتفيا بتعمدهم عمل تشويش علي المكالمات وعدم الإجابة علي استفساراتي بشكل واضح ودقيق",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "high",
+          "claude_summary": "User complains about being forced to upload personal documents to resolve delivery errors.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-28T17:01:06+00:00",
@@ -694,9 +718,9 @@
       ]
     },
     "Thndr": {
-      "total": 311,
+      "total": 314,
       "on_topic": 8,
-      "off_topic": 303,
+      "off_topic": 306,
       "reviews": [
         {
           "source": "play_store",
@@ -797,9 +821,9 @@
       ]
     },
     "Klivvr": {
-      "total": 152,
+      "total": 153,
       "on_topic": 16,
-      "off_topic": 136,
+      "off_topic": 137,
       "reviews": [
         {
           "source": "play_store",
@@ -996,9 +1020,9 @@
       ]
     },
     "Rabbit": {
-      "total": 184,
+      "total": 186,
       "on_topic": 4,
-      "off_topic": 180,
+      "off_topic": 182,
       "reviews": [
         {
           "source": "play_store",
