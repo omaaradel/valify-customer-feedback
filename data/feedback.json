@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-09-02T11:21:10Z",
-  "total_rows": 10807,
+  "generated_at": "2026-09-03T11:20:29Z",
+  "total_rows": 10983,
   "clients": {
     "Amazon": {
-      "total": 9636,
-      "on_topic": 62,
-      "off_topic": 9574,
+      "total": 9786,
+      "on_topic": 64,
+      "off_topic": 9722,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-01T19:11:30+00:00",
+          "language": "en",
+          "raw_text": "amazon is forcing you to upload government id if you want to continue to use it. even after a decade old account they refuse to accept alternative verification.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User objects to being forced to upload a government ID to continue using their decade-old account.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-01T18:38:54+00:00",
+          "language": "en",
+          "raw_text": "Uninstalling the app. If you returned an item and requested a refund, they won't refund you unless you send them your national ID, which is completely untrusted and unsafe procedure, and no one will tell you this till they collect the item from you. no other shopping app/website is requesting this and it's completely not logical or safe",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User objects to providing national ID for refunds, calling it unsafe, and is uninstalling the app.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-01T08:00:30+00:00",
@@ -754,10 +778,22 @@
       ]
     },
     "Thndr": {
-      "total": 316,
-      "on_topic": 8,
-      "off_topic": 308,
+      "total": 323,
+      "on_topic": 9,
+      "off_topic": 314,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-01T13:14:02+00:00",
+          "language": "ar",
+          "raw_text": "أنا لسه منزل التطبيق حلا في اقل من دقيقه بصراحه ممتاز جدا",
+          "sentiment": "positive",
+          "feedback_type": "compliment",
+          "product_area": "onboarding_general",
+          "severity": "none",
+          "claude_summary": "User praises the quick download and setup experience of the app.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-17T19:19:32+00:00",
@@ -857,9 +893,9 @@
       ]
     },
     "Klivvr": {
-      "total": 155,
+      "total": 156,
       "on_topic": 16,
-      "off_topic": 139,
+      "off_topic": 140,
       "reviews": [
         {
           "source": "play_store",
@@ -1056,9 +1092,9 @@
       ]
     },
     "Rabbit": {
-      "total": 189,
+      "total": 192,
       "on_topic": 5,
-      "off_topic": 184,
+      "off_topic": 187,
       "reviews": [
         {
           "source": "play_store",
@@ -1123,15 +1159,15 @@
       ]
     },
     "ADIB": {
-      "total": 116,
+      "total": 118,
       "on_topic": 0,
-      "off_topic": 116,
+      "off_topic": 118,
       "reviews": []
     },
     "Midbank": {
-      "total": 276,
+      "total": 279,
       "on_topic": 15,
-      "off_topic": 261,
+      "off_topic": 264,
       "reviews": [
         {
           "source": "play_store",
