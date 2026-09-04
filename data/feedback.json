@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-03T11:20:29Z",
+  "generated_at": "2026-09-04T11:13:45Z",
   "total_rows": 10983,
   "clients": {
     "Amazon": {
-      "total": 9786,
+      "total": 9794,
       "on_topic": 64,
-      "off_topic": 9722,
+      "off_topic": 9730,
       "reviews": [
         {
           "source": "play_store",
@@ -778,9 +778,9 @@
       ]
     },
     "Thndr": {
-      "total": 323,
+      "total": 325,
       "on_topic": 9,
-      "off_topic": 314,
+      "off_topic": 316,
       "reviews": [
         {
           "source": "play_store",
