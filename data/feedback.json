@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-09-04T11:13:45Z",
-  "total_rows": 10983,
+  "generated_at": "2026-09-05T10:43:01Z",
+  "total_rows": 11141,
   "clients": {
     "Amazon": {
-      "total": 9794,
-      "on_topic": 64,
-      "off_topic": 9730,
+      "total": 9929,
+      "on_topic": 66,
+      "off_topic": 9863,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-04T04:13:59+00:00",
+          "language": "en",
+          "raw_text": "why you not accepting my name? silly",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "high",
+          "claude_summary": "User is frustrated that the app is not accepting their name during onboarding.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-03T11:32:31+00:00",
+          "language": "ar",
+          "raw_text": "تطبيق زى الزفت اسوء تطبيق تعاملت معه ومن اول مرة من حيث شراء المنتجات الرديئه وطرق زباله لاسترجاع وطلب بينات شخصية اكثر خصوصيه لعملية استرجاع بسيطه. كلفتنى اكثر ما استفدت نصيحه بعدم التعامل مع التطبيق. وخدمة عملاء زى الزفت. كل شويه. إجراء جديد لاستكمال الاسترجاع لم تحدث فى اى تطبيق من قبل",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User complains about being asked for highly private personal data (ID) to complete a simple return.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-01T19:11:30+00:00",
@@ -778,10 +802,22 @@
       ]
     },
     "Thndr": {
-      "total": 325,
-      "on_topic": 9,
-      "off_topic": 316,
+      "total": 329,
+      "on_topic": 10,
+      "off_topic": 319,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-03T20:14:00+00:00",
+          "language": "en",
+          "raw_text": "After I transferred my money that I discovered that my account is not verified. I have to verify it again. Then I discovered there's another issue. I have to sign some documents and I have to waste like 2 or 3 more days. This should have been done from the start. I shouldn't have to wait after I transfer my money. They wrote my name incorrectly and there is absolutely no way to change it in the app. What a piece of garbage!",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is blocked because their name was extracted incorrectly during verification with no way to edit it.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-01T13:14:02+00:00",
@@ -893,9 +929,9 @@
       ]
     },
     "Klivvr": {
-      "total": 156,
+      "total": 158,
       "on_topic": 16,
-      "off_topic": 140,
+      "off_topic": 142,
       "reviews": [
         {
           "source": "play_store",
@@ -1092,9 +1128,9 @@
       ]
     },
     "Rabbit": {
-      "total": 192,
+      "total": 196,
       "on_topic": 5,
-      "off_topic": 187,
+      "off_topic": 191,
       "reviews": [
         {
           "source": "play_store",
@@ -1159,9 +1195,9 @@
       ]
     },
     "ADIB": {
-      "total": 118,
+      "total": 120,
       "on_topic": 0,
-      "off_topic": 118,
+      "off_topic": 120,
       "reviews": []
     },
     "Midbank": {
@@ -1395,9 +1431,9 @@
       ]
     },
     "Khazna": {
-      "total": 74,
+      "total": 75,
       "on_topic": 2,
-      "off_topic": 72,
+      "off_topic": 73,
       "reviews": [
         {
           "source": "play_store",
