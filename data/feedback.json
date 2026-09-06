@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-09-05T10:43:01Z",
-  "total_rows": 11141,
+  "generated_at": "2026-09-06T11:01:00Z",
+  "total_rows": 11274,
   "clients": {
     "Amazon": {
-      "total": 9929,
-      "on_topic": 66,
-      "off_topic": 9863,
+      "total": 10059,
+      "on_topic": 67,
+      "off_topic": 9992,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-04T14:57:18+00:00",
+          "language": "ar",
+          "raw_text": "❌️❌️ابتزاز وطلب بيانات العميل بحجة ضرورة توثيق الحساب لاتمام الاسترجاع وهو اجراء غير قانوني ولم يقدم به اي مسوغ قانوني واحد . لكن كل ممثلي خدمة العملاء بلا استثناء بيلعبو نفس اللعبة . بياناتك في مقابل استرجاع فلوسك . ⛔️",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User objects to the requirement of verifying their identity with personal data to complete a return.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-04T04:13:59+00:00",
@@ -1201,9 +1213,9 @@
       "reviews": []
     },
     "Midbank": {
-      "total": 279,
+      "total": 280,
       "on_topic": 15,
-      "off_topic": 264,
+      "off_topic": 265,
       "reviews": [
         {
           "source": "play_store",
@@ -1431,9 +1443,9 @@
       ]
     },
     "Khazna": {
-      "total": 75,
+      "total": 77,
       "on_topic": 2,
-      "off_topic": 73,
+      "off_topic": 75,
       "reviews": [
         {
           "source": "play_store",
