@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-09-06T11:01:00Z",
-  "total_rows": 11274,
+  "generated_at": "2026-09-07T12:26:50Z",
+  "total_rows": 11408,
   "clients": {
     "Amazon": {
-      "total": 10059,
-      "on_topic": 67,
-      "off_topic": 9992,
+      "total": 10177,
+      "on_topic": 69,
+      "off_topic": 10108,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-06T07:26:50+00:00",
+          "language": "en",
+          "raw_text": "scanning a card sucks you need more quick tips on how to scan",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "medium",
+          "claude_summary": "User complains about the difficulty of scanning a card and suggests adding quick tips.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-05T23:46:14+00:00",
+          "language": "en",
+          "raw_text": "mofo'ers frozen my account and order. Amazon notice suspicious charges and froze your account and order please verify your id. tried to verify : result ... failed to unlock my account and order. After I contacted my bank and had my attorney They changed the date of delivery with out my knowledge. form the 8th to the 12th. AMAZON AI SYSTEM IS LIABLE FOR BREACH OF CONTRACT. Amazon and Wal-mart both need to collapse.",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's account was frozen and they failed to unlock it after attempting ID verification.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-04T14:57:18+00:00",
@@ -814,9 +838,9 @@
       ]
     },
     "Thndr": {
-      "total": 329,
+      "total": 342,
       "on_topic": 10,
-      "off_topic": 319,
+      "off_topic": 332,
       "reviews": [
         {
           "source": "play_store",
@@ -941,10 +965,22 @@
       ]
     },
     "Klivvr": {
-      "total": 158,
-      "on_topic": 16,
-      "off_topic": 142,
+      "total": 163,
+      "on_topic": 17,
+      "off_topic": 146,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-04T19:22:52+00:00",
+          "language": "ar",
+          "raw_text": "عبارة عن تجميغ داتا فقط لاعير لا اي جاجة ولا حد يقلك السبب",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User complains that the app only collects data without providing services or explaining reasons.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-23T23:45:28+00:00",
@@ -1140,9 +1176,9 @@
       ]
     },
     "Rabbit": {
-      "total": 196,
+      "total": 202,
       "on_topic": 5,
-      "off_topic": 191,
+      "off_topic": 197,
       "reviews": [
         {
           "source": "play_store",
@@ -1443,9 +1479,9 @@
       ]
     },
     "Khazna": {
-      "total": 77,
+      "total": 78,
       "on_topic": 2,
-      "off_topic": 75,
+      "off_topic": 76,
       "reviews": [
         {
           "source": "play_store",
