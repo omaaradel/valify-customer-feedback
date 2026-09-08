@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-07T12:26:50Z",
-  "total_rows": 11408,
+  "generated_at": "2026-09-08T11:17:22Z",
+  "total_rows": 11540,
   "clients": {
     "Amazon": {
-      "total": 10177,
+      "total": 10287,
       "on_topic": 69,
-      "off_topic": 10108,
+      "off_topic": 10218,
       "reviews": [
         {
           "source": "play_store",
@@ -1243,9 +1243,9 @@
       ]
     },
     "ADIB": {
-      "total": 120,
+      "total": 121,
       "on_topic": 0,
-      "off_topic": 120,
+      "off_topic": 121,
       "reviews": []
     },
     "Midbank": {
@@ -1479,9 +1479,9 @@
       ]
     },
     "Khazna": {
-      "total": 78,
+      "total": 79,
       "on_topic": 2,
-      "off_topic": 76,
+      "off_topic": 77,
       "reviews": [
         {
           "source": "play_store",
