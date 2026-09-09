@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-09-08T11:17:22Z",
-  "total_rows": 11540,
+  "generated_at": "2026-09-09T11:25:51Z",
+  "total_rows": 11677,
   "clients": {
     "Amazon": {
-      "total": 10287,
-      "on_topic": 69,
-      "off_topic": 10218,
+      "total": 10423,
+      "on_topic": 71,
+      "off_topic": 10352,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-08T05:31:10+00:00",
+          "language": "ar",
+          "raw_text": "انا عندي حساب اكتر من 10 سنين على امازون اللي كانت سوق قبل كده ب اعمل ارجاع لمنتج غير اللي انا طالبه البرنامج طالب مني صوره البطاقه المفروض ما يتعاملش بالبطاقه الا الجهات الحكوميه فقط",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User objects to being asked for their national ID photo to return an item, citing privacy concerns.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-07T21:35:23+00:00",
+          "language": "en",
+          "raw_text": "I have spent forever digging through verification for a gift card. I got an Amazon gift card, but go figure, I've never used Amazon because this is exactly what I expected to happen. fast forward like 8 hours of me giving info and documents to this trillion dollar automated rejection system, and I'm still unable to use my money. Why would I have my information if it wasn't me? Good God. I give it what it asks and it asks for more or outright tells me to try again. Fix security verification.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is blocked from using a gift card due to continuous document verification rejections.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-06T07:26:50+00:00",
@@ -838,9 +862,9 @@
       ]
     },
     "Thndr": {
-      "total": 342,
+      "total": 351,
       "on_topic": 10,
-      "off_topic": 332,
+      "off_topic": 341,
       "reviews": [
         {
           "source": "play_store",
@@ -965,9 +989,9 @@
       ]
     },
     "Klivvr": {
-      "total": 163,
+      "total": 165,
       "on_topic": 17,
-      "off_topic": 146,
+      "off_topic": 148,
       "reviews": [
         {
           "source": "play_store",
@@ -1176,9 +1200,9 @@
       ]
     },
     "Rabbit": {
-      "total": 202,
+      "total": 208,
       "on_topic": 5,
-      "off_topic": 197,
+      "off_topic": 203,
       "reviews": [
         {
           "source": "play_store",
@@ -1243,15 +1267,15 @@
       ]
     },
     "ADIB": {
-      "total": 121,
+      "total": 122,
       "on_topic": 0,
-      "off_topic": 121,
+      "off_topic": 122,
       "reviews": []
     },
     "Midbank": {
-      "total": 280,
+      "total": 281,
       "on_topic": 15,
-      "off_topic": 265,
+      "off_topic": 266,
       "reviews": [
         {
           "source": "play_store",
@@ -1479,9 +1503,9 @@
       ]
     },
     "Khazna": {
-      "total": 79,
+      "total": 81,
       "on_topic": 2,
-      "off_topic": 77,
+      "off_topic": 79,
       "reviews": [
         {
           "source": "play_store",
