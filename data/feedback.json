@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-09-11T11:26:40Z",
-  "total_rows": 11973,
+  "generated_at": "2026-09-12T10:47:24Z",
+  "total_rows": 12086,
   "clients": {
     "Amazon": {
-      "total": 10652,
-      "on_topic": 71,
-      "off_topic": 10581,
+      "total": 10794,
+      "on_topic": 73,
+      "off_topic": 10721,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-11T00:18:41+00:00",
+          "language": "en",
+          "raw_text": "apparently I can't create an account but when it verifys it detects unusual activity on an account that doesn't exist???????? 😂 so much for your new customer",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User is blocked from creating an account due to a verification error detecting unusual activity.",
+          "valify_scope": "unsure"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-10T19:43:16+00:00",
+          "language": "en",
+          "raw_text": "Age identify verification process is not active Amazon selling system is blocked by requirement of age identification proof.",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is blocked from the Amazon selling system because the age identity verification process is inactive.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-08T05:31:10+00:00",
@@ -862,9 +886,9 @@
       ]
     },
     "Thndr": {
-      "total": 362,
+      "total": 367,
       "on_topic": 10,
-      "off_topic": 352,
+      "off_topic": 357,
       "reviews": [
         {
           "source": "play_store",
@@ -989,10 +1013,34 @@
       ]
     },
     "Klivvr": {
-      "total": 169,
-      "on_topic": 17,
+      "total": 171,
+      "on_topic": 19,
       "off_topic": 152,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-11T07:14:24+00:00",
+          "language": "ar",
+          "raw_text": "مفيش كود بيوصل بعد ما تدخل رقم الهاتف",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User is blocked because they do not receive the SMS verification code during signup.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-11T03:09:37+00:00",
+          "language": "ar",
+          "raw_text": "شمال سرقه معلومات وبس محدش ينزلو",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User accuses the app of stealing personal information, advising others not to download it.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-04T19:22:52+00:00",
@@ -1200,9 +1248,9 @@
       ]
     },
     "Rabbit": {
-      "total": 211,
+      "total": 213,
       "on_topic": 5,
-      "off_topic": 206,
+      "off_topic": 208,
       "reviews": [
         {
           "source": "play_store",
@@ -1503,9 +1551,9 @@
       ]
     },
     "Khazna": {
-      "total": 85,
+      "total": 87,
       "on_topic": 2,
-      "off_topic": 83,
+      "off_topic": 85,
       "reviews": [
         {
           "source": "play_store",
