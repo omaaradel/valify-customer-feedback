@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-09-12T10:47:24Z",
-  "total_rows": 12086,
+  "generated_at": "2026-09-13T11:47:58Z",
+  "total_rows": 12211,
   "clients": {
     "Amazon": {
-      "total": 10794,
-      "on_topic": 73,
-      "off_topic": 10721,
+      "total": 10877,
+      "on_topic": 75,
+      "off_topic": 10802,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-12T10:58:38+00:00",
+          "language": "ar",
+          "raw_text": "اسلوبهم مستفز وصعب وكمان لزم هويتك علشان الارجاع وده غلق اتمني محدش يتعامل مع امازون تاني امازون مصر لا احد يتعامل معه نصيحه لوجه الله عن تجربه",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is frustrated by the requirement to provide national ID for product returns.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-12T04:21:28+00:00",
+          "language": "en",
+          "raw_text": "this app is not good once you make a mistake it ask for identification and sometimes they don't let you sign in your account and I lost over 200$ on Amazon in my balance overall not a good app in my opinion.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is frustrated that the app asks for identification after a mistake, blocking account access.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-11T00:18:41+00:00",
@@ -886,9 +910,9 @@
       ]
     },
     "Thndr": {
-      "total": 367,
+      "total": 368,
       "on_topic": 10,
-      "off_topic": 357,
+      "off_topic": 358,
       "reviews": [
         {
           "source": "play_store",
@@ -1013,9 +1037,9 @@
       ]
     },
     "Klivvr": {
-      "total": 171,
+      "total": 173,
       "on_topic": 19,
-      "off_topic": 152,
+      "off_topic": 154,
       "reviews": [
         {
           "source": "play_store",
@@ -1248,9 +1272,9 @@
       ]
     },
     "Rabbit": {
-      "total": 213,
+      "total": 216,
       "on_topic": 5,
-      "off_topic": 208,
+      "off_topic": 211,
       "reviews": [
         {
           "source": "play_store",
@@ -1321,9 +1345,9 @@
       "reviews": []
     },
     "Midbank": {
-      "total": 286,
+      "total": 287,
       "on_topic": 15,
-      "off_topic": 271,
+      "off_topic": 272,
       "reviews": [
         {
           "source": "play_store",
