@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-09-14T12:45:08Z",
-  "total_rows": 12356,
+  "generated_at": "2026-09-15T11:46:53Z",
+  "total_rows": 12509,
   "clients": {
     "Amazon": {
-      "total": 11043,
-      "on_topic": 75,
-      "off_topic": 10968,
+      "total": 11175,
+      "on_topic": 77,
+      "off_topic": 11098,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-13T20:52:04+00:00",
+          "language": "en",
+          "raw_text": "la peor app cada vez que compro me pide que justifique si fui yo o no entiendo que sea por la seguridad les facilite el documento que me pidieron y aun asi cerraron la cuenta",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's account was closed despite providing the requested identity document for security verification.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-13T20:48:50+00:00",
+          "language": "en",
+          "raw_text": "Age verification is not functioning properly. May have to give up and buy from somewhere else.",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User is unable to complete age verification and is considering using a different service.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-12T10:58:38+00:00",
@@ -910,9 +934,9 @@
       ]
     },
     "Thndr": {
-      "total": 371,
+      "total": 375,
       "on_topic": 10,
-      "off_topic": 361,
+      "off_topic": 365,
       "reviews": [
         {
           "source": "play_store",
@@ -1037,10 +1061,22 @@
       ]
     },
     "Klivvr": {
-      "total": 173,
-      "on_topic": 19,
+      "total": 174,
+      "on_topic": 20,
       "off_topic": 154,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-14T08:43:55+00:00",
+          "language": "ar",
+          "raw_text": "عبارة عن تجميغ داتا فقط لاعير لا اي جاجة ولا حد يقلك السبب ولحد بيعمل حاجة",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User complains that the app only collects data without providing any service or explanation.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-11T07:14:24+00:00",
@@ -1272,9 +1308,9 @@
       ]
     },
     "Rabbit": {
-      "total": 217,
+      "total": 223,
       "on_topic": 5,
-      "off_topic": 212,
+      "off_topic": 218,
       "reviews": [
         {
           "source": "play_store",
@@ -1339,16 +1375,28 @@
       ]
     },
     "ADIB": {
-      "total": 122,
+      "total": 123,
       "on_topic": 0,
-      "off_topic": 122,
+      "off_topic": 123,
       "reviews": []
     },
     "Midbank": {
-      "total": 287,
-      "on_topic": 15,
-      "off_topic": 272,
+      "total": 290,
+      "on_topic": 16,
+      "off_topic": 274,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-12T14:12:28+00:00",
+          "language": "ar",
+          "raw_text": "سهل والموافقه جت بسرعه",
+          "sentiment": "positive",
+          "feedback_type": "compliment",
+          "product_area": "onboarding_general",
+          "severity": "none",
+          "claude_summary": "User praises the easy onboarding process and quick approval.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-06T09:41:03+00:00",
@@ -1575,9 +1623,9 @@
       ]
     },
     "Khazna": {
-      "total": 87,
+      "total": 88,
       "on_topic": 2,
-      "off_topic": 85,
+      "off_topic": 86,
       "reviews": [
         {
           "source": "play_store",
