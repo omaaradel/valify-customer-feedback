@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-09-15T11:46:53Z",
-  "total_rows": 12509,
+  "generated_at": "2026-09-16T11:35:50Z",
+  "total_rows": 12645,
   "clients": {
     "Amazon": {
-      "total": 11175,
-      "on_topic": 77,
-      "off_topic": 11098,
+      "total": 11308,
+      "on_topic": 79,
+      "off_topic": 11229,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-15T07:15:56+00:00",
+          "language": "en",
+          "raw_text": "it sucks all I wanted was a phone case for tomorrow but no I have to verify my account and I did and I need a case for tomorrow",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "high",
+          "claude_summary": "User is frustrated by being forced to verify their account when trying to purchase a phone case.",
+          "valify_scope": "unsure"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-14T13:28:58+00:00",
+          "language": "en",
+          "raw_text": "Impossible to get support. Tried a gift return and it required me to add a picture. I could either take a picture or upload one. If I elected to take a picture it shifted to the camera app on my phone and then completely reset the return process. Impossible to complete. If I elected to upload one it just gave me an error message each time. Impossible to complete. Now it's impossible to get any support from an actual person. As bad an experience as you could possibly have.",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "Camera crash and upload errors during the return process prevent the user from completing a gift return.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-13T20:52:04+00:00",
@@ -934,9 +958,9 @@
       ]
     },
     "Thndr": {
-      "total": 375,
+      "total": 379,
       "on_topic": 10,
-      "off_topic": 365,
+      "off_topic": 369,
       "reviews": [
         {
           "source": "play_store",
@@ -1061,9 +1085,9 @@
       ]
     },
     "Klivvr": {
-      "total": 174,
+      "total": 180,
       "on_topic": 20,
-      "off_topic": 154,
+      "off_topic": 160,
       "reviews": [
         {
           "source": "play_store",
@@ -1375,9 +1399,9 @@
       ]
     },
     "ADIB": {
-      "total": 123,
+      "total": 124,
       "on_topic": 0,
-      "off_topic": 123,
+      "off_topic": 124,
       "reviews": []
     },
     "Midbank": {
@@ -1580,10 +1604,22 @@
       ]
     },
     "Raya": {
-      "total": 6,
-      "on_topic": 3,
+      "total": 7,
+      "on_topic": 4,
       "off_topic": 3,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-14T14:15:20+00:00",
+          "language": "ar",
+          "raw_text": "برنامج عقيم هقعد يوم كامل عشان يبعتولي الرمز",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User complains about a severe delay in receiving the verification SMS code.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-07T13:59:26+00:00",
@@ -1623,9 +1659,9 @@
       ]
     },
     "Khazna": {
-      "total": 88,
+      "total": 89,
       "on_topic": 2,
-      "off_topic": 86,
+      "off_topic": 87,
       "reviews": [
         {
           "source": "play_store",
