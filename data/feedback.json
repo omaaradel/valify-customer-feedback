@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-09-17T11:38:58Z",
-  "total_rows": 12770,
+  "generated_at": "2026-09-18T11:11:27Z",
+  "total_rows": 12877,
   "clients": {
     "Amazon": {
-      "total": 11418,
-      "on_topic": 82,
-      "off_topic": 11336,
+      "total": 11512,
+      "on_topic": 84,
+      "off_topic": 11428,
       "reviews": [
+        {
+          "source": "appstore",
+          "post_date": "2026-09-17T01:26:18+00:00",
+          "language": "ar",
+          "raw_text": "تطبيق سئ  و منتجاته سيئة: تطبيق سئ و منتجاته سيئة و بيطلبوا بطاقة الرقم القومي عشان يرحعوا منتجاتهم البايظه 😑",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "medium",
+          "claude_summary": "User objects to being required to provide their national ID card to return damaged products.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-16T20:25:30+00:00",
+          "language": "en",
+          "raw_text": "If I can submit my ID bank statement and bank card and you cannot verify its me along with the picture of me you need to take the app down and reevaluate or update something cuz that's ridiculous.",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "facematch",
+          "severity": "critical",
+          "claude_summary": "User is unable to complete identity verification despite submitting ID, bank statement, and a selfie.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-16T00:06:57+00:00",
@@ -994,9 +1018,9 @@
       ]
     },
     "Thndr": {
-      "total": 385,
+      "total": 391,
       "on_topic": 10,
-      "off_topic": 375,
+      "off_topic": 381,
       "reviews": [
         {
           "source": "play_store",
@@ -1380,9 +1404,9 @@
       ]
     },
     "Rabbit": {
-      "total": 226,
+      "total": 229,
       "on_topic": 5,
-      "off_topic": 221,
+      "off_topic": 224,
       "reviews": [
         {
           "source": "play_store",
