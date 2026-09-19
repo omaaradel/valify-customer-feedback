@@ -1,12 +1,60 @@
 {
-  "generated_at": "2026-09-18T11:11:27Z",
-  "total_rows": 12877,
+  "generated_at": "2026-09-19T10:59:30Z",
+  "total_rows": 13015,
   "clients": {
     "Amazon": {
-      "total": 11512,
-      "on_topic": 84,
-      "off_topic": 11428,
+      "total": 11638,
+      "on_topic": 88,
+      "off_topic": 11550,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-18T06:20:21+00:00",
+          "language": "en",
+          "raw_text": "what a bunch of retards working at Amazon the system don't work I'm waiting four weeks for ID check to get a refund what a what a joke and I've been a customer nearly 15 years they want ID to refund me for some lubrication what's my refund comes through I am going back to eBay because Amazon is a joke",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is blocked from getting a refund due to a pending ID check and objects to the requirement.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-17T23:25:49+00:00",
+          "language": "ar",
+          "raw_text": "تطبيق سيء خدمة العملاء من اسوء ما يكون اشتريت حاجة ومش عارف ارجعها عشان انا مش مصري بجد تفاهة وقلة ذوق وكلما اكلم خدمة العملاء بقلي تمام خلال يومين ورح يتقدم طلب بقالهم اسبوع على كده حاجة تقرف وتجربة بمنتتى السوء صراحة",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is unable to return an item because they are not Egyptian, likely blocked by the national ID verification requirement.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "appstore",
+          "post_date": "2026-09-17T18:50:04+00:00",
+          "language": "ar",
+          "raw_text": "مصر: لايمن استرجاع المنتجات لغير المصريين\nلايمن التحدث مع خدمة العملاء لحل المشكلة\nلا أنصح به",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "Non-Egyptian user is unable to return products due to ID verification restrictions and poor customer support.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "appstore",
+          "post_date": "2026-09-17T18:40:18+00:00",
+          "language": "en",
+          "raw_text": "Кусок говна: Не подошел товар, не дает вернуть пишет что сканер I’d не распознает мой документ",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is unable to return an item because the ID scanner fails to recognize their document.",
+          "valify_scope": "true"
+        },
         {
           "source": "appstore",
           "post_date": "2026-09-17T01:26:18+00:00",
@@ -1018,9 +1066,9 @@
       ]
     },
     "Thndr": {
-      "total": 391,
+      "total": 397,
       "on_topic": 10,
-      "off_topic": 381,
+      "off_topic": 387,
       "reviews": [
         {
           "source": "play_store",
@@ -1145,9 +1193,9 @@
       ]
     },
     "Klivvr": {
-      "total": 182,
+      "total": 185,
       "on_topic": 21,
-      "off_topic": 161,
+      "off_topic": 164,
       "reviews": [
         {
           "source": "play_store",
@@ -1404,9 +1452,9 @@
       ]
     },
     "Rabbit": {
-      "total": 229,
+      "total": 230,
       "on_topic": 5,
-      "off_topic": 224,
+      "off_topic": 225,
       "reviews": [
         {
           "source": "play_store",
@@ -1471,9 +1519,9 @@
       ]
     },
     "ADIB": {
-      "total": 125,
+      "total": 126,
       "on_topic": 0,
-      "off_topic": 125,
+      "off_topic": 126,
       "reviews": []
     },
     "Midbank": {
