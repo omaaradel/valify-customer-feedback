@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-09-19T10:59:30Z",
-  "total_rows": 13015,
+  "generated_at": "2026-09-20T11:20:04Z",
+  "total_rows": 13134,
   "clients": {
     "Amazon": {
-      "total": 11638,
-      "on_topic": 88,
-      "off_topic": 11550,
+      "total": 11746,
+      "on_topic": 89,
+      "off_topic": 11657,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-18T22:47:52+00:00",
+          "language": "ar",
+          "raw_text": "تم الغاء التثبيت .. مقاطعة .. كما أنه ..برنامج زبالة يجمع بيانات العملاء وهوياتهم وصورهم ويستخدمهم في الذكاء الاصطناعي",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User uninstalled the app, objecting to the collection of customer IDs and photos.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-18T06:20:21+00:00",
@@ -1066,9 +1078,9 @@
       ]
     },
     "Thndr": {
-      "total": 397,
+      "total": 401,
       "on_topic": 10,
-      "off_topic": 387,
+      "off_topic": 391,
       "reviews": [
         {
           "source": "play_store",
@@ -1193,9 +1205,9 @@
       ]
     },
     "Klivvr": {
-      "total": 185,
+      "total": 187,
       "on_topic": 21,
-      "off_topic": 164,
+      "off_topic": 166,
       "reviews": [
         {
           "source": "play_store",
@@ -1452,9 +1464,9 @@
       ]
     },
     "Rabbit": {
-      "total": 230,
+      "total": 235,
       "on_topic": 5,
-      "off_topic": 225,
+      "off_topic": 230,
       "reviews": [
         {
           "source": "play_store",
