@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-09-21T12:48:09Z",
-  "total_rows": 13266,
+  "generated_at": "2026-09-22T11:43:13Z",
+  "total_rows": 13380,
   "clients": {
     "Amazon": {
-      "total": 11786,
-      "on_topic": 89,
-      "off_topic": 11697,
+      "total": 11934,
+      "on_topic": 91,
+      "off_topic": 11843,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-20T02:59:01+00:00",
+          "language": "en",
+          "raw_text": "I never had a problem with this app until recently. I received my package with missing items and a gun holder that I didn't order. When I requested a refund, Amazon flagged me for suspicious activity; mind you, I'd only returned two things this year. All I want is my money back, but no, Amazon has me turn in my ID, call customer service, text in the chat, and email their 'specialist' over a 30 dollar refund.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is frustrated by being forced to submit their ID to get a refund for missing items.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-19T18:47:52+00:00",
+          "language": "en",
+          "raw_text": "AI returns won't work on Motorola",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User reports that the AI returns flow does not work on Motorola devices.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-18T22:47:52+00:00",
@@ -1078,9 +1102,9 @@
       ]
     },
     "Thndr": {
-      "total": 401,
+      "total": 406,
       "on_topic": 10,
-      "off_topic": 391,
+      "off_topic": 396,
       "reviews": [
         {
           "source": "play_store",
@@ -1205,9 +1229,9 @@
       ]
     },
     "Klivvr": {
-      "total": 187,
+      "total": 189,
       "on_topic": 21,
-      "off_topic": 166,
+      "off_topic": 168,
       "reviews": [
         {
           "source": "play_store",
@@ -1464,9 +1488,9 @@
       ]
     },
     "Rabbit": {
-      "total": 235,
+      "total": 238,
       "on_topic": 5,
-      "off_topic": 230,
+      "off_topic": 233,
       "reviews": [
         {
           "source": "play_store",
@@ -1531,9 +1555,9 @@
       ]
     },
     "ADIB": {
-      "total": 126,
+      "total": 127,
       "on_topic": 0,
-      "off_topic": 126,
+      "off_topic": 127,
       "reviews": []
     },
     "Midbank": {
@@ -1791,9 +1815,9 @@
       ]
     },
     "Khazna": {
-      "total": 89,
+      "total": 90,
       "on_topic": 2,
-      "off_topic": 87,
+      "off_topic": 88,
       "reviews": [
         {
           "source": "play_store",
