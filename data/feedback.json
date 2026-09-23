@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-22T11:43:13Z",
-  "total_rows": 13380,
+  "generated_at": "2026-09-23T11:36:51Z",
+  "total_rows": 13491,
   "clients": {
     "Amazon": {
-      "total": 11934,
+      "total": 11947,
       "on_topic": 91,
-      "off_topic": 11843,
+      "off_topic": 11856,
       "reviews": [
         {
           "source": "play_store",
@@ -1102,9 +1102,9 @@
       ]
     },
     "Thndr": {
-      "total": 406,
+      "total": 409,
       "on_topic": 10,
-      "off_topic": 396,
+      "off_topic": 399,
       "reviews": [
         {
           "source": "play_store",
@@ -1229,10 +1229,22 @@
       ]
     },
     "Klivvr": {
-      "total": 189,
-      "on_topic": 21,
-      "off_topic": 168,
+      "total": 191,
+      "on_topic": 22,
+      "off_topic": 169,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-21T11:19:41+00:00",
+          "language": "ar",
+          "raw_text": "منصحش حد يحملو ابلكيشن نصب ف نصب بياخد بياناتك والبطاقه وبعدين بيرفض يديك الكريديت او التمويل او اي كان انت منزل الابلكيشن عشانو بيترفض حقيقي كلو كذب ف كذب منصحش حد يحملو",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User warns against downloading, complaining that the app collects personal data and ID cards but rejects credit/financing.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-16T01:30:46+00:00",
@@ -1488,9 +1500,9 @@
       ]
     },
     "Rabbit": {
-      "total": 238,
+      "total": 240,
       "on_topic": 5,
-      "off_topic": 233,
+      "off_topic": 235,
       "reviews": [
         {
           "source": "play_store",
