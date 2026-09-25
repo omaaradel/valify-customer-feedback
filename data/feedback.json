@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-09-24T11:47:40Z",
-  "total_rows": 13651,
+  "generated_at": "2026-09-25T11:59:02Z",
+  "total_rows": 13783,
   "clients": {
     "Amazon": {
-      "total": 11947,
-      "on_topic": 91,
-      "off_topic": 11856,
+      "total": 12077,
+      "on_topic": 93,
+      "off_topic": 11984,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-22T01:51:36+00:00",
+          "language": "ar",
+          "raw_text": "ابلكيشن سئ جدا بيطلب صورة الرقم القومي و بيشاركها مع جهات خارجيه علشان يقبل المرتجع",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User objects to uploading their national ID and privacy concerns during the return flow.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "appstore",
+          "post_date": "2026-09-22T01:11:18+00:00",
+          "language": "ar",
+          "raw_text": "مين سمحلكوا انكوا عشان تعملوا ارجاع لمنتج تطلبوا صوره بطاقه ايه السبب: عمرها محصلت انا دافعه فلوس وعايزه ارجع منتج ليه اديك صوره بطاقتي",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User objects to being required to provide a national ID photo to return a product.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-20T02:59:01+00:00",
@@ -1102,10 +1126,22 @@
       ]
     },
     "Thndr": {
-      "total": 409,
-      "on_topic": 10,
-      "off_topic": 399,
+      "total": 414,
+      "on_topic": 11,
+      "off_topic": 403,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-21T21:18:58+00:00",
+          "language": "ar",
+          "raw_text": "مفيش خدمة عملاء حرام شركة زى دى تاخد موافقة الرقابة المالية ومشاكلها كتير فى الإيداع والسحب ومتعبه في عمليه التحقق تم الحذف",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User deleted the app due to issues with deposits, withdrawals, and a tiring verification process.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-03T20:14:00+00:00",
@@ -1500,9 +1536,9 @@
       ]
     },
     "Rabbit": {
-      "total": 240,
+      "total": 247,
       "on_topic": 5,
-      "off_topic": 235,
+      "off_topic": 242,
       "reviews": [
         {
           "source": "play_store",
@@ -1573,9 +1609,9 @@
       "reviews": []
     },
     "Midbank": {
-      "total": 293,
+      "total": 295,
       "on_topic": 16,
-      "off_topic": 277,
+      "off_topic": 279,
       "reviews": [
         {
           "source": "play_store",
@@ -1827,9 +1863,9 @@
       ]
     },
     "Khazna": {
-      "total": 90,
+      "total": 96,
       "on_topic": 2,
-      "off_topic": 88,
+      "off_topic": 94,
       "reviews": [
         {
           "source": "play_store",
