@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-09-30T12:59:23Z",
-  "total_rows": 14643,
+  "generated_at": "2026-10-01T13:32:18Z",
+  "total_rows": 14808,
   "clients": {
     "Amazon": {
-      "total": 12296,
-      "on_topic": 94,
-      "off_topic": 12202,
+      "total": 12439,
+      "on_topic": 95,
+      "off_topic": 12344,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-28T14:33:36+00:00",
+          "language": "ar",
+          "raw_text": "تطبيق سيئ اردت إرجاع منتج اشتريته من حسابي الثاني ولديهم عنواني ورقم موبايلي مداخله ترجعه من نفس الحساب بتاعي ما عرفت اصل للأرجاع وعايزين اصور لهم البطاقه القوميه ليه ان شاء الله هو أنتم الي هو عادي لكن استرجع تطلب بطاقتي ربنا ينتقم منهم",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User objects to being required to photograph their national ID to return a product.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-26T14:03:31+00:00",
@@ -1138,10 +1150,22 @@
       ]
     },
     "Thndr": {
-      "total": 425,
-      "on_topic": 11,
-      "off_topic": 414,
+      "total": 427,
+      "on_topic": 12,
+      "off_topic": 415,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-28T09:38:07+00:00",
+          "language": "ar",
+          "raw_text": "روعه بس في توثيق بيتاخرشويا اا",
+          "sentiment": "neutral",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "low",
+          "claude_summary": "User praises the app but notes that the identity verification step is slightly delayed.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-21T21:18:58+00:00",
@@ -1277,9 +1301,9 @@
       ]
     },
     "Klivvr": {
-      "total": 193,
+      "total": 196,
       "on_topic": 22,
-      "off_topic": 171,
+      "off_topic": 174,
       "reviews": [
         {
           "source": "play_store",
@@ -1548,9 +1572,9 @@
       ]
     },
     "Rabbit": {
-      "total": 250,
+      "total": 254,
       "on_topic": 5,
-      "off_topic": 245,
+      "off_topic": 249,
       "reviews": [
         {
           "source": "play_store",
@@ -1615,15 +1639,15 @@
       ]
     },
     "ADIB": {
-      "total": 128,
+      "total": 160,
       "on_topic": 0,
-      "off_topic": 128,
+      "off_topic": 160,
       "reviews": []
     },
     "Midbank": {
-      "total": 298,
+      "total": 300,
       "on_topic": 17,
-      "off_topic": 281,
+      "off_topic": 283,
       "reviews": [
         {
           "source": "play_store",
