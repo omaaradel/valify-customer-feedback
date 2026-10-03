@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-02T12:48:37Z",
-  "total_rows": 14976,
+  "generated_at": "2026-10-03T12:15:54Z",
+  "total_rows": 15113,
   "clients": {
     "Amazon": {
-      "total": 12479,
+      "total": 12616,
       "on_topic": 95,
-      "off_topic": 12384,
+      "off_topic": 12521,
       "reviews": [
         {
           "source": "play_store",
@@ -1150,9 +1150,9 @@
       ]
     },
     "Thndr": {
-      "total": 427,
+      "total": 437,
       "on_topic": 12,
-      "off_topic": 415,
+      "off_topic": 425,
       "reviews": [
         {
           "source": "play_store",
@@ -1301,9 +1301,9 @@
       ]
     },
     "Klivvr": {
-      "total": 196,
+      "total": 198,
       "on_topic": 22,
-      "off_topic": 174,
+      "off_topic": 176,
       "reviews": [
         {
           "source": "play_store",
@@ -1572,9 +1572,9 @@
       ]
     },
     "Rabbit": {
-      "total": 254,
+      "total": 257,
       "on_topic": 5,
-      "off_topic": 249,
+      "off_topic": 252,
       "reviews": [
         {
           "source": "play_store",
