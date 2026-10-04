@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-03T12:15:54Z",
-  "total_rows": 15113,
+  "generated_at": "2026-10-04T12:56:05Z",
+  "total_rows": 15256,
   "clients": {
     "Amazon": {
-      "total": 12616,
-      "on_topic": 95,
-      "off_topic": 12521,
+      "total": 12775,
+      "on_topic": 98,
+      "off_topic": 12677,
       "reviews": [
         {
           "source": "play_store",
@@ -21,6 +21,18 @@
         },
         {
           "source": "play_store",
+          "post_date": "2026-09-27T12:38:33+00:00",
+          "language": "en",
+          "raw_text": "Poor customer service. Extremely poor ability to rectify identification issues. Does not play nice with VPNs and does not allow screenshots.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "high",
+          "claude_summary": "User complains about poor customer service and difficulty resolving identification issues.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
           "post_date": "2026-09-26T14:03:31+00:00",
           "language": "en",
           "raw_text": "Please stop security",
@@ -29,6 +41,30 @@
           "product_area": "onboarding_general",
           "severity": "medium",
           "claude_summary": "User requests to stop security checks, which is vague but potentially related to verification.",
+          "valify_scope": "unsure"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-26T10:37:32+00:00",
+          "language": "ar",
+          "raw_text": "للأسف كانت الخدمة ممتازة تراجعت وأصبحت سيئة جدا.اضاعة وقت وإلغاء طلبات من أمازون ناو وإرسال الهوية كل مرة للتحقق لا يصدق ذلك من أجل بقاله ستور لايتوفر فيه كل شي. حقا إذلال للعميل",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "high",
+          "claude_summary": "User complains about the friction of repeatedly submitting their ID for verification on Amazon Now.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-25T18:36:44+00:00",
+          "language": "en",
+          "raw_text": "app works great until I need to return something or an item showed up damaged. then suddenly its incredibly glitchy and difficult to use. but never have an issue buying things! funny how that works",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "high",
+          "claude_summary": "User reports that the app becomes glitchy and difficult to use when trying to process a return.",
           "valify_scope": "unsure"
         },
         {
@@ -1150,9 +1186,9 @@
       ]
     },
     "Thndr": {
-      "total": 437,
+      "total": 439,
       "on_topic": 12,
-      "off_topic": 425,
+      "off_topic": 427,
       "reviews": [
         {
           "source": "play_store",
@@ -1301,9 +1337,9 @@
       ]
     },
     "Klivvr": {
-      "total": 198,
+      "total": 200,
       "on_topic": 22,
-      "off_topic": 176,
+      "off_topic": 178,
       "reviews": [
         {
           "source": "play_store",
@@ -1572,10 +1608,22 @@
       ]
     },
     "Rabbit": {
-      "total": 257,
-      "on_topic": 5,
-      "off_topic": 252,
+      "total": 275,
+      "on_topic": 6,
+      "off_topic": 269,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-24T13:11:23+00:00",
+          "language": "ar",
+          "raw_text": "جيد و يوفر الوقت لكن في مشكلة واحدة لما يكون ولد صغير أقل من 16سنة و مش معاه بطاقة اوحش حاجة ياريت يشيلوها",
+          "sentiment": "negative",
+          "feedback_type": "feature_request",
+          "product_area": "nid_verification",
+          "severity": "medium",
+          "claude_summary": "User objects to the national ID requirement for users under 16 years old.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-08-31T20:43:20+00:00",
@@ -1639,15 +1687,15 @@
       ]
     },
     "ADIB": {
-      "total": 160,
+      "total": 161,
       "on_topic": 0,
-      "off_topic": 160,
+      "off_topic": 161,
       "reviews": []
     },
     "Midbank": {
-      "total": 300,
+      "total": 301,
       "on_topic": 17,
-      "off_topic": 283,
+      "off_topic": 284,
       "reviews": [
         {
           "source": "play_store",
@@ -1911,9 +1959,9 @@
       ]
     },
     "Khazna": {
-      "total": 97,
+      "total": 104,
       "on_topic": 2,
-      "off_topic": 95,
+      "off_topic": 102,
       "reviews": [
         {
           "source": "play_store",
