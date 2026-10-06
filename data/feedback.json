@@ -1,12 +1,60 @@
 {
-  "generated_at": "2026-10-05T14:55:05Z",
-  "total_rows": 15384,
+  "generated_at": "2026-10-06T13:47:40Z",
+  "total_rows": 15523,
   "clients": {
     "Amazon": {
-      "total": 12775,
-      "on_topic": 98,
-      "off_topic": 12677,
+      "total": 12926,
+      "on_topic": 102,
+      "off_topic": 12824,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-10-02T09:35:08+00:00",
+          "language": "en",
+          "raw_text": "Terrible. I need this application, I am disabled and all this app does is force me to have headaches by disallowing me to purchase, claiming that I'm not me. This is an insult and it's harassment.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "Disabled user is blocked from purchasing due to identity verification failing ('claiming that I'm not me').",
+          "valify_scope": "true"
+        },
+        {
+          "source": "appstore",
+          "post_date": "2026-09-30T22:56:48+00:00",
+          "language": "ar-en",
+          "raw_text": "Nervana: دلوقتي انا عملت ريفند طالب مني صوره الهويه ومفيش مكان ارفع فيه صوره الهويه بجد  يعني ايه اكتر من مره اطلب اني اتكلم مع الكاستمر سيرفز وحد يساعدني ومفيش اي بوتن للتواصل مع الكاستمر سيرفز وحتي من طرق الريفند يا اما جيفت كارد  يا اما بنك ويارته نافع محتاجه حد يتواصل معايا دي مش طريقه",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is unable to upload their national ID photo during the refund process due to a missing upload option.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-30T18:24:56+00:00",
+          "language": "en",
+          "raw_text": "trash!!! asking for ID. won't refund. sending the wrong items.. sending 1x of a item when it should come as 10x.. customer service has no clue about anything. they treat you like dirt. they clearly get sacked if they have bad feedback from you as they just leave the chat and hand it to someone else. managers are the same. useless!! app doesn't work anymore. just glitches out. restricted business purchases so much that you offer 4 of a product for business when it used to be 30.. amazon sucks",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is frustrated by Amazon asking for ID to process a refund, alongside other customer service issues.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-30T17:53:55+00:00",
+          "language": "en",
+          "raw_text": "I've been with amazon for ten years and they closed saying that suspicious on my account when I show then my identification and proof of the bank card that was on file.Close my account. what hell amazon when going. im 10 yr customer never had a problem.\\nAnd now we have a problem.Then you close my account and then y'all rude. this is bad business",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's account was closed despite providing identification and proof of bank card.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-28T14:33:36+00:00",
@@ -1186,9 +1234,9 @@
       ]
     },
     "Thndr": {
-      "total": 439,
+      "total": 441,
       "on_topic": 12,
-      "off_topic": 427,
+      "off_topic": 429,
       "reviews": [
         {
           "source": "play_store",
@@ -1337,9 +1385,9 @@
       ]
     },
     "Klivvr": {
-      "total": 200,
+      "total": 202,
       "on_topic": 22,
-      "off_topic": 178,
+      "off_topic": 180,
       "reviews": [
         {
           "source": "play_store",
@@ -1608,9 +1656,9 @@
       ]
     },
     "Rabbit": {
-      "total": 275,
+      "total": 278,
       "on_topic": 6,
-      "off_topic": 269,
+      "off_topic": 272,
       "reviews": [
         {
           "source": "play_store",
@@ -1687,15 +1735,28 @@
       ]
     },
     "ADIB": {
-      "total": 161,
-      "on_topic": 0,
-      "off_topic": 161,
-      "reviews": []
+      "total": 190,
+      "on_topic": 1,
+      "off_topic": 189,
+      "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-10-01T05:48:27+00:00",
+          "language": "ar",
+          "raw_text": "السلام عليكم ورحمة الله وبركاتة حاولت كثيرا التسجيل ولكن التطبيق لا يقبل وتواصلت مع البنك عن طريق الايميل لتحديث الحساب وللاسف لا أحد يجيب هل الحل اني انزل مصر لتحديث الحساب تواصلت على الرقم المسجل للاتصال من خارج الدولة بلا أي فائدة",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User is unable to register or update their account from abroad and receives no support.",
+          "valify_scope": "unsure"
+        }
+      ]
     },
     "Midbank": {
-      "total": 301,
+      "total": 302,
       "on_topic": 17,
-      "off_topic": 284,
+      "off_topic": 285,
       "reviews": [
         {
           "source": "play_store",
@@ -1959,9 +2020,9 @@
       ]
     },
     "Khazna": {
-      "total": 104,
+      "total": 106,
       "on_topic": 2,
-      "off_topic": 102,
+      "off_topic": 104,
       "reviews": [
         {
           "source": "play_store",
