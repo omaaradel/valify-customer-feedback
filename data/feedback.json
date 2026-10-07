@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-06T13:47:40Z",
-  "total_rows": 15523,
+  "generated_at": "2026-10-07T13:42:12Z",
+  "total_rows": 15671,
   "clients": {
     "Amazon": {
-      "total": 12926,
+      "total": 13106,
       "on_topic": 102,
-      "off_topic": 12824,
+      "off_topic": 13004,
       "reviews": [
         {
           "source": "play_store",
@@ -1234,9 +1234,9 @@
       ]
     },
     "Thndr": {
-      "total": 441,
-      "on_topic": 12,
-      "off_topic": 429,
+      "total": 445,
+      "on_topic": 14,
+      "off_topic": 431,
       "reviews": [
         {
           "source": "play_store",
@@ -1249,6 +1249,30 @@
           "severity": "low",
           "claude_summary": "User praises the app but notes that the identity verification step is slightly delayed.",
           "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-27T00:44:57+00:00",
+          "language": "ar",
+          "raw_text": "برنامج زباله ليه ثلاث ايام وكل مره يقول فشل التسجيل عايز فلوسي الا شحنتها رجعوها بلاش نصب حرام عليكم",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User is frustrated as registration has been failing for three days after they deposited money.",
+          "valify_scope": "unsure"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-27T00:37:19+00:00",
+          "language": "ar",
+          "raw_text": "التطبيق جيد وسهل الإستخدام. هتاخد شوية وقت عشان تكتشف أسرار محدش هيوضحهالك قبلها. مثل مثلآ إنك متقدرش تسحب الفلوس في نفس اللحظة من وقت بيع الأسهم مجانآ لازم تدفع فلوس. بس بشكل عام التطبيق سهل وجيد بس محتاج أكيد تطور أكثر. عندي مشكلة معاهم مثلآ مش عارف مش عارفين يحلوها او مطنشين. كاتبين أسمي غلط وده يعتبر ورق رسمي آه هو تعامل إلكتروني بالكامل بس يفضل ورق رسمي. ارسلت لهم أكثر من مرة وبعت لهم إيميل ومردوش!. وده عيب خطير لازم ترد لو أنت شركة بتسعى للتمييز لكن أسلوب شركات مدام عفاف ده لا يصح هنا!.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "medium",
+          "claude_summary": "User complains that their name was registered incorrectly on official documents and customer support is ignoring their emails.",
+          "valify_scope": "unsure"
         },
         {
           "source": "play_store",
@@ -1385,9 +1409,9 @@
       ]
     },
     "Klivvr": {
-      "total": 202,
+      "total": 203,
       "on_topic": 22,
-      "off_topic": 180,
+      "off_topic": 181,
       "reviews": [
         {
           "source": "play_store",
@@ -1656,9 +1680,9 @@
       ]
     },
     "Rabbit": {
-      "total": 278,
+      "total": 283,
       "on_topic": 6,
-      "off_topic": 272,
+      "off_topic": 277,
       "reviews": [
         {
           "source": "play_store",
