@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-07T13:42:12Z",
-  "total_rows": 15671,
+  "generated_at": "2026-10-08T13:49:37Z",
+  "total_rows": 15828,
   "clients": {
     "Amazon": {
-      "total": 13106,
-      "on_topic": 102,
-      "off_topic": 13004,
+      "total": 13274,
+      "on_topic": 105,
+      "off_topic": 13169,
       "reviews": [
         {
           "source": "play_store",
@@ -53,6 +53,42 @@
           "product_area": "nid_verification",
           "severity": "critical",
           "claude_summary": "User's account was closed despite providing identification and proof of bank card.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-29T15:18:34+00:00",
+          "language": "en",
+          "raw_text": "requires an ID to refund orders that they don't fulfill cotrectly",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "high",
+          "claude_summary": "User objects to the requirement of providing an ID to get a refund for unfulfilled orders.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-28T17:13:05+00:00",
+          "language": "en",
+          "raw_text": "Verification process is HORIIBLE! I have submitted my UK driving license and then they requested 2nd ID, so I sent my BRP which they didn't accept because it's expired (like all of them), then sent my passport - but they don't support my country, so what am I supposed to do now?? I'm stuck in a loop!!! Cannot contact support either because they point me to verification first!!!",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is blocked in a loop during ID verification after submitting multiple documents.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-09-28T15:31:08+00:00",
+          "language": "en",
+          "raw_text": "J’ai rencontré un problème de vérification de mon compte Amazon nécessitant l’envoi de documents et d’informations sensibles. Face aux risques liés au vol d’identité et à la sécurité des données, cette procédure m’a préoccupé. J’ai donc préféré demander la fermeture définitive de mon compte et la suppression de mes données. Les procédures de vérification devraient offrir des garanties claires sur la sécurité et la conservation des données. J’ai choisi de ne plus utiliser Amazon.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User closed their Amazon account due to privacy and security concerns regarding the identity verification document request.",
           "valify_scope": "true"
         },
         {
@@ -1234,10 +1270,22 @@
       ]
     },
     "Thndr": {
-      "total": 445,
-      "on_topic": 14,
-      "off_topic": 431,
+      "total": 452,
+      "on_topic": 15,
+      "off_topic": 437,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-09-29T11:16:01+00:00",
+          "language": "en",
+          "raw_text": "very bad experience with app. for about two monthes they did not register me in the stock market. I planned to invest a big amount of many but test them with very negligable money. They failed in the test. Not recommended application at all. Looking for another application.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User is frustrated that their registration in the stock market has been pending for two months.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-28T09:38:07+00:00",
@@ -1409,9 +1457,9 @@
       ]
     },
     "Klivvr": {
-      "total": 203,
+      "total": 204,
       "on_topic": 22,
-      "off_topic": 181,
+      "off_topic": 182,
       "reviews": [
         {
           "source": "play_store",
@@ -1680,9 +1728,9 @@
       ]
     },
     "Rabbit": {
-      "total": 283,
+      "total": 289,
       "on_topic": 6,
-      "off_topic": 277,
+      "off_topic": 283,
       "reviews": [
         {
           "source": "play_store",
@@ -1759,9 +1807,9 @@
       ]
     },
     "ADIB": {
-      "total": 190,
+      "total": 235,
       "on_topic": 1,
-      "off_topic": 189,
+      "off_topic": 234,
       "reviews": [
         {
           "source": "play_store",
@@ -1778,9 +1826,9 @@
       ]
     },
     "Midbank": {
-      "total": 302,
+      "total": 303,
       "on_topic": 17,
-      "off_topic": 285,
+      "off_topic": 286,
       "reviews": [
         {
           "source": "play_store",
@@ -2044,9 +2092,9 @@
       ]
     },
     "Khazna": {
-      "total": 106,
+      "total": 108,
       "on_topic": 2,
-      "off_topic": 104,
+      "off_topic": 106,
       "reviews": [
         {
           "source": "play_store",
