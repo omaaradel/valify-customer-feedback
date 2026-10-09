@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-10-08T13:49:37Z",
-  "total_rows": 15828,
+  "generated_at": "2026-10-09T13:35:12Z",
+  "total_rows": 15979,
   "clients": {
     "Amazon": {
-      "total": 13274,
-      "on_topic": 105,
-      "off_topic": 13169,
+      "total": 13444,
+      "on_topic": 107,
+      "off_topic": 13337,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-10-03T11:14:12+00:00",
+          "language": "en",
+          "raw_text": "watch ordering from them they will bam u for something that is not ur fault and restrict ur account and ask for for stuff then when u send it they still make u wait I know pple this happened too and their still waiting and its been over 2 months",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User complains about account restriction and long delays after submitting requested verification documents.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-10-02T09:35:08+00:00",
@@ -17,6 +29,18 @@
           "product_area": "onboarding_general",
           "severity": "critical",
           "claude_summary": "Disabled user is blocked from purchasing due to identity verification failing ('claiming that I'm not me').",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-01T20:57:40+00:00",
+          "language": "en",
+          "raw_text": "I keep giving you my personal information and you say its wrong. i don't think so. I think you don't bother to be fair to your good customers which I have been for years, upset",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User is frustrated that their submitted personal information is repeatedly rejected as incorrect.",
           "valify_scope": "true"
         },
         {
@@ -1270,9 +1294,9 @@
       ]
     },
     "Thndr": {
-      "total": 452,
+      "total": 456,
       "on_topic": 15,
-      "off_topic": 437,
+      "off_topic": 441,
       "reviews": [
         {
           "source": "play_store",
@@ -1728,9 +1752,9 @@
       ]
     },
     "Rabbit": {
-      "total": 289,
+      "total": 292,
       "on_topic": 6,
-      "off_topic": 283,
+      "off_topic": 286,
       "reviews": [
         {
           "source": "play_store",
@@ -1807,9 +1831,9 @@
       ]
     },
     "ADIB": {
-      "total": 235,
+      "total": 265,
       "on_topic": 1,
-      "off_topic": 234,
+      "off_topic": 264,
       "reviews": [
         {
           "source": "play_store",
@@ -2092,9 +2116,9 @@
       ]
     },
     "Khazna": {
-      "total": 108,
+      "total": 109,
       "on_topic": 2,
-      "off_topic": 106,
+      "off_topic": 107,
       "reviews": [
         {
           "source": "play_store",
