@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-10-10T12:51:01Z",
-  "total_rows": 16095,
+  "generated_at": "2026-10-11T13:05:18Z",
+  "total_rows": 16219,
   "clients": {
     "Amazon": {
-      "total": 13544,
-      "on_topic": 107,
-      "off_topic": 13437,
+      "total": 13614,
+      "on_topic": 110,
+      "off_topic": 13504,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-10-07T21:32:29+00:00",
+          "language": "en",
+          "raw_text": "4 times to go through the id verification, that I then have to do at the door again when delivered.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "medium",
+          "claude_summary": "User frustrated by having to complete ID verification four times in-app and again upon delivery.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-04T03:52:23+00:00",
+          "language": "en",
+          "raw_text": "I've been using Amazon for about 26 years and now that I closed my company account and joined my wife's to save money they are messing with me They are trying to require me to give them I'D for purchases when I have no knowledge of who has access to that information",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "high",
+          "claude_summary": "User objects to being required to provide ID for purchases due to privacy concerns.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-10-03T11:14:12+00:00",
@@ -17,6 +41,18 @@
           "product_area": "nid_verification",
           "severity": "critical",
           "claude_summary": "User complains about account restriction and long delays after submitting requested verification documents.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-02T15:53:46+00:00",
+          "language": "en",
+          "raw_text": "Worst customer service ever I have had this app since 4 years now. I have Prime and I literally order on daily basis. I have had an issue for the last month and a half and most orders I request will get cancelled on the spot after the money is deducted. There is no reason, they send me an auto email tell me yo scan my ID which I did like 10 times and yet the issue is there. I called the CS like 16 times and talked to two of the managers who were no help at all. It is a big joke really",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's orders are repeatedly canceled despite scanning ID ten times as requested.",
           "valify_scope": "true"
         },
         {
@@ -1294,9 +1330,9 @@
       ]
     },
     "Thndr": {
-      "total": 456,
+      "total": 457,
       "on_topic": 15,
-      "off_topic": 441,
+      "off_topic": 442,
       "reviews": [
         {
           "source": "play_store",
@@ -1481,9 +1517,9 @@
       ]
     },
     "Klivvr": {
-      "total": 204,
+      "total": 206,
       "on_topic": 22,
-      "off_topic": 182,
+      "off_topic": 184,
       "reviews": [
         {
           "source": "play_store",
@@ -1752,9 +1788,9 @@
       ]
     },
     "Rabbit": {
-      "total": 292,
+      "total": 295,
       "on_topic": 6,
-      "off_topic": 286,
+      "off_topic": 289,
       "reviews": [
         {
           "source": "play_store",
@@ -1831,9 +1867,9 @@
       ]
     },
     "ADIB": {
-      "total": 265,
+      "total": 279,
       "on_topic": 1,
-      "off_topic": 264,
+      "off_topic": 278,
       "reviews": [
         {
           "source": "play_store",
