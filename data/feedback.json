@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-16T11:51:08Z",
-  "total_rows": 16790,
+  "generated_at": "2026-10-17T11:11:05Z",
+  "total_rows": 16900,
   "clients": {
     "Amazon": {
-      "total": 13755,
-      "on_topic": 110,
-      "off_topic": 13645,
+      "total": 13901,
+      "on_topic": 111,
+      "off_topic": 13790,
       "reviews": [
         {
           "source": "play_store",
@@ -17,6 +17,18 @@
           "product_area": "nid_verification",
           "severity": "medium",
           "claude_summary": "User frustrated by having to complete ID verification four times in-app and again upon delivery.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-05T10:52:35+00:00",
+          "language": "en",
+          "raw_text": "Amazon is c r a p, ask for passport photo, myself photo and say not enough for your veryfication",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's passport and photo were rejected during verification as insufficient.",
           "valify_scope": "true"
         },
         {
@@ -1330,9 +1342,9 @@
       ]
     },
     "Thndr": {
-      "total": 460,
+      "total": 470,
       "on_topic": 15,
-      "off_topic": 445,
+      "off_topic": 455,
       "reviews": [
         {
           "source": "play_store",
@@ -1517,9 +1529,9 @@
       ]
     },
     "Klivvr": {
-      "total": 207,
+      "total": 214,
       "on_topic": 22,
-      "off_topic": 185,
+      "off_topic": 192,
       "reviews": [
         {
           "source": "play_store",
@@ -1788,9 +1800,9 @@
       ]
     },
     "Rabbit": {
-      "total": 298,
+      "total": 303,
       "on_topic": 6,
-      "off_topic": 292,
+      "off_topic": 297,
       "reviews": [
         {
           "source": "play_store",
@@ -1867,9 +1879,9 @@
       ]
     },
     "ADIB": {
-      "total": 279,
+      "total": 291,
       "on_topic": 1,
-      "off_topic": 278,
+      "off_topic": 290,
       "reviews": [
         {
           "source": "play_store",
