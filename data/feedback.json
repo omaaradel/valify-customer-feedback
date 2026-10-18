@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-10-17T11:11:05Z",
-  "total_rows": 16900,
+  "generated_at": "2026-10-18T11:28:02Z",
+  "total_rows": 17040,
   "clients": {
     "Amazon": {
-      "total": 13901,
-      "on_topic": 111,
-      "off_topic": 13790,
+      "total": 14043,
+      "on_topic": 112,
+      "off_topic": 13931,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-10-09T12:59:40+00:00",
+          "language": "ar",
+          "raw_text": "بعد التعديل بتاع سياسة الارجاع بيطلبو بطاقة عشان ارجع المنتج بقالي شهر بكلم خدمة العملاء عشان ارجع اوردر معين عشان انا 14 سنه متلعطش بطاقة يقولولي اي كلام وميرضوش يرجعو المنتج ومعتقدش اني هستخدم البرنامج ده تاني",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is blocked from returning an item because Amazon requires a national ID card which the 14-year-old user does not have.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-10-07T21:32:29+00:00",
@@ -1342,10 +1354,22 @@
       ]
     },
     "Thndr": {
-      "total": 470,
-      "on_topic": 15,
-      "off_topic": 455,
+      "total": 473,
+      "on_topic": 16,
+      "off_topic": 457,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-10-05T12:21:35+00:00",
+          "language": "ar",
+          "raw_text": "برنمج من احسن برمج الي تخليك تشغل فلوسك شكران ثاندر عله جهدك معه كل خطوه ♥️♥️",
+          "sentiment": "positive",
+          "feedback_type": "compliment",
+          "product_area": "onboarding_general",
+          "severity": "none",
+          "claude_summary": "User praises Thndr for their effort and support during every step of the process.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-29T11:16:01+00:00",
@@ -1529,9 +1553,9 @@
       ]
     },
     "Klivvr": {
-      "total": 214,
+      "total": 217,
       "on_topic": 22,
-      "off_topic": 192,
+      "off_topic": 195,
       "reviews": [
         {
           "source": "play_store",
@@ -1800,9 +1824,9 @@
       ]
     },
     "Rabbit": {
-      "total": 303,
+      "total": 305,
       "on_topic": 6,
-      "off_topic": 297,
+      "off_topic": 299,
       "reviews": [
         {
           "source": "play_store",
@@ -1879,9 +1903,9 @@
       ]
     },
     "ADIB": {
-      "total": 291,
+      "total": 294,
       "on_topic": 1,
-      "off_topic": 290,
+      "off_topic": 293,
       "reviews": [
         {
           "source": "play_store",
@@ -2164,9 +2188,9 @@
       ]
     },
     "Khazna": {
-      "total": 111,
+      "total": 112,
       "on_topic": 2,
-      "off_topic": 109,
+      "off_topic": 110,
       "reviews": [
         {
           "source": "play_store",
