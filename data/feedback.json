@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-18T11:28:02Z",
-  "total_rows": 17040,
+  "generated_at": "2026-10-19T13:26:56Z",
+  "total_rows": 17148,
   "clients": {
     "Amazon": {
-      "total": 14043,
-      "on_topic": 112,
-      "off_topic": 13931,
+      "total": 14103,
+      "on_topic": 113,
+      "off_topic": 13990,
       "reviews": [
         {
           "source": "play_store",
@@ -41,6 +41,18 @@
           "product_area": "nid_verification",
           "severity": "critical",
           "claude_summary": "User's passport and photo were rejected during verification as insufficient.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-04T19:13:26+00:00",
+          "language": "en",
+          "raw_text": "requires an ID to refund orders that they don't fulfill correctly",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "medium",
+          "claude_summary": "User complains about being required to provide an ID to receive refunds for unfulfilled orders.",
           "valify_scope": "true"
         },
         {
