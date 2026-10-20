@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-19T13:26:56Z",
-  "total_rows": 17148,
+  "generated_at": "2026-10-20T11:59:42Z",
+  "total_rows": 17290,
   "clients": {
     "Amazon": {
-      "total": 14103,
-      "on_topic": 113,
-      "off_topic": 13990,
+      "total": 14188,
+      "on_topic": 114,
+      "off_topic": 14074,
       "reviews": [
         {
           "source": "play_store",
@@ -29,6 +29,18 @@
           "product_area": "nid_verification",
           "severity": "medium",
           "claude_summary": "User frustrated by having to complete ID verification four times in-app and again upon delivery.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-06T06:20:31+00:00",
+          "language": "ar-en",
+          "raw_text": "A website for selling junk goods Not deserve one star XX إحذروهم XX A shaming and disappointing apk . تقوم شركة وموقع البيع منتجات الخردة اونلاين - Amazon بالتزييف والغش في جميع المعاملات علي جميع الحسابات في بادئ التعامل معهم عن طريق ارسال رسائل اتمام توصيل المنتجات لمنزلي بدون أن يصلني شيئ ومن ثم عند الاتصال بهم لتصحيح الأخطاء بيتم طلب رفع مستندات شخصية اولا وتتوالي الأخطاء منهم تباعا فضلا عن سوء التواصل هاتفيا بتعمدهم عمل تشويش علي المكالمات وعدم الإجابة علي استفساراتي بشكل واضح ودقيق",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "high",
+          "claude_summary": "User reports delivery errors and expresses frustration over being required to upload personal documents.",
           "valify_scope": "true"
         },
         {
@@ -1366,9 +1378,9 @@
       ]
     },
     "Thndr": {
-      "total": 473,
+      "total": 476,
       "on_topic": 16,
-      "off_topic": 457,
+      "off_topic": 460,
       "reviews": [
         {
           "source": "play_store",
@@ -1565,9 +1577,9 @@
       ]
     },
     "Klivvr": {
-      "total": 217,
+      "total": 224,
       "on_topic": 22,
-      "off_topic": 195,
+      "off_topic": 202,
       "reviews": [
         {
           "source": "play_store",
@@ -1836,9 +1848,9 @@
       ]
     },
     "Rabbit": {
-      "total": 305,
+      "total": 309,
       "on_topic": 6,
-      "off_topic": 299,
+      "off_topic": 303,
       "reviews": [
         {
           "source": "play_store",
@@ -1915,9 +1927,9 @@
       ]
     },
     "ADIB": {
-      "total": 294,
+      "total": 311,
       "on_topic": 1,
-      "off_topic": 293,
+      "off_topic": 310,
       "reviews": [
         {
           "source": "play_store",
@@ -1934,9 +1946,9 @@
       ]
     },
     "Midbank": {
-      "total": 303,
+      "total": 304,
       "on_topic": 17,
-      "off_topic": 286,
+      "off_topic": 287,
       "reviews": [
         {
           "source": "play_store",
@@ -2200,9 +2212,9 @@
       ]
     },
     "Khazna": {
-      "total": 112,
+      "total": 115,
       "on_topic": 2,
-      "off_topic": 110,
+      "off_topic": 113,
       "reviews": [
         {
           "source": "play_store",
