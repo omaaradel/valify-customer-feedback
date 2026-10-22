@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-21T12:16:24Z",
-  "total_rows": 17425,
+  "generated_at": "2026-10-22T12:15:40Z",
+  "total_rows": 17556,
   "clients": {
     "Amazon": {
-      "total": 14224,
-      "on_topic": 114,
-      "off_topic": 14110,
+      "total": 14327,
+      "on_topic": 115,
+      "off_topic": 14212,
       "reviews": [
         {
           "source": "play_store",
@@ -29,6 +29,18 @@
           "product_area": "nid_verification",
           "severity": "medium",
           "claude_summary": "User frustrated by having to complete ID verification four times in-app and again upon delivery.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-07T18:55:51+00:00",
+          "language": "en",
+          "raw_text": "Free fastest delivery that you can't change. Well done, now my high value item will be delivered on a day I'm not in. I paid with credit card so when it's likely stolen I'll get my money back. Why can't I choose a delivery day like usual? Also made me age verify to buy chewing gum. Gone downhill.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "medium",
+          "claude_summary": "User complains about delivery scheduling restrictions and unnecessary age verification requirements.",
           "valify_scope": "true"
         },
         {
@@ -1378,9 +1390,9 @@
       ]
     },
     "Thndr": {
-      "total": 483,
+      "total": 494,
       "on_topic": 16,
-      "off_topic": 467,
+      "off_topic": 478,
       "reviews": [
         {
           "source": "play_store",
@@ -1577,9 +1589,9 @@
       ]
     },
     "Klivvr": {
-      "total": 225,
+      "total": 226,
       "on_topic": 22,
-      "off_topic": 203,
+      "off_topic": 204,
       "reviews": [
         {
           "source": "play_store",
@@ -1848,9 +1860,9 @@
       ]
     },
     "Rabbit": {
-      "total": 316,
+      "total": 321,
       "on_topic": 6,
-      "off_topic": 310,
+      "off_topic": 315,
       "reviews": [
         {
           "source": "play_store",
@@ -1927,9 +1939,9 @@
       ]
     },
     "ADIB": {
-      "total": 315,
+      "total": 343,
       "on_topic": 1,
-      "off_topic": 314,
+      "off_topic": 342,
       "reviews": [
         {
           "source": "play_store",
@@ -1946,10 +1958,22 @@
       ]
     },
     "Midbank": {
-      "total": 305,
-      "on_topic": 17,
+      "total": 306,
+      "on_topic": 18,
       "off_topic": 288,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-10-06T23:43:15+00:00",
+          "language": "ar",
+          "raw_text": "فى موجو عند تصوير البطاقة لايوجد زرار التصوير",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User reports that the camera capture button is missing when photographing the ID card in Mogo.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-26T17:52:33+00:00",
@@ -2212,9 +2236,9 @@
       ]
     },
     "Khazna": {
-      "total": 118,
+      "total": 119,
       "on_topic": 2,
-      "off_topic": 116,
+      "off_topic": 117,
       "reviews": [
         {
           "source": "play_store",
