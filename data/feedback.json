@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-23T12:03:13Z",
-  "total_rows": 17674,
+  "generated_at": "2026-10-24T11:28:47Z",
+  "total_rows": 17800,
   "clients": {
     "Amazon": {
-      "total": 14364,
-      "on_topic": 115,
-      "off_topic": 14249,
+      "total": 14526,
+      "on_topic": 116,
+      "off_topic": 14410,
       "reviews": [
         {
           "source": "play_store",
@@ -17,6 +17,18 @@
           "product_area": "nid_verification",
           "severity": "critical",
           "claude_summary": "User is blocked from returning an item because Amazon requires a national ID card which the 14-year-old user does not have.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-09T11:36:56+00:00",
+          "language": "en",
+          "raw_text": "Suddenly cannot add items to cart. Only can add from a list. Also, I received a message about account verification status..... will not let me see all the reviews. I am legacy customer, all the back when dial up was all we had. My account doesn't need any verification!",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "medium",
+          "claude_summary": "User objects to being required to undergo account verification.",
           "valify_scope": "true"
         },
         {
@@ -1939,9 +1951,9 @@
       ]
     },
     "ADIB": {
-      "total": 346,
+      "total": 348,
       "on_topic": 1,
-      "off_topic": 345,
+      "off_topic": 347,
       "reviews": [
         {
           "source": "play_store",
@@ -1958,9 +1970,9 @@
       ]
     },
     "Midbank": {
-      "total": 307,
+      "total": 308,
       "on_topic": 18,
-      "off_topic": 289,
+      "off_topic": 290,
       "reviews": [
         {
           "source": "play_store",
@@ -2236,9 +2248,9 @@
       ]
     },
     "Khazna": {
-      "total": 121,
+      "total": 123,
       "on_topic": 2,
-      "off_topic": 119,
+      "off_topic": 121,
       "reviews": [
         {
           "source": "play_store",
