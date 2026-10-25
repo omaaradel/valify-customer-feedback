@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-10-24T11:28:47Z",
-  "total_rows": 17800,
+  "generated_at": "2026-10-25T11:51:05Z",
+  "total_rows": 17936,
   "clients": {
     "Amazon": {
-      "total": 14526,
-      "on_topic": 116,
-      "off_topic": 14410,
+      "total": 14716,
+      "on_topic": 120,
+      "off_topic": 14596,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-10-14T04:36:52+00:00",
+          "language": "en",
+          "raw_text": "can't make an order because i don't want to send you my ID.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is unable to place an order due to refusal to provide national ID.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-11T18:08:03+00:00",
+          "language": "en",
+          "raw_text": "id verification bull",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "high",
+          "claude_summary": "User expresses frustration with the identity verification process.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-10-09T12:59:40+00:00",
@@ -30,6 +54,30 @@
           "severity": "medium",
           "claude_summary": "User objects to being required to undergo account verification.",
           "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-09T05:28:49+00:00",
+          "language": "en",
+          "raw_text": "The stupid 2 step verification process completely locks you out if you lose in or change your phone number. What happened to sending it to your email instead??? You can't even talk to customer support because it wants you to login first!! What idiot decided to design it this way?? Are they just trying to fish for even more info by forcing you to upload your license? Well I can't even do that anyway because of their idiotic circular logic of logging in to speak with customer service! Such BS!!",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User complains about being locked out and required to upload a driver's license to regain account access.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-08T14:49:00+00:00",
+          "language": "en",
+          "raw_text": "won't let me sign up for an account",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User reports being unable to sign up for an account.",
+          "valify_scope": "unsure"
         },
         {
           "source": "play_store",
@@ -1402,10 +1450,22 @@
       ]
     },
     "Thndr": {
-      "total": 501,
-      "on_topic": 16,
-      "off_topic": 485,
+      "total": 503,
+      "on_topic": 17,
+      "off_topic": 486,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-10-08T15:55:46+00:00",
+          "language": "ar",
+          "raw_text": "ليه مش قادر اسجل على التطبيق ليه فيه مشاكل",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User reports being unable to register on the app due to unspecified errors.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-10-05T12:21:35+00:00",
@@ -1951,9 +2011,9 @@
       ]
     },
     "ADIB": {
-      "total": 348,
+      "total": 351,
       "on_topic": 1,
-      "off_topic": 347,
+      "off_topic": 350,
       "reviews": [
         {
           "source": "play_store",
@@ -1970,9 +2030,9 @@
       ]
     },
     "Midbank": {
-      "total": 308,
+      "total": 310,
       "on_topic": 18,
-      "off_topic": 290,
+      "off_topic": 292,
       "reviews": [
         {
           "source": "play_store",
@@ -2248,9 +2308,9 @@
       ]
     },
     "Khazna": {
-      "total": 123,
+      "total": 124,
       "on_topic": 2,
-      "off_topic": 121,
+      "off_topic": 122,
       "reviews": [
         {
           "source": "play_store",
