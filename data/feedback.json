@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-10-25T11:51:05Z",
-  "total_rows": 17936,
+  "generated_at": "2026-10-26T13:28:55Z",
+  "total_rows": 18074,
   "clients": {
     "Amazon": {
-      "total": 14716,
-      "on_topic": 120,
-      "off_topic": 14596,
+      "total": 14850,
+      "on_topic": 122,
+      "off_topic": 14728,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-10-14T22:32:55+00:00",
+          "language": "en",
+          "raw_text": "Very bad experience, I recently moved countries and tried to order something. Got banned due to 'suspicious activity' after repeatedley providing ID and Bank statements. Very frustrated as I have done nothing wrong and fully co-operated with the company. This is a warning to anyone who moves countries and uses Amazon.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User got banned for suspicious activity despite repeatedly submitting ID and bank statements.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-14T17:45:38+00:00",
+          "language": "en",
+          "raw_text": "They made me created another account afyer falsely closing my previous account, even after ai painstakingly took my ID card for their verification (AI agent is so lousy!)",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "high",
+          "claude_summary": "User complains about account closure and having to painstakingly submit an ID card for verification.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-10-14T04:36:52+00:00",
@@ -1450,9 +1474,9 @@
       ]
     },
     "Thndr": {
-      "total": 503,
+      "total": 504,
       "on_topic": 17,
-      "off_topic": 486,
+      "off_topic": 487,
       "reviews": [
         {
           "source": "play_store",
@@ -1661,10 +1685,22 @@
       ]
     },
     "Klivvr": {
-      "total": 226,
-      "on_topic": 22,
-      "off_topic": 204,
+      "total": 230,
+      "on_topic": 23,
+      "off_topic": 207,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-10-14T02:03:34+00:00",
+          "language": "ar",
+          "raw_text": "كدابين فى كل الأحوال رفض",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User expresses frustration over repeated account rejections on Klivvr.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-09-21T11:19:41+00:00",
@@ -1932,9 +1968,9 @@
       ]
     },
     "Rabbit": {
-      "total": 321,
+      "total": 325,
       "on_topic": 6,
-      "off_topic": 315,
+      "off_topic": 319,
       "reviews": [
         {
           "source": "play_store",
@@ -2011,9 +2047,9 @@
       ]
     },
     "ADIB": {
-      "total": 351,
+      "total": 363,
       "on_topic": 1,
-      "off_topic": 350,
+      "off_topic": 362,
       "reviews": [
         {
           "source": "play_store",
@@ -2030,10 +2066,22 @@
       ]
     },
     "Midbank": {
-      "total": 310,
-      "on_topic": 18,
+      "total": 311,
+      "on_topic": 19,
       "off_topic": 292,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-10-13T20:00:58+00:00",
+          "language": "ar",
+          "raw_text": "تطبيق سيئ جدا ويجمع المعلومات ولا يعمل شيء ويرفض بدون اسباب وتنتظر 3شهور بدون فايده ويتحصل ع معلومات وممكن يحصل تعامل ع بيانتك بدون علمك",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "high",
+          "claude_summary": "User complains about personal data collection and rejection during registration, expressing privacy fears.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-10-06T23:43:15+00:00",
@@ -2308,9 +2356,9 @@
       ]
     },
     "Khazna": {
-      "total": 124,
+      "total": 128,
       "on_topic": 2,
-      "off_topic": 122,
+      "off_topic": 126,
       "reviews": [
         {
           "source": "play_store",
