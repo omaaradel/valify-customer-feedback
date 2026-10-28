@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-10-27T12:36:49Z",
-  "total_rows": 18194,
+  "generated_at": "2026-10-28T13:14:02Z",
+  "total_rows": 18343,
   "clients": {
     "Amazon": {
-      "total": 15003,
-      "on_topic": 122,
-      "off_topic": 14881,
+      "total": 15110,
+      "on_topic": 123,
+      "off_topic": 14987,
       "reviews": [
+        {
+          "source": "appstore",
+          "post_date": "2026-10-20T14:57:29+00:00",
+          "language": "en",
+          "raw_text": "Bad experience: I received a wrong item and tried to return it and they asked for my national id photage",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "high",
+          "claude_summary": "User complains about being requested to submit national ID photo during return flow.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-10-14T22:32:55+00:00",
@@ -1474,9 +1486,9 @@
       ]
     },
     "Thndr": {
-      "total": 504,
+      "total": 505,
       "on_topic": 17,
-      "off_topic": 487,
+      "off_topic": 488,
       "reviews": [
         {
           "source": "play_store",
@@ -1968,9 +1980,9 @@
       ]
     },
     "Rabbit": {
-      "total": 327,
+      "total": 329,
       "on_topic": 6,
-      "off_topic": 321,
+      "off_topic": 323,
       "reviews": [
         {
           "source": "play_store",
@@ -2047,9 +2059,9 @@
       ]
     },
     "ADIB": {
-      "total": 373,
+      "total": 389,
       "on_topic": 1,
-      "off_topic": 372,
+      "off_topic": 388,
       "reviews": [
         {
           "source": "play_store",
@@ -2356,9 +2368,9 @@
       ]
     },
     "Khazna": {
-      "total": 129,
+      "total": 133,
       "on_topic": 2,
-      "off_topic": 127,
+      "off_topic": 131,
       "reviews": [
         {
           "source": "play_store",
