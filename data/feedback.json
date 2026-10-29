@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-10-28T13:14:02Z",
-  "total_rows": 18343,
+  "generated_at": "2026-10-29T13:26:22Z",
+  "total_rows": 18460,
   "clients": {
     "Amazon": {
-      "total": 15110,
-      "on_topic": 123,
-      "off_topic": 14987,
+      "total": 15249,
+      "on_topic": 124,
+      "off_topic": 15125,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-10-22T15:02:36+00:00",
+          "language": "ar",
+          "raw_text": "تجربة كانت كويسة و دلوقتي زي الزفت و شركة حرامية بعد ما دفعت فلوس الحاجه جت بايظة و جم و استلاموها كلام ده قعد شهر و مرجعوش الفلوس و كمان عايزين صورة البطاقة عالم مهزءة",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "high",
+          "claude_summary": "User complains about a delayed refund for a damaged return and requiring an ID card photo.",
+          "valify_scope": "true"
+        },
         {
           "source": "appstore",
           "post_date": "2026-10-20T14:57:29+00:00",
@@ -1486,9 +1498,9 @@
       ]
     },
     "Thndr": {
-      "total": 505,
+      "total": 519,
       "on_topic": 17,
-      "off_topic": 488,
+      "off_topic": 502,
       "reviews": [
         {
           "source": "play_store",
@@ -1697,10 +1709,22 @@
       ]
     },
     "Klivvr": {
-      "total": 232,
-      "on_topic": 23,
-      "off_topic": 209,
+      "total": 238,
+      "on_topic": 24,
+      "off_topic": 214,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-10-21T14:21:52+00:00",
+          "language": "ar",
+          "raw_text": "ابلكشن فاشل جدا جدا جدا والله علطول رفض رفض مش عارف ليه والله",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User complains about repeated unexplained rejections during account registration.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-10-14T02:03:34+00:00",
@@ -1980,9 +2004,9 @@
       ]
     },
     "Rabbit": {
-      "total": 329,
+      "total": 335,
       "on_topic": 6,
-      "off_topic": 323,
+      "off_topic": 329,
       "reviews": [
         {
           "source": "play_store",
@@ -2059,9 +2083,9 @@
       ]
     },
     "ADIB": {
-      "total": 389,
+      "total": 394,
       "on_topic": 1,
-      "off_topic": 388,
+      "off_topic": 393,
       "reviews": [
         {
           "source": "play_store",
