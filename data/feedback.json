@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-29T13:26:22Z",
-  "total_rows": 18460,
+  "generated_at": "2026-10-30T13:14:37Z",
+  "total_rows": 18601,
   "clients": {
     "Amazon": {
-      "total": 15249,
+      "total": 15383,
       "on_topic": 124,
-      "off_topic": 15125,
+      "off_topic": 15259,
       "reviews": [
         {
           "source": "play_store",
@@ -2083,9 +2083,9 @@
       ]
     },
     "ADIB": {
-      "total": 394,
+      "total": 399,
       "on_topic": 1,
-      "off_topic": 393,
+      "off_topic": 398,
       "reviews": [
         {
           "source": "play_store",
@@ -2337,9 +2337,9 @@
       ]
     },
     "Raya": {
-      "total": 8,
+      "total": 9,
       "on_topic": 4,
-      "off_topic": 4,
+      "off_topic": 5,
       "reviews": [
         {
           "source": "play_store",
