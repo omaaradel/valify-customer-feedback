@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-10-30T13:14:37Z",
-  "total_rows": 18601,
+  "generated_at": "2026-10-31T12:48:32Z",
+  "total_rows": 18740,
   "clients": {
     "Amazon": {
-      "total": 15383,
-      "on_topic": 124,
-      "off_topic": 15259,
+      "total": 15502,
+      "on_topic": 125,
+      "off_topic": 15377,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-10-25T17:55:42+00:00",
+          "language": "ar",
+          "raw_text": "اسوا حاجه الان لو عايز ترجع حاجه جت غلط او حاجه ماجتش لازم تصور تفاصيل البطاقه الشخصيه وتبعتها مش فاهمه ازاي يعني قولت في حاجات ناقصه وما جتش ومش هصور البطاقه ومش مهم",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User refuses mandatory national ID capture for item return and abandons the process.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-10-22T15:02:36+00:00",
@@ -2004,9 +2016,9 @@
       ]
     },
     "Rabbit": {
-      "total": 335,
+      "total": 337,
       "on_topic": 6,
-      "off_topic": 329,
+      "off_topic": 331,
       "reviews": [
         {
           "source": "play_store",
@@ -2083,9 +2095,9 @@
       ]
     },
     "ADIB": {
-      "total": 399,
+      "total": 409,
       "on_topic": 1,
-      "off_topic": 398,
+      "off_topic": 408,
       "reviews": [
         {
           "source": "play_store",
@@ -2102,9 +2114,9 @@
       ]
     },
     "Midbank": {
-      "total": 313,
+      "total": 316,
       "on_topic": 19,
-      "off_topic": 294,
+      "off_topic": 297,
       "reviews": [
         {
           "source": "play_store",
@@ -2392,9 +2404,9 @@
       ]
     },
     "Khazna": {
-      "total": 133,
+      "total": 139,
       "on_topic": 2,
-      "off_topic": 131,
+      "off_topic": 137,
       "reviews": [
         {
           "source": "play_store",
