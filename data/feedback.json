@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-31T12:48:32Z",
-  "total_rows": 18740,
+  "generated_at": "2026-11-01T13:45:55Z",
+  "total_rows": 18893,
   "clients": {
     "Amazon": {
-      "total": 15502,
-      "on_topic": 125,
-      "off_topic": 15377,
+      "total": 15691,
+      "on_topic": 127,
+      "off_topic": 15564,
       "reviews": [
         {
           "source": "play_store",
@@ -41,6 +41,30 @@
           "product_area": "nid_verification",
           "severity": "high",
           "claude_summary": "User complains about being requested to submit national ID photo during return flow.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-19T16:33:21+00:00",
+          "language": "en",
+          "raw_text": "requires id verification now, not coming back here again",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User complains about mandatory ID verification requirement and refuses to use the platform again.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-18T21:18:55+00:00",
+          "language": "en",
+          "raw_text": "they closed my account because they couldn't prove that my payment card was mine, even that I've always been ordering with that card that is my debit card, and they make me send id photos, pdf and not enough to prove that it was my account. and I had an order that I need and they canceled it to , this is fknd ridiculous, I've been ordering before with that card to.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's account was closed after submitted ID photos failed to verify account ownership.",
           "valify_scope": "true"
         },
         {
@@ -1510,9 +1534,9 @@
       ]
     },
     "Thndr": {
-      "total": 519,
+      "total": 521,
       "on_topic": 17,
-      "off_topic": 502,
+      "off_topic": 504,
       "reviews": [
         {
           "source": "play_store",
@@ -1721,9 +1745,9 @@
       ]
     },
     "Klivvr": {
-      "total": 238,
+      "total": 239,
       "on_topic": 24,
-      "off_topic": 214,
+      "off_topic": 215,
       "reviews": [
         {
           "source": "play_store",
@@ -2016,9 +2040,9 @@
       ]
     },
     "Rabbit": {
-      "total": 337,
+      "total": 342,
       "on_topic": 6,
-      "off_topic": 331,
+      "off_topic": 336,
       "reviews": [
         {
           "source": "play_store",
@@ -2095,9 +2119,9 @@
       ]
     },
     "ADIB": {
-      "total": 409,
+      "total": 419,
       "on_topic": 1,
-      "off_topic": 408,
+      "off_topic": 418,
       "reviews": [
         {
           "source": "play_store",
@@ -2349,9 +2373,9 @@
       ]
     },
     "Raya": {
-      "total": 9,
+      "total": 10,
       "on_topic": 4,
-      "off_topic": 5,
+      "off_topic": 6,
       "reviews": [
         {
           "source": "play_store",
@@ -2404,9 +2428,9 @@
       ]
     },
     "Khazna": {
-      "total": 139,
+      "total": 141,
       "on_topic": 2,
-      "off_topic": 137,
+      "off_topic": 139,
       "reviews": [
         {
           "source": "play_store",
