@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-11-01T13:45:55Z",
-  "total_rows": 18893,
+  "generated_at": "2026-11-02T16:07:39Z",
+  "total_rows": 19072,
   "clients": {
     "Amazon": {
-      "total": 15691,
-      "on_topic": 127,
-      "off_topic": 15564,
+      "total": 15816,
+      "on_topic": 128,
+      "off_topic": 15688,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-10-27T23:14:56+00:00",
+          "language": "en",
+          "raw_text": "Here are the steps I had to take to place my first order: - Create an account with phone number and 2FA. - Enter my card details & address twice. - Place the order, only to have my account blocked. - I have to login again - Upload photos of my ID & face. Camera on verification website doesn't work, takes 15 minutes to fix. - I have to login again - Enter my cards details & address twice AGAIN - Place order, account gets blocked again. Never using Amazon again in my life.",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User encountered camera glitches while submitting ID and selfie during account verification, leading to repeated account blocks.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-10-25T17:55:42+00:00",
@@ -1534,9 +1546,9 @@
       ]
     },
     "Thndr": {
-      "total": 521,
+      "total": 527,
       "on_topic": 17,
-      "off_topic": 504,
+      "off_topic": 510,
       "reviews": [
         {
           "source": "play_store",
@@ -1745,9 +1757,9 @@
       ]
     },
     "Klivvr": {
-      "total": 239,
-      "on_topic": 24,
-      "off_topic": 215,
+      "total": 245,
+      "on_topic": 25,
+      "off_topic": 220,
       "reviews": [
         {
           "source": "play_store",
@@ -1760,6 +1772,18 @@
           "severity": "critical",
           "claude_summary": "User complains about repeated unexplained rejections during account registration.",
           "valify_scope": "unsure"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-20T14:20:53+00:00",
+          "language": "ar",
+          "raw_text": "تم التقديم على حد ائتماني وتصوير البطاقة ثم المفاجأة الخدمة غير متاح حاليا طيب وبالنسبة للبطاقة والكلام ده اي بقى الموضوع شكلة اي كلام",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "high",
+          "claude_summary": "User photographed ID for a credit limit application but was told the service is unavailable.",
+          "valify_scope": "true"
         },
         {
           "source": "play_store",
@@ -2040,9 +2064,9 @@
       ]
     },
     "Rabbit": {
-      "total": 342,
+      "total": 346,
       "on_topic": 6,
-      "off_topic": 336,
+      "off_topic": 340,
       "reviews": [
         {
           "source": "play_store",
@@ -2119,9 +2143,9 @@
       ]
     },
     "ADIB": {
-      "total": 419,
+      "total": 430,
       "on_topic": 1,
-      "off_topic": 418,
+      "off_topic": 429,
       "reviews": [
         {
           "source": "play_store",
@@ -2138,9 +2162,9 @@
       ]
     },
     "Midbank": {
-      "total": 316,
+      "total": 319,
       "on_topic": 19,
-      "off_topic": 297,
+      "off_topic": 300,
       "reviews": [
         {
           "source": "play_store",
@@ -2428,9 +2452,9 @@
       ]
     },
     "Khazna": {
-      "total": 141,
+      "total": 146,
       "on_topic": 2,
-      "off_topic": 139,
+      "off_topic": 144,
       "reviews": [
         {
           "source": "play_store",
