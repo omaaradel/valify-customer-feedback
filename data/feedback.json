@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-03T14:39:50Z",
-  "total_rows": 19233,
+  "generated_at": "2026-11-04T14:56:02Z",
+  "total_rows": 19418,
   "clients": {
     "Amazon": {
-      "total": 15880,
+      "total": 15920,
       "on_topic": 129,
-      "off_topic": 15751,
+      "off_topic": 15791,
       "reviews": [
         {
           "source": "play_store",
@@ -1558,10 +1558,22 @@
       ]
     },
     "Thndr": {
-      "total": 527,
-      "on_topic": 17,
-      "off_topic": 510,
+      "total": 531,
+      "on_topic": 18,
+      "off_topic": 513,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-11-01T15:03:00+00:00",
+          "language": "en",
+          "raw_text": "the worst app ever ten times trying to create an account",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User reports being unable to create an account after ten attempts.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-10-08T15:55:46+00:00",
@@ -1769,9 +1781,9 @@
       ]
     },
     "Klivvr": {
-      "total": 245,
+      "total": 251,
       "on_topic": 25,
-      "off_topic": 220,
+      "off_topic": 226,
       "reviews": [
         {
           "source": "play_store",
