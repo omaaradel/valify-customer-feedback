@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-11-04T14:56:02Z",
-  "total_rows": 19418,
+  "generated_at": "2026-11-05T15:12:06Z",
+  "total_rows": 19593,
   "clients": {
     "Amazon": {
-      "total": 15920,
-      "on_topic": 129,
-      "off_topic": 15791,
+      "total": 16002,
+      "on_topic": 130,
+      "off_topic": 15872,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-11-02T09:33:11+00:00",
+          "language": "en",
+          "raw_text": "all of a second the app or browser will not let me login really and I have legal account I was told to upload my id and a video to verify my account after the package issues and please redeliver to the address of Harlem ga I have listed please and thank you I have limited options my phone I was using to make previous orders doesn't want to turn on which makes me not be able to access the phone number on file please let me login with phone number and add a new phone number please thanks",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User unable to log in after being asked to upload ID and a video for account verification.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-10-31T16:26:26+00:00",
@@ -1781,9 +1793,9 @@
       ]
     },
     "Klivvr": {
-      "total": 251,
+      "total": 257,
       "on_topic": 25,
-      "off_topic": 226,
+      "off_topic": 232,
       "reviews": [
         {
           "source": "play_store",
@@ -2088,9 +2100,9 @@
       ]
     },
     "Rabbit": {
-      "total": 346,
+      "total": 350,
       "on_topic": 6,
-      "off_topic": 340,
+      "off_topic": 344,
       "reviews": [
         {
           "source": "play_store",
@@ -2167,9 +2179,9 @@
       ]
     },
     "ADIB": {
-      "total": 431,
+      "total": 437,
       "on_topic": 1,
-      "off_topic": 430,
+      "off_topic": 436,
       "reviews": [
         {
           "source": "play_store",
@@ -2186,9 +2198,9 @@
       ]
     },
     "Midbank": {
-      "total": 319,
+      "total": 320,
       "on_topic": 19,
-      "off_topic": 300,
+      "off_topic": 301,
       "reviews": [
         {
           "source": "play_store",
@@ -2476,9 +2488,9 @@
       ]
     },
     "Khazna": {
-      "total": 151,
+      "total": 152,
       "on_topic": 2,
-      "off_topic": 149,
+      "off_topic": 150,
       "reviews": [
         {
           "source": "play_store",
