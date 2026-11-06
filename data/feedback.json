@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-05T15:12:06Z",
-  "total_rows": 19593,
+  "generated_at": "2026-11-06T14:48:21Z",
+  "total_rows": 19731,
   "clients": {
     "Amazon": {
-      "total": 16002,
-      "on_topic": 130,
-      "off_topic": 15872,
+      "total": 16167,
+      "on_topic": 131,
+      "off_topic": 16036,
       "reviews": [
         {
           "source": "play_store",
@@ -53,6 +53,18 @@
           "product_area": "nid_verification",
           "severity": "critical",
           "claude_summary": "User refuses mandatory national ID capture for item return and abandons the process.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-24T19:56:06+00:00",
+          "language": "en",
+          "raw_text": "it won't let me in and requires government documents that I don't even have even though it understands I'm under 18.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User is blocked from access because government ID documents are required for an underage account.",
           "valify_scope": "true"
         },
         {
@@ -1570,9 +1582,9 @@
       ]
     },
     "Thndr": {
-      "total": 531,
+      "total": 537,
       "on_topic": 18,
-      "off_topic": 513,
+      "off_topic": 519,
       "reviews": [
         {
           "source": "play_store",
@@ -1793,9 +1805,9 @@
       ]
     },
     "Klivvr": {
-      "total": 257,
+      "total": 262,
       "on_topic": 25,
-      "off_topic": 232,
+      "off_topic": 237,
       "reviews": [
         {
           "source": "play_store",
@@ -2100,9 +2112,9 @@
       ]
     },
     "Rabbit": {
-      "total": 350,
+      "total": 352,
       "on_topic": 6,
-      "off_topic": 344,
+      "off_topic": 346,
       "reviews": [
         {
           "source": "play_store",
@@ -2179,9 +2191,9 @@
       ]
     },
     "ADIB": {
-      "total": 437,
+      "total": 439,
       "on_topic": 1,
-      "off_topic": 436,
+      "off_topic": 438,
       "reviews": [
         {
           "source": "play_store",
