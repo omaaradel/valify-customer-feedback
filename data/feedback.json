@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-06T14:48:21Z",
-  "total_rows": 19731,
+  "generated_at": "2026-11-07T13:30:53Z",
+  "total_rows": 19859,
   "clients": {
     "Amazon": {
-      "total": 16167,
+      "total": 16278,
       "on_topic": 131,
-      "off_topic": 16036,
+      "off_topic": 16147,
       "reviews": [
         {
           "source": "play_store",
@@ -1582,9 +1582,9 @@
       ]
     },
     "Thndr": {
-      "total": 537,
+      "total": 540,
       "on_topic": 18,
-      "off_topic": 519,
+      "off_topic": 522,
       "reviews": [
         {
           "source": "play_store",
@@ -1805,10 +1805,22 @@
       ]
     },
     "Klivvr": {
-      "total": 262,
-      "on_topic": 25,
-      "off_topic": 237,
+      "total": 274,
+      "on_topic": 26,
+      "off_topic": 248,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-10-26T00:40:00+00:00",
+          "language": "ar",
+          "raw_text": "التطبيق وافق علي شخص معي ولم يوافق علي مع اننا نفس العمل والتأمين وكل حاجه ليه معرفش",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "high",
+          "claude_summary": "User expresses frustration after being rejected during account setup while a peer with identical credentials was approved.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-10-21T14:21:52+00:00",
@@ -2112,9 +2124,9 @@
       ]
     },
     "Rabbit": {
-      "total": 352,
+      "total": 359,
       "on_topic": 6,
-      "off_topic": 346,
+      "off_topic": 353,
       "reviews": [
         {
           "source": "play_store",
@@ -2191,9 +2203,9 @@
       ]
     },
     "ADIB": {
-      "total": 439,
+      "total": 443,
       "on_topic": 1,
-      "off_topic": 438,
+      "off_topic": 442,
       "reviews": [
         {
           "source": "play_store",
@@ -2210,9 +2222,9 @@
       ]
     },
     "Midbank": {
-      "total": 320,
+      "total": 321,
       "on_topic": 19,
-      "off_topic": 301,
+      "off_topic": 302,
       "reviews": [
         {
           "source": "play_store",
@@ -2500,9 +2512,9 @@
       ]
     },
     "Khazna": {
-      "total": 152,
+      "total": 154,
       "on_topic": 2,
-      "off_topic": 150,
+      "off_topic": 152,
       "reviews": [
         {
           "source": "play_store",
