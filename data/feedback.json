@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-08T13:50:38Z",
-  "total_rows": 20017,
+  "generated_at": "2026-11-09T16:40:58Z",
+  "total_rows": 20192,
   "clients": {
     "Amazon": {
-      "total": 16447,
-      "on_topic": 131,
-      "off_topic": 16316,
+      "total": 16552,
+      "on_topic": 132,
+      "off_topic": 16420,
       "reviews": [
         {
           "source": "play_store",
@@ -29,6 +29,18 @@
           "product_area": "nid_verification",
           "severity": "medium",
           "claude_summary": "User objects to being forced to submit a government ID, citing privacy concerns.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-30T11:15:04+00:00",
+          "language": "en",
+          "raw_text": "Doesn't give you any good options on verifying your account. Slow, poor had to refresh multiple times and it still won't work.",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User unable to verify account due to system slowness and persistent errors.",
           "valify_scope": "true"
         },
         {
@@ -1582,9 +1594,9 @@
       ]
     },
     "Thndr": {
-      "total": 543,
+      "total": 549,
       "on_topic": 18,
-      "off_topic": 525,
+      "off_topic": 531,
       "reviews": [
         {
           "source": "play_store",
@@ -1805,9 +1817,9 @@
       ]
     },
     "Klivvr": {
-      "total": 289,
+      "total": 293,
       "on_topic": 26,
-      "off_topic": 263,
+      "off_topic": 267,
       "reviews": [
         {
           "source": "play_store",
@@ -2124,9 +2136,9 @@
       ]
     },
     "Rabbit": {
-      "total": 364,
+      "total": 365,
       "on_topic": 6,
-      "off_topic": 358,
+      "off_topic": 359,
       "reviews": [
         {
           "source": "play_store",
@@ -2203,9 +2215,9 @@
       ]
     },
     "ADIB": {
-      "total": 458,
+      "total": 459,
       "on_topic": 1,
-      "off_topic": 457,
+      "off_topic": 458,
       "reviews": [
         {
           "source": "play_store",
@@ -2222,9 +2234,9 @@
       ]
     },
     "Midbank": {
-      "total": 323,
+      "total": 324,
       "on_topic": 19,
-      "off_topic": 304,
+      "off_topic": 305,
       "reviews": [
         {
           "source": "play_store",
@@ -2457,9 +2469,9 @@
       ]
     },
     "Raya": {
-      "total": 10,
+      "total": 11,
       "on_topic": 4,
-      "off_topic": 6,
+      "off_topic": 7,
       "reviews": [
         {
           "source": "play_store",
@@ -2512,9 +2524,9 @@
       ]
     },
     "Khazna": {
-      "total": 155,
+      "total": 156,
       "on_topic": 2,
-      "off_topic": 153,
+      "off_topic": 154,
       "reviews": [
         {
           "source": "play_store",
