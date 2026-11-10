@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-09T16:40:58Z",
-  "total_rows": 20192,
+  "generated_at": "2026-11-10T15:23:37Z",
+  "total_rows": 20352,
   "clients": {
     "Amazon": {
-      "total": 16552,
+      "total": 16602,
       "on_topic": 132,
-      "off_topic": 16420,
+      "off_topic": 16470,
       "reviews": [
         {
           "source": "play_store",
@@ -1817,9 +1817,9 @@
       ]
     },
     "Klivvr": {
-      "total": 293,
+      "total": 303,
       "on_topic": 26,
-      "off_topic": 267,
+      "off_topic": 277,
       "reviews": [
         {
           "source": "play_store",
