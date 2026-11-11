@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-10T15:23:37Z",
-  "total_rows": 20352,
+  "generated_at": "2026-11-11T14:46:51Z",
+  "total_rows": 20534,
   "clients": {
     "Amazon": {
-      "total": 16602,
-      "on_topic": 132,
-      "off_topic": 16470,
+      "total": 16756,
+      "on_topic": 137,
+      "off_topic": 16619,
       "reviews": [
         {
           "source": "play_store",
@@ -33,6 +33,18 @@
         },
         {
           "source": "play_store",
+          "post_date": "2026-10-30T18:52:33+00:00",
+          "language": "ar",
+          "raw_text": "ك كنت ساعطي خمس نجوم ولكن مساله التحقق من الشخصيه عند الارجاع مساله سخيفه",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "medium",
+          "claude_summary": "User expresses frustration with identity verification required during item returns.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
           "post_date": "2026-10-30T11:15:04+00:00",
           "language": "en",
           "raw_text": "Doesn't give you any good options on verifying your account. Slow, poor had to refresh multiple times and it still won't work.",
@@ -41,6 +53,54 @@
           "product_area": "onboarding_general",
           "severity": "critical",
           "claude_summary": "User unable to verify account due to system slowness and persistent errors.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-29T18:01:15+00:00",
+          "language": "en",
+          "raw_text": "Account Closed when customer service had verified my information told me 24 hours. Then they ask for paperwork, ID, and card. All of a sudden my account says closed. They didn't tell me nothing.",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "Account closed unexpectedly after submitting required ID and paperwork for verification.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-29T17:04:07+00:00",
+          "language": "en",
+          "raw_text": "they kept cancelling my orders . and they couldn't verify my my id as they asked also they threatened to cancel my delete my account. they have problem what make it worse they don't have customer service to solve their problems . just a lot of silly questions. but I found the same product from treydol app with better price . also noon better",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "Failed ID verification led to cancelled orders and threatened account deletion.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-29T16:02:51+00:00",
+          "language": "en",
+          "raw_text": "Orderan item and before I could even make the purchase, they asked me to tap my card’s chip to my phone to verify it was actually my card. I understood the security reasons, so I had no problem doing that. But right before my packages were supposed to arrive, my account was locked, and they asked me to upload my Discover card and driver's license. I followed the instructions, but they denied my card even though it was the same card I had already verified. I've spent the entireweek callingNO HELP",
+          "sentiment": "negative",
+          "feedback_type": "bug",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's account was locked and driver's license upload was denied despite following verification steps.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-29T00:13:25+00:00",
+          "language": "en",
+          "raw_text": "What's the point in using age verification when you know my card details and what phone I'm using to buy a razor blade or secateurs is kind of lame don't you think? You're all part of the plant to bring in the digital identity BS. I've already shown my selfie and passport over 4 times today. surely you're using my personal data and possibly selling it online to thieves and ex spy agents? Kind of defeats the object. Ruins the shopping online. I'll go to a shop down the road.This is just pathetic",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "facematch",
+          "severity": "critical",
+          "claude_summary": "User frustrated by repeated selfie and passport verification requests for age verification.",
           "valify_scope": "true"
         },
         {
@@ -1594,9 +1654,9 @@
       ]
     },
     "Thndr": {
-      "total": 549,
+      "total": 552,
       "on_topic": 18,
-      "off_topic": 531,
+      "off_topic": 534,
       "reviews": [
         {
           "source": "play_store",
@@ -1817,9 +1877,9 @@
       ]
     },
     "Klivvr": {
-      "total": 303,
+      "total": 308,
       "on_topic": 26,
-      "off_topic": 277,
+      "off_topic": 282,
       "reviews": [
         {
           "source": "play_store",
@@ -2136,9 +2196,9 @@
       ]
     },
     "Rabbit": {
-      "total": 365,
+      "total": 369,
       "on_topic": 6,
-      "off_topic": 359,
+      "off_topic": 363,
       "reviews": [
         {
           "source": "play_store",
@@ -2215,9 +2275,9 @@
       ]
     },
     "ADIB": {
-      "total": 459,
+      "total": 463,
       "on_topic": 1,
-      "off_topic": 458,
+      "off_topic": 462,
       "reviews": [
         {
           "source": "play_store",
