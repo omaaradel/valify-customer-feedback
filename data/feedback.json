@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-11T14:46:51Z",
-  "total_rows": 20534,
+  "generated_at": "2026-11-12T15:49:31Z",
+  "total_rows": 20713,
   "clients": {
     "Amazon": {
-      "total": 16756,
-      "on_topic": 137,
-      "off_topic": 16619,
+      "total": 16919,
+      "on_topic": 139,
+      "off_topic": 16780,
       "reviews": [
         {
           "source": "play_store",
@@ -29,6 +29,30 @@
           "product_area": "nid_verification",
           "severity": "medium",
           "claude_summary": "User objects to being forced to submit a government ID, citing privacy concerns.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-30T21:21:46+00:00",
+          "language": "en",
+          "raw_text": "so I ordered prime n everything was fine. they charged me for prime under my cc on file then when I had to cancel my first order bcuz I did something wrong n went to re order item they stopped my ordering privileges,! for the last week everyday I did what they asked selfie videos,pics of my I.d n cc, sent payment of prime ect. everyday I called customer service n they said it would be settled in 24 -48 hrs...still not settled! now I have new TV n cannot even access prime tv so I call n ask for p",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "liveness_detection",
+          "severity": "critical",
+          "claude_summary": "User stuck after repeatedly submitting selfie videos and ID photos without resolution.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-10-30T20:37:22+00:00",
+          "language": "en",
+          "raw_text": "had to prove who we were using this stupid app. first dl then cc then bank. they still denied it. never again Amazon you suck.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User was denied after attempting identity verification with driver's license.",
           "valify_scope": "true"
         },
         {
@@ -1654,9 +1678,9 @@
       ]
     },
     "Thndr": {
-      "total": 552,
+      "total": 556,
       "on_topic": 18,
-      "off_topic": 534,
+      "off_topic": 538,
       "reviews": [
         {
           "source": "play_store",
@@ -1877,9 +1901,9 @@
       ]
     },
     "Klivvr": {
-      "total": 308,
+      "total": 314,
       "on_topic": 26,
-      "off_topic": 282,
+      "off_topic": 288,
       "reviews": [
         {
           "source": "play_store",
@@ -2196,9 +2220,9 @@
       ]
     },
     "Rabbit": {
-      "total": 369,
+      "total": 371,
       "on_topic": 6,
-      "off_topic": 363,
+      "off_topic": 365,
       "reviews": [
         {
           "source": "play_store",
@@ -2275,9 +2299,9 @@
       ]
     },
     "ADIB": {
-      "total": 463,
+      "total": 467,
       "on_topic": 1,
-      "off_topic": 462,
+      "off_topic": 466,
       "reviews": [
         {
           "source": "play_store",
@@ -2584,9 +2608,9 @@
       ]
     },
     "Khazna": {
-      "total": 156,
+      "total": 157,
       "on_topic": 2,
-      "off_topic": 154,
+      "off_topic": 155,
       "reviews": [
         {
           "source": "play_store",
