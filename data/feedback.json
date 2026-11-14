@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-11-13T15:14:35Z",
-  "total_rows": 20876,
+  "generated_at": "2026-11-14T14:06:05Z",
+  "total_rows": 21068,
   "clients": {
     "Amazon": {
-      "total": 17060,
-      "on_topic": 139,
-      "off_topic": 16921,
+      "total": 17251,
+      "on_topic": 141,
+      "off_topic": 17110,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-11-03T12:29:50+00:00",
+          "language": "en",
+          "raw_text": "Horrible wouldn't even let me add my card without tapping it and was asking for my ID number for a car part",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "high",
+          "claude_summary": "User complains about being asked for an ID number when adding a card to buy a car part.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "appstore",
+          "post_date": "2026-11-03T01:23:14+00:00",
+          "language": "ar",
+          "raw_text": "حراميه: طالبين بطاقه لارجاع يا شويه حراميه دى حاجه غير عقلانيه",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "high",
+          "claude_summary": "User strongly objects to being required to provide national ID for an item return.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-11-02T09:33:11+00:00",
@@ -1678,9 +1702,9 @@
       ]
     },
     "Thndr": {
-      "total": 556,
+      "total": 570,
       "on_topic": 18,
-      "off_topic": 538,
+      "off_topic": 552,
       "reviews": [
         {
           "source": "play_store",
@@ -1901,9 +1925,9 @@
       ]
     },
     "Klivvr": {
-      "total": 321,
+      "total": 329,
       "on_topic": 26,
-      "off_topic": 295,
+      "off_topic": 303,
       "reviews": [
         {
           "source": "play_store",
@@ -2220,9 +2244,9 @@
       ]
     },
     "Rabbit": {
-      "total": 377,
+      "total": 380,
       "on_topic": 6,
-      "off_topic": 371,
+      "off_topic": 374,
       "reviews": [
         {
           "source": "play_store",
@@ -2299,9 +2323,9 @@
       ]
     },
     "ADIB": {
-      "total": 471,
+      "total": 475,
       "on_topic": 1,
-      "off_topic": 470,
+      "off_topic": 474,
       "reviews": [
         {
           "source": "play_store",
