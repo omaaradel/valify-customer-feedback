@@ -1,12 +1,48 @@
 {
-  "generated_at": "2026-11-14T14:06:05Z",
-  "total_rows": 21068,
+  "generated_at": "2026-11-15T14:33:01Z",
+  "total_rows": 21270,
   "clients": {
     "Amazon": {
-      "total": 17251,
-      "on_topic": 141,
-      "off_topic": 17110,
+      "total": 17440,
+      "on_topic": 144,
+      "off_topic": 17296,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-11-05T11:42:32+00:00",
+          "language": "en",
+          "raw_text": "horreble it is so anoying and hard to prove its my acount and stuff even when following the steps",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "high",
+          "claude_summary": "User finds it very difficult to prove account ownership despite following the provided steps.",
+          "valify_scope": "unsure"
+        },
+        {
+          "source": "appstore",
+          "post_date": "2026-11-05T07:37:03+00:00",
+          "language": "en",
+          "raw_text": "Fraude: On Amazon Egypt, you can buy if you are under 15 years old, but you cannot return a broken item if you don't have an ID.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User complains that ID card is mandatory to return damaged items on Amazon Egypt.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-11-04T14:55:02+00:00",
+          "language": "en",
+          "raw_text": "Extremely frustrating! It used to be a functional app but now I can't return damaged items unless I provide a copy of my passport!!",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User frustrated by mandatory passport requirement when returning damaged items on Amazon.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-11-03T12:29:50+00:00",
@@ -1702,9 +1738,9 @@
       ]
     },
     "Thndr": {
-      "total": 570,
+      "total": 580,
       "on_topic": 18,
-      "off_topic": 552,
+      "off_topic": 562,
       "reviews": [
         {
           "source": "play_store",
@@ -1925,9 +1961,9 @@
       ]
     },
     "Klivvr": {
-      "total": 329,
+      "total": 339,
       "on_topic": 26,
-      "off_topic": 303,
+      "off_topic": 313,
       "reviews": [
         {
           "source": "play_store",
@@ -2323,9 +2359,9 @@
       ]
     },
     "ADIB": {
-      "total": 475,
+      "total": 484,
       "on_topic": 1,
-      "off_topic": 474,
+      "off_topic": 483,
       "reviews": [
         {
           "source": "play_store",
@@ -2342,9 +2378,9 @@
       ]
     },
     "Midbank": {
-      "total": 324,
+      "total": 326,
       "on_topic": 19,
-      "off_topic": 305,
+      "off_topic": 307,
       "reviews": [
         {
           "source": "play_store",
