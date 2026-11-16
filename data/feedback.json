@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-11-15T14:33:01Z",
-  "total_rows": 21270,
+  "generated_at": "2026-11-16T16:24:55Z",
+  "total_rows": 21455,
   "clients": {
     "Amazon": {
-      "total": 17440,
-      "on_topic": 144,
-      "off_topic": 17296,
+      "total": 17500,
+      "on_topic": 145,
+      "off_topic": 17355,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-11-15T07:55:35+00:00",
+          "language": "en",
+          "raw_text": "My KDP account has been restricted due to an identity verification issue. Despite several attempts to resolve it, I have only received automated responses. I am the rightful account owner and willing to provide any required documents. Please have a human representative investigate why my verification failed, help resolve the issue, and restore my publishing privileges. I value KDP and want to continue publishing, but I need genuine assistance and a proper resolution, not AI responses.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "KDP account restricted after identity verification failed repeatedly without human support.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-11-05T11:42:32+00:00",
@@ -1738,9 +1750,9 @@
       ]
     },
     "Thndr": {
-      "total": 580,
+      "total": 582,
       "on_topic": 18,
-      "off_topic": 562,
+      "off_topic": 564,
       "reviews": [
         {
           "source": "play_store",
@@ -1961,9 +1973,9 @@
       ]
     },
     "Klivvr": {
-      "total": 339,
+      "total": 340,
       "on_topic": 26,
-      "off_topic": 313,
+      "off_topic": 314,
       "reviews": [
         {
           "source": "play_store",
@@ -2280,9 +2292,9 @@
       ]
     },
     "Rabbit": {
-      "total": 380,
+      "total": 384,
       "on_topic": 6,
-      "off_topic": 374,
+      "off_topic": 378,
       "reviews": [
         {
           "source": "play_store",
@@ -2359,9 +2371,9 @@
       ]
     },
     "ADIB": {
-      "total": 484,
+      "total": 486,
       "on_topic": 1,
-      "off_topic": 483,
+      "off_topic": 485,
       "reviews": [
         {
           "source": "play_store",
@@ -2668,9 +2680,9 @@
       ]
     },
     "Khazna": {
-      "total": 159,
+      "total": 160,
       "on_topic": 2,
-      "off_topic": 157,
+      "off_topic": 158,
       "reviews": [
         {
           "source": "play_store",
