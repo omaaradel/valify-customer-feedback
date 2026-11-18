@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-17T16:47:33Z",
-  "total_rows": 21664,
+  "generated_at": "2026-11-18T16:20:45Z",
+  "total_rows": 21815,
   "clients": {
     "Amazon": {
-      "total": 17582,
+      "total": 17592,
       "on_topic": 148,
-      "off_topic": 17434,
+      "off_topic": 17444,
       "reviews": [
         {
           "source": "play_store",
