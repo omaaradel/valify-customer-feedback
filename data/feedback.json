@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-18T16:20:45Z",
-  "total_rows": 21815,
+  "generated_at": "2026-11-19T16:41:35Z",
+  "total_rows": 21956,
   "clients": {
     "Amazon": {
-      "total": 17592,
+      "total": 17666,
       "on_topic": 148,
-      "off_topic": 17444,
+      "off_topic": 17518,
       "reviews": [
         {
           "source": "play_store",
@@ -1786,9 +1786,9 @@
       ]
     },
     "Thndr": {
-      "total": 582,
+      "total": 584,
       "on_topic": 18,
-      "off_topic": 564,
+      "off_topic": 566,
       "reviews": [
         {
           "source": "play_store",
@@ -2407,9 +2407,9 @@
       ]
     },
     "ADIB": {
-      "total": 487,
+      "total": 490,
       "on_topic": 1,
-      "off_topic": 486,
+      "off_topic": 489,
       "reviews": [
         {
           "source": "play_store",
@@ -2716,9 +2716,9 @@
       ]
     },
     "Khazna": {
-      "total": 165,
+      "total": 166,
       "on_topic": 2,
-      "off_topic": 163,
+      "off_topic": 164,
       "reviews": [
         {
           "source": "play_store",
