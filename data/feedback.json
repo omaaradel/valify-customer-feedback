@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-19T16:41:35Z",
-  "total_rows": 21956,
+  "generated_at": "2026-11-20T16:14:01Z",
+  "total_rows": 22096,
   "clients": {
     "Amazon": {
-      "total": 17666,
-      "on_topic": 148,
-      "off_topic": 17518,
+      "total": 17860,
+      "on_topic": 149,
+      "off_topic": 17711,
       "reviews": [
         {
           "source": "play_store",
@@ -41,6 +41,18 @@
           "product_area": "onboarding_general",
           "severity": "critical",
           "claude_summary": "User could not complete age verification due to an infinite loading screen.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "appstore",
+          "post_date": "2026-11-06T19:06:19+00:00",
+          "language": "en",
+          "raw_text": "The keep asking for copy of my ID: To return an order Amazon is asking for copy of my ID which is illegal and the completely refused to help me unless they have it \nI have no idea what is the reason behind this but this is suspicious I’ve been using the account for years and years now",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User complains about being forced to upload a national ID copy to process an item return.",
           "valify_scope": "true"
         },
         {
@@ -1786,9 +1798,9 @@
       ]
     },
     "Thndr": {
-      "total": 584,
+      "total": 587,
       "on_topic": 18,
-      "off_topic": 566,
+      "off_topic": 569,
       "reviews": [
         {
           "source": "play_store",
@@ -2009,9 +2021,9 @@
       ]
     },
     "Klivvr": {
-      "total": 340,
+      "total": 344,
       "on_topic": 26,
-      "off_topic": 314,
+      "off_topic": 318,
       "reviews": [
         {
           "source": "play_store",
@@ -2328,9 +2340,9 @@
       ]
     },
     "Rabbit": {
-      "total": 384,
+      "total": 386,
       "on_topic": 6,
-      "off_topic": 378,
+      "off_topic": 380,
       "reviews": [
         {
           "source": "play_store",
@@ -2407,9 +2419,9 @@
       ]
     },
     "ADIB": {
-      "total": 490,
+      "total": 495,
       "on_topic": 1,
-      "off_topic": 489,
+      "off_topic": 494,
       "reviews": [
         {
           "source": "play_store",
@@ -2426,9 +2438,9 @@
       ]
     },
     "Midbank": {
-      "total": 328,
+      "total": 329,
       "on_topic": 19,
-      "off_topic": 309,
+      "off_topic": 310,
       "reviews": [
         {
           "source": "play_store",
@@ -2716,9 +2728,9 @@
       ]
     },
     "Khazna": {
-      "total": 166,
+      "total": 167,
       "on_topic": 2,
-      "off_topic": 164,
+      "off_topic": 165,
       "reviews": [
         {
           "source": "play_store",
