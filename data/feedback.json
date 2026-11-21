@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-20T16:14:01Z",
-  "total_rows": 22096,
+  "generated_at": "2026-11-21T15:28:04Z",
+  "total_rows": 22238,
   "clients": {
     "Amazon": {
-      "total": 17860,
-      "on_topic": 149,
-      "off_topic": 17711,
+      "total": 18045,
+      "on_topic": 150,
+      "off_topic": 17895,
       "reviews": [
         {
           "source": "play_store",
@@ -41,6 +41,18 @@
           "product_area": "onboarding_general",
           "severity": "critical",
           "claude_summary": "User could not complete age verification due to an infinite loading screen.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-11-09T13:49:43+00:00",
+          "language": "ar",
+          "raw_text": "سئ جدا مؤخرا بعد الغاء طلب مدفوع بالبطاقة يرفض ارجاع المبلغ لي علي نفس البطاقة ويضع شروط لارجاع فلوسي يطلب ان افتح الكاميرا وأصور نفسي",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "facematch",
+          "severity": "critical",
+          "claude_summary": "User objects to taking a selfie photo to process a refund for a cancelled card order.",
           "valify_scope": "true"
         },
         {
@@ -1798,9 +1810,9 @@
       ]
     },
     "Thndr": {
-      "total": 587,
+      "total": 591,
       "on_topic": 18,
-      "off_topic": 569,
+      "off_topic": 573,
       "reviews": [
         {
           "source": "play_store",
@@ -2021,9 +2033,9 @@
       ]
     },
     "Klivvr": {
-      "total": 344,
+      "total": 347,
       "on_topic": 26,
-      "off_topic": 318,
+      "off_topic": 321,
       "reviews": [
         {
           "source": "play_store",
@@ -2340,9 +2352,9 @@
       ]
     },
     "Rabbit": {
-      "total": 386,
+      "total": 388,
       "on_topic": 6,
-      "off_topic": 380,
+      "off_topic": 382,
       "reviews": [
         {
           "source": "play_store",
@@ -2419,9 +2431,9 @@
       ]
     },
     "ADIB": {
-      "total": 495,
+      "total": 499,
       "on_topic": 1,
-      "off_topic": 494,
+      "off_topic": 498,
       "reviews": [
         {
           "source": "play_store",
@@ -2438,9 +2450,9 @@
       ]
     },
     "Midbank": {
-      "total": 329,
+      "total": 330,
       "on_topic": 19,
-      "off_topic": 310,
+      "off_topic": 311,
       "reviews": [
         {
           "source": "play_store",
@@ -2728,9 +2740,9 @@
       ]
     },
     "Khazna": {
-      "total": 167,
+      "total": 168,
       "on_topic": 2,
-      "off_topic": 165,
+      "off_topic": 166,
       "reviews": [
         {
           "source": "play_store",
