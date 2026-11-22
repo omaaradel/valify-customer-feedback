@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-11-21T15:28:04Z",
-  "total_rows": 22238,
+  "generated_at": "2026-11-22T15:23:39Z",
+  "total_rows": 22386,
   "clients": {
     "Amazon": {
-      "total": 18045,
-      "on_topic": 150,
-      "off_topic": 17895,
+      "total": 18173,
+      "on_topic": 152,
+      "off_topic": 18021,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-11-19T00:02:26+00:00",
+          "language": "en",
+          "raw_text": "Extremely frustrating experience with Amazon. First, my Klarna card was declined for no clear reason. When I switched to Monzo Flex, the order went through initially, but it was suddenly cancelled and my account was suspended. During verification, I mistakenly entered my secondary email address, and instead of allowing a simple correction, my account was permanently blocked—despite providing my valid Driving License as proof of identity. Very Bad Experience.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's account was permanently blocked during verification despite submitting a valid driving license.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-11-16T09:56:41+00:00",
+          "language": "ar",
+          "raw_text": "تجربة سيئة عملية الإرجاع صعبة للغاية ويطلب صور شخصية وبصمة صوت وصور للبطاقة كأنك سوف تحصل على تأشيرة للسفر",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "high",
+          "claude_summary": "User complains about complicated item return flow requiring selfie and national ID photos.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-11-15T07:55:35+00:00",
@@ -2431,9 +2455,9 @@
       ]
     },
     "ADIB": {
-      "total": 499,
+      "total": 500,
       "on_topic": 1,
-      "off_topic": 498,
+      "off_topic": 499,
       "reviews": [
         {
           "source": "play_store",
@@ -2740,9 +2764,9 @@
       ]
     },
     "Khazna": {
-      "total": 168,
+      "total": 169,
       "on_topic": 2,
-      "off_topic": 166,
+      "off_topic": 167,
       "reviews": [
         {
           "source": "play_store",
