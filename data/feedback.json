@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-22T15:23:39Z",
-  "total_rows": 22386,
+  "generated_at": "2026-11-23T18:45:16Z",
+  "total_rows": 22512,
   "clients": {
     "Amazon": {
-      "total": 18173,
-      "on_topic": 152,
-      "off_topic": 18021,
+      "total": 18279,
+      "on_topic": 153,
+      "off_topic": 18126,
       "reviews": [
         {
           "source": "play_store",
@@ -65,6 +65,18 @@
           "product_area": "onboarding_general",
           "severity": "critical",
           "claude_summary": "User could not complete age verification due to an infinite loading screen.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-11-10T09:40:16+00:00",
+          "language": "en",
+          "raw_text": "after i had paid for orders for my little girls school trip they then decided to ask for bank statements an my i.d which i sent an they refused all documents an refunded half my order because of that ask all the documents first you idiots, so i closed my account i wouldnt use amazon again if you payed me to do so worst app ive ever used i will go back to ebay where life is good.",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "critical",
+          "claude_summary": "User's ID and bank statements were rejected after placing an order, causing user to close account.",
           "valify_scope": "true"
         },
         {
@@ -1834,9 +1846,9 @@
       ]
     },
     "Thndr": {
-      "total": 591,
+      "total": 596,
       "on_topic": 18,
-      "off_topic": 573,
+      "off_topic": 578,
       "reviews": [
         {
           "source": "play_store",
@@ -2057,9 +2069,9 @@
       ]
     },
     "Klivvr": {
-      "total": 347,
+      "total": 350,
       "on_topic": 26,
-      "off_topic": 321,
+      "off_topic": 324,
       "reviews": [
         {
           "source": "play_store",
@@ -2376,9 +2388,9 @@
       ]
     },
     "Rabbit": {
-      "total": 388,
+      "total": 390,
       "on_topic": 6,
-      "off_topic": 382,
+      "off_topic": 384,
       "reviews": [
         {
           "source": "play_store",
@@ -2455,9 +2467,9 @@
       ]
     },
     "ADIB": {
-      "total": 500,
+      "total": 504,
       "on_topic": 1,
-      "off_topic": 499,
+      "off_topic": 503,
       "reviews": [
         {
           "source": "play_store",
