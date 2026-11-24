@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-23T18:45:16Z",
-  "total_rows": 22512,
+  "generated_at": "2026-11-24T18:17:42Z",
+  "total_rows": 22660,
   "clients": {
     "Amazon": {
-      "total": 18279,
-      "on_topic": 153,
-      "off_topic": 18126,
+      "total": 18352,
+      "on_topic": 155,
+      "off_topic": 18197,
       "reviews": [
         {
           "source": "play_store",
@@ -21,6 +21,18 @@
         },
         {
           "source": "play_store",
+          "post_date": "2026-11-17T07:41:16+00:00",
+          "language": "en",
+          "raw_text": "Extremely disappointed with Amazon! My original account was hacked, and someone changed my name, email, and phone number, locking me out. I created a new account using only my phone number and hadn't even made a purchase before Amazon temporarily locked it for \"misuse of services.\" I had to submit my ID and wait another 24–48 hours. They also claimed they emailed me, despite no email being linked! Ridiculous security and customer service, especially right before Black Friday!",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "nid_verification",
+          "severity": "high",
+          "claude_summary": "User's account was locked and they were forced to submit their ID and wait 24-48 hours.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
           "post_date": "2026-11-16T09:56:41+00:00",
           "language": "ar",
           "raw_text": "تجربة سيئة عملية الإرجاع صعبة للغاية ويطلب صور شخصية وبصمة صوت وصور للبطاقة كأنك سوف تحصل على تأشيرة للسفر",
@@ -29,6 +41,18 @@
           "product_area": "nid_verification",
           "severity": "high",
           "claude_summary": "User complains about complicated item return flow requiring selfie and national ID photos.",
+          "valify_scope": "true"
+        },
+        {
+          "source": "play_store",
+          "post_date": "2026-11-15T18:59:11+00:00",
+          "language": "en",
+          "raw_text": "the new verification result in something really good!!!",
+          "sentiment": "positive",
+          "feedback_type": "compliment",
+          "product_area": "onboarding_general",
+          "severity": "none",
+          "claude_summary": "User praises the new verification process.",
           "valify_scope": "true"
         },
         {
@@ -1846,10 +1870,22 @@
       ]
     },
     "Thndr": {
-      "total": 596,
-      "on_topic": 18,
-      "off_topic": 578,
+      "total": 600,
+      "on_topic": 19,
+      "off_topic": 581,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-11-16T12:40:39+00:00",
+          "language": "ar",
+          "raw_text": "لا طبعا ما حدش يطلع على معلوماتي",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User objects to sharing personal information for identity verification.",
+          "valify_scope": "true"
+        },
         {
           "source": "play_store",
           "post_date": "2026-11-01T15:03:00+00:00",
@@ -2069,10 +2105,22 @@
       ]
     },
     "Klivvr": {
-      "total": 350,
-      "on_topic": 26,
-      "off_topic": 324,
+      "total": 357,
+      "on_topic": 27,
+      "off_topic": 330,
       "reviews": [
+        {
+          "source": "play_store",
+          "post_date": "2026-11-16T08:46:44+00:00",
+          "language": "ar",
+          "raw_text": "تطبيق تعبان رفض لأسباب غير واضح مع اني مقبول في معظمهم",
+          "sentiment": "negative",
+          "feedback_type": "ux_friction",
+          "product_area": "onboarding_general",
+          "severity": "critical",
+          "claude_summary": "User complains about being rejected during signup for unclear reasons.",
+          "valify_scope": "unsure"
+        },
         {
           "source": "play_store",
           "post_date": "2026-10-26T00:40:00+00:00",
@@ -2467,9 +2515,9 @@
       ]
     },
     "ADIB": {
-      "total": 504,
+      "total": 508,
       "on_topic": 1,
-      "off_topic": 503,
+      "off_topic": 507,
       "reviews": [
         {
           "source": "play_store",
@@ -2486,9 +2534,9 @@
       ]
     },
     "Midbank": {
-      "total": 330,
+      "total": 332,
       "on_topic": 19,
-      "off_topic": 311,
+      "off_topic": 313,
       "reviews": [
         {
           "source": "play_store",
